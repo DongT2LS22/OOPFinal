@@ -1,5 +1,6 @@
-package hust.vietnamesehistory.controller.vietnamesehistory;
+package hust.vietnamesehistory.controller.vietnamesehistory.people;
 
+import hust.vietnamesehistory.controller.vietnamesehistory.App;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
