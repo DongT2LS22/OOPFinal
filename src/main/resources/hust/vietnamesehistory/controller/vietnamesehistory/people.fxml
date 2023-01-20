@@ -23,11 +23,12 @@
                 <TableColumn prefWidth="75.0" text="Column X" />
             </columns>
         </TableView>
-        <Button layoutX="749.0" layoutY="563.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
+        <Button layoutX="724.0" layoutY="563.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
         <Label layoutX="400.0" layoutY="14.0" prefHeight="38.0" prefWidth="95.0" text="People ">
             <font>
                 <Font size="26.0" />
             </font>
         </Label>
+      <Button layoutX="803.0" layoutY="563.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
     </children>
 </AnchorPane>

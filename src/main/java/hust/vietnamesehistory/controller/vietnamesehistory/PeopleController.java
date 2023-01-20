@@ -20,4 +20,14 @@ public class PeopleController {
         stage.setScene(scene);
         stage.show();
     }
+
+    @FXML
+    public void backScene(ActionEvent event) throws IOException {
+        Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        stage.show();
+    }
 }
