@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="887.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.vietnamesehistory.PeopleController">
     <children>
         <Button layoutX="41.0" layoutY="73.0" mnemonicParsing="false" text="Search" />
@@ -17,14 +16,14 @@
         <ChoiceBox layoutX="368.0" layoutY="73.0" prefHeight="25.0" prefWidth="59.0" />
         <TableView layoutX="41.0" layoutY="132.0" prefHeight="420.0" prefWidth="814.0">
             <columns>
-                <TableColumn prefWidth="75.0" text="C1" />
-                <TableColumn prefWidth="75.0" text="C2" />
-                <TableColumn prefWidth="75.0" text="Column X" />
-                <TableColumn prefWidth="75.0" text="Column X" />
+                <TableColumn prefWidth="75.0" text="Name" />
+                <TableColumn prefWidth="75.0" text="Birth" />
+                <TableColumn prefWidth="75.0" text="Death" />
+                <TableColumn prefWidth="75.0" text="Address" />
                 <TableColumn prefWidth="75.0" text="Column X" />
             </columns>
         </TableView>
-        <Button layoutX="749.0" layoutY="563.0" mnemonicParsing="false" text="Detail" />
+        <Button layoutX="749.0" layoutY="563.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
         <Label layoutX="400.0" layoutY="14.0" prefHeight="38.0" prefWidth="95.0" text="People ">
             <font>
                 <Font size="26.0" />
