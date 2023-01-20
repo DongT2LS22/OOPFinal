@@ -1,5 +1,6 @@
-package hust.vietnamesehistory.controller.vietnamesehistory;
+package hust.vietnamesehistory.controller.vietnamesehistory.people;
 
+import hust.vietnamesehistory.controller.vietnamesehistory.App;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,18 +11,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MenuController {
+public class PeopleController {
     @FXML
-    private Label action;
-    @FXML
-    void EventScene(ActionEvent event) {
-        action.setText("Event");
-    }
-
-    @FXML
-    void PeopleScene(ActionEvent event) throws IOException {
+    void detailScene(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("people.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peopleDetail.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);
@@ -29,9 +23,9 @@ public class MenuController {
     }
 
     @FXML
-    void PeroidScene(ActionEvent event) throws IOException{
+    public void backScene(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroid.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);

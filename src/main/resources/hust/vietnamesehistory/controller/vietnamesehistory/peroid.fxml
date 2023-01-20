@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.vietnamesehistory.peroid.PeroidController">
+   <children>
+      <TableView layoutX="109.0" layoutY="117.0" prefHeight="371.0" prefWidth="403.0">
+        <columns>
+          <TableColumn prefWidth="402.00002034505206" text="Name" />
+        </columns>
+      </TableView>
+      <Label layoutX="399.0" layoutY="34.0" text="Peroid">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="595.0" layoutY="117.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
+      <Button layoutX="705.0" layoutY="475.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
+   </children>
+</AnchorPane>
