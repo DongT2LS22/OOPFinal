@@ -12,10 +12,7 @@ import java.io.IOException;
 
 public class MenuController {
     @FXML
-    private Label action;
-    @FXML
     public void EventScene(ActionEvent event) {
-        action.setText("Event");
     }
 
     @FXML

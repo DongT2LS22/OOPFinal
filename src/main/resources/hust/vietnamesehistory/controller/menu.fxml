@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.MenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" stylesheets="@CssStyle/backgroundmenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.MenuController">
    <children>
-      <Button layoutX="182.0" layoutY="98.0" mnemonicParsing="false" onAction="#PeopleScene" text="People" />
-      <Button layoutX="181.0" layoutY="174.0" mnemonicParsing="false" onAction="#PeroidScene" prefHeight="25.0" prefWidth="53.0" text="Peroid" />
-      <Button layoutX="368.0" layoutY="98.0" mnemonicParsing="false" onAction="#EventScene" text="Event" />
-      <Button layoutX="368.0" layoutY="174.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="Exit" />
-      <Label layoutX="265.0" layoutY="27.0" text="Menu">
+      <Button layoutX="100.0" layoutY="190.0" mnemonicParsing="false" onAction="#PeopleScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Nhân vật " AnchorPane.leftAnchor="150.0">
          <font>
-            <Font size="27.0" />
+            <Font size="24.0" />
          </font>
-      </Label>
-      <Label fx:id="action" layoutX="286.0" layoutY="231.0" text="Label" />
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="100.0" layoutY="260.0" mnemonicParsing="false" onAction="#PeroidScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Thời kì     " AnchorPane.leftAnchor="150.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu3.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="100.0" layoutY="330.0" mnemonicParsing="false" onAction="#EventScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Lễ hội      " AnchorPane.leftAnchor="150.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="100.0" layoutY="400.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Thoát      " AnchorPane.leftAnchor="150.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu5.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="175.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="336.0" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@images/menuimages/iconmenu1.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

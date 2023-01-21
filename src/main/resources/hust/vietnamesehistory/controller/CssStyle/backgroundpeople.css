@@ -1,0 +1,4 @@
+.people{
+    -fx-background-image: url('../images/peopleimages/backgroundpeople.jpg'); 
+    -fx-background-size: 900 700;
+}
