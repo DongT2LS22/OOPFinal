@@ -10,9 +10,8 @@ public class Place extends Model {
     private String coordinates;
     private String area;
 
-    public Place(String name, String href, List<String> periodsHref, String national, String location, String coordinates, String area) {
+    public Place(String name, String href, String national, String location, String coordinates, String area) {
         super(name, href);
-        this.periodsHref = periodsHref;
         this.national = national;
         this.location = location;
         this.coordinates = coordinates;

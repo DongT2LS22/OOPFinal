@@ -1,7 +1,3 @@
-/**
- * This class was created at 21-Jan-23 10:39:03
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.crawler;
 
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
@@ -77,7 +73,7 @@ public class Crawler {
                                 || infoKV.containsKey("Kế nhiệm")
                                 || infoKV.containsKey("Trị vì")
                                 || infoKV.containsKey("Tên thật")) {
-                            King king = new King(name, href, null, infoKV.get("Sinh"), infoKV.get("Mất"),
+                            King king = new King(name, href, infoKV.get("Sinh"), infoKV.get("Mất"),
                                     infoKV.get("Niên hiệu"), infoKV.get("Tiền nhiệm"), infoKV.get("Kế nhiệm"),
                                     infoKV.get("Trị vì"), infoKV.get("Tên thật"));
                             people.add(king);
@@ -92,7 +88,7 @@ public class Crawler {
                             System.out.println("\tTên thật: " + king.getRealName());
 
                         } else {
-                            Celebrity celebrity = new Celebrity(name, href, null, infoKV.get("Sinh"), infoKV.get("Mất"));
+                            Celebrity celebrity = new Celebrity(name, href, infoKV.get("Sinh"), infoKV.get("Mất"));
                             people.add(celebrity);
 
                             System.out.println("Danh nhân: " + celebrity.getName());
@@ -160,7 +156,7 @@ public class Crawler {
                         if (infoKV.containsKey("Địa điểm")) location = infoKV.get("Địa điểm");
                         if (infoKV.containsKey("Khu vực")) location = infoKV.get("Khu vực");
                         if (infoKV.containsKey("Địa chỉ")) location = infoKV.get("Địa chỉ");
-                        Place place = new Place(name, href, null, infoKV.get("Quốc gia"), location,
+                        Place place = new Place(name, href, infoKV.get("Quốc gia"), location,
                                 infoKV.get("Tọa độ"), infoKV.get("Diện tích"));
                         places.add(place);
 

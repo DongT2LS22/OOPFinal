@@ -1,15 +1,15 @@
 package hust.vietnamesehistory.crawler.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Person extends Model {
-    private List<String> periodsHref;
+public class Person extends Model {
+    private List<String> periodsHref = new ArrayList<>();
     private String birth;
     private String death;
 
-    public Person(String href, String name, List<String> periodsHref, String birth, String death) {
+    public Person(String href, String name, String birth, String death) {
         super(href, name);
-        this.periodsHref = periodsHref;
         this.birth = birth;
         this.death = death;
     }

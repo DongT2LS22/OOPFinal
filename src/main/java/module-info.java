@@ -12,4 +12,5 @@ module hust.vietnamesehistory.controller {
     exports hust.vietnamesehistory.controller.peroid;
     opens hust.vietnamesehistory.controller.people to javafx.fxml;
     opens hust.vietnamesehistory.crawler.model to javafx.base;
+    exports hust.vietnamesehistory.crawler.model to com.fasterxml.jackson.databind;
 }
