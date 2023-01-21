@@ -19,6 +19,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import org.json.JSONArray;
@@ -40,7 +42,7 @@ public class PeopleController implements Initializable {
     @FXML
     private TableColumn<Person,String> hrefColumn;
     private ObservableList<Person> personList;
-
+    private List<Person> personArrayList = new ArrayList<Person>();
 
 
     @FXML
@@ -66,7 +68,7 @@ public class PeopleController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle){
-        if(Person.getListPerson().isEmpty()){
+        if(personArrayList.isEmpty()){
             String file = "src/main/resources/json/people.json";
             String jsonString = null;
             try {
@@ -93,10 +95,11 @@ public class PeopleController implements Initializable {
                     death = arr.getJSONObject(i).getString("death");
                 }
                 Person p = new Person(href,name,birth,death);
+                personArrayList.add(p);
             }
         }
         personList = FXCollections.observableArrayList(
-                Person.getListPerson()
+                personArrayList
         );
         hrefColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("href"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("name"));

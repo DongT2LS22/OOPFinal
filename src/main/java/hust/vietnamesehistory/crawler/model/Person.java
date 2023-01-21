@@ -11,12 +11,6 @@ public class Person extends Model {
         super(href, name);
         this.birth = birth;
         this.death = death;
-        listPerson.add(this);
-    }
-    private static List<Person> listPerson = new ArrayList<Person>();
-
-    public static List<Person> getListPerson() {
-        return listPerson;
     }
 
 
