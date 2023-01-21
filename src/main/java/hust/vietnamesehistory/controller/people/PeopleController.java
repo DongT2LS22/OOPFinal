@@ -1,6 +1,6 @@
-package hust.vietnamesehistory.controller.vietnamesehistory.people;
+package hust.vietnamesehistory.controller.people;
 
-import hust.vietnamesehistory.controller.vietnamesehistory.App;
+import hust.vietnamesehistory.controller.App;
 import hust.vietnamesehistory.crawler.model.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -10,14 +10,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.io.PrintStream;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -68,32 +66,34 @@ public class PeopleController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle){
-        String file = "src/main/resources/json/people.json";
-        String jsonString = null;
-        try {
-            jsonString = new String(Files.readAllBytes(Paths.get(file)));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        JSONObject obj = new JSONObject(jsonString);
-        JSONArray arr = obj.getJSONArray("People"); // notice that `"posts": [...]`
-        for (int i = 0; i < arr.length(); i++)
-        {
-            String href = arr.getJSONObject(i).getString("href");
-            String name = arr.getJSONObject(i).getString("name");
-            String birth;
-            String death;
-            if(arr.getJSONObject(i).isNull("birth")){
-                birth = "";
-            }else{
-                birth = arr.getJSONObject(i).getString("birth");
+        if(Person.getListPerson().isEmpty()){
+            String file = "src/main/resources/json/people.json";
+            String jsonString = null;
+            try {
+                jsonString = new String(Files.readAllBytes(Paths.get(file)));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
-            if(arr.getJSONObject(i).isNull("death")){
-                death = "";
-            }else{
-                death = arr.getJSONObject(i).getString("death");
+            JSONObject obj = new JSONObject(jsonString);
+            JSONArray arr = obj.getJSONArray("People"); // notice that `"posts": [...]`
+            for (int i = 0; i < arr.length(); i++)
+            {
+                String href = arr.getJSONObject(i).getString("href");
+                String name = arr.getJSONObject(i).getString("name");
+                String birth;
+                String death;
+                if(arr.getJSONObject(i).isNull("birth")){
+                    birth = "";
+                }else{
+                    birth = arr.getJSONObject(i).getString("birth");
+                }
+                if(arr.getJSONObject(i).isNull("death")){
+                    death = "";
+                }else{
+                    death = arr.getJSONObject(i).getString("death");
+                }
+                Person p = new Person(href,name,birth,death);
             }
-            Person p = new Person(href,name,birth,death);
         }
         personList = FXCollections.observableArrayList(
                 Person.getListPerson()

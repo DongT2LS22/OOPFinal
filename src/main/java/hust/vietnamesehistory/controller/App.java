@@ -1,4 +1,4 @@
-package hust.vietnamesehistory.controller.vietnamesehistory;
+package hust.vietnamesehistory.controller;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

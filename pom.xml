@@ -72,7 +72,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                hust.vietnamesehistory.controller.vietnamesehistory/hust.vietnamesehistory.controller.vietnamesehistory.App
+                                hust.vietnamesehistory.controller.vietnamesehistory/hust.vietnamesehistory.controller.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
