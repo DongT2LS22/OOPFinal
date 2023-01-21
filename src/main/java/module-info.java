@@ -1,6 +1,8 @@
 module hust.vietnamesehistory.controller.vietnamesehistory {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.fasterxml.jackson.databind;
+    requires jsoup;
 
 
     opens hust.vietnamesehistory.controller.vietnamesehistory to javafx.fxml;
