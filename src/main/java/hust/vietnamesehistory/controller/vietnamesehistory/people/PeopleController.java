@@ -81,9 +81,19 @@ public class PeopleController implements Initializable {
         {
             String href = arr.getJSONObject(i).getString("href");
             String name = arr.getJSONObject(i).getString("name");
-//            String birth = arr.getJSONObject(i).getString("birth");
-//            String death = arr.getJSONObject(i).getString("death");
-            Person p = new Person(href,name,"1","1");
+            String birth;
+            String death;
+            if(arr.getJSONObject(i).isNull("birth")){
+                birth = "";
+            }else{
+                birth = arr.getJSONObject(i).getString("birth");
+            }
+            if(arr.getJSONObject(i).isNull("death")){
+                death = "";
+            }else{
+                death = arr.getJSONObject(i).getString("death");
+            }
+            Person p = new Person(href,name,birth,death);
         }
         personList = FXCollections.observableArrayList(
                 Person.getListPerson()
