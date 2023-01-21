@@ -4,6 +4,8 @@
  */
 package hust.vietnamesehistory.crawler.model;
 
+import java.util.List;
+
 public class King extends Person{
     private String reignTime;
     private String predecessor;
@@ -11,8 +13,8 @@ public class King extends Person{
     private String aliases;
     private String realName;
 
-    public King(String name, String href, String birth, String death, String reignTime, String predecessor, String successor, String aliases, String realName) {
-        super(name, href, birth, death);
+    public King(String name, String href, List<String> periodsHref, String birth, String death, String reignTime, String predecessor, String successor, String aliases, String realName) {
+        super(name, href, periodsHref, birth, death);
         this.reignTime = reignTime;
         this.predecessor = predecessor;
         this.successor = successor;

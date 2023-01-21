@@ -4,8 +4,10 @@
  */
 package hust.vietnamesehistory.crawler.model;
 
+import java.util.List;
+
 public class Celebrity extends Person {
-    public Celebrity(String name, String href, String birth, String death) {
-        super(name, href, birth, death);
+    public Celebrity(String name, String href, List<String> periodsHref, String birth, String death) {
+        super(name, href, periodsHref, birth, death);
     }
 }
