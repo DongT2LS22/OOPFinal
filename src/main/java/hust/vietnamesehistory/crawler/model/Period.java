@@ -9,36 +9,23 @@ public class Period extends Model {
     private List<String> events = new ArrayList<>();
     private List<String> festivals = new ArrayList<>();
 
-    public Period(String href, String name, List<String> people, List<String> places) {
+    public Period(String href, String name, List<String> people, List<String> places,
+                  List<String> events, List<String> festivals) {
         super(href, name);
         this.people = people;
         this.places = places;
+        this.events = events;
+        this.festivals = festivals;
     }
 
     public List<String> getPeople() {
         return people;
     }
 
-    public void addPeople(List<String> people) {
-        this.people.addAll(people);
-    }
-
-    public void addPeople(String person) {
-        this.people.add(person);
-    }
-
     public  void setPeople(List<String> people) {this.people = people; }
 
     public List<String> getPlaces() {
         return places;
-    }
-
-    public void addPlaces(List<String> places) {
-        this.places.addAll(places);
-    }
-
-    public void addPlaces(String places) {
-        this.places.add(places);
     }
 
     public  void setPlaces(List<String> places) {this.places = places; }
