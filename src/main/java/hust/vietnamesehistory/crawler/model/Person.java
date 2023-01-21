@@ -1,10 +1,6 @@
 package hust.vietnamesehistory.crawler.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Person extends Model {
-    private List<String> periodsHref = new ArrayList<>();
     private String birth;
     private String death;
 
@@ -12,14 +8,6 @@ public class Person extends Model {
         super(href, name);
         this.birth = birth;
         this.death = death;
-    }
-
-    public List<String> getPeriodsHref() {
-        return periodsHref;
-    }
-
-    public void setPeriodsHref(List<String> periodHref) {
-        this.periodsHref = periodHref;
     }
 
     public String getBirth() {
@@ -36,9 +24,5 @@ public class Person extends Model {
 
     public void setDeath(String death) {
         this.death = death;
-    }
-
-    public void addPeriod(String periodHref) {
-        this.periodsHref.add(periodHref);
     }
 }

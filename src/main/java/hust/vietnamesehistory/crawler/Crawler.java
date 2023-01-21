@@ -88,12 +88,12 @@ public class Crawler {
                             System.out.println("\tTên thật: " + king.getRealName());
 
                         } else {
-                            Celebrity celebrity = new Celebrity(name, href, infoKV.get("Sinh"), infoKV.get("Mất"));
-                            people.add(celebrity);
+                            Person person = new Person(name, href, infoKV.get("Sinh"), infoKV.get("Mất"));
+                            people.add(person);
 
-                            System.out.println("Danh nhân: " + celebrity.getName());
-                            System.out.println("\tSinh: " + celebrity.getBirth());
-                            System.out.println("\tMất: " + celebrity.getDeath());
+                            System.out.println("Danh nhân: " + person.getName());
+                            System.out.println("\tSinh: " + person.getBirth());
+                            System.out.println("\tMất: " + person.getDeath());
 
                         }
                         break;
@@ -254,30 +254,30 @@ public class Crawler {
         List<Person> people = crawlPeople();
         List<Place> places = crawlPlaces();
         List<Period> periods = crawlPeriods();
-        HashMap<String, Person> mappingPeople = new HashMap<>();
-        HashMap<String, Place> mappingPlaces = new HashMap<>();
-
-        for (Person person : people) {
-            mappingPeople.put(person.getHref(), person);
-        }
-        for (Place place : places) {
-            mappingPlaces.put(place.getHref(), place);
-        }
-
+        HashMap<String, String> mapping = new HashMap<>();
         for (Period period : periods) {
             for (String person : period.getPeople()) {
-                if (mappingPeople.containsKey(person)) mappingPeople.get(person).addPeriod(period.getHref());
+                mapping.put(person, period.getHref());
             }
-            for (String place : period.getPlaces()) {
-                if (mappingPlaces.containsKey(place)) mappingPlaces.get(place).addPeriod(period.getHref());
+        }
+        for (Person person : people) {
+            if ((
+                       ((King) person).getAliases() != null
+                    || ((King) person).getPredecessor() != null
+                    || ((King) person).getSuccessor() != null
+                    || ((King) person).getReignTime() != null
+                    || ((King) person).getRealName() != null
+            ) && mapping.containsKey(person.getHref())){
+                ((King) person).setPeriod(mapping.get(person.getHref()));
             }
         }
         int count = 0;
         while (true) {
             try {
-                Array peopleArr = new Array(people);
-                Array placesArr = new Array(places);
-                Array periodsArr = new Array(periods);
+                ArrayPeople peopleArr = new ArrayPeople(people);
+                ArrayPlaces placesArr = new ArrayPlaces(places);
+                ArrayPeriods periodsArr = new ArrayPeriods(periods);
+
                 writer.writeValue(new File("src/main/resources/json/people.json"), peopleArr);
                 writer.writeValue(new File("src/main/resources/json/places.json"), placesArr);
                 writer.writeValue(new File("src/main/resources/json/periods.json"), periodsArr);

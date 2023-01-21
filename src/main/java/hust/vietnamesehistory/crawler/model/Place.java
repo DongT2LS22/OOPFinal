@@ -1,10 +1,6 @@
 package hust.vietnamesehistory.crawler.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Place extends Model {
-    private List<String> periodsHref = new ArrayList<>();
     private String national;
     private String location;
     private String coordinates;
@@ -16,14 +12,6 @@ public class Place extends Model {
         this.location = location;
         this.coordinates = coordinates;
         this.area = area;
-    }
-
-    public List<String> getPeriodsHref() {
-        return periodsHref;
-    }
-
-    public void setPeriodsHref(List<String> periodsHref) {
-        this.periodsHref = periodsHref;
     }
 
     public String getNational() {
@@ -56,9 +44,5 @@ public class Place extends Model {
 
     public void setArea(String area) {
         this.area = area;
-    }
-
-    public void addPeriod(String periodHref) {
-        this.periodsHref.add(periodHref);
     }
 }
