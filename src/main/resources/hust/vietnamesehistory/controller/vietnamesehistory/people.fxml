@@ -14,13 +14,12 @@
         <Button layoutX="41.0" layoutY="73.0" mnemonicParsing="false" text="Search" />
         <TextField layoutX="115.0" layoutY="73.0" prefHeight="25.0" prefWidth="235.0" />
         <ChoiceBox layoutX="368.0" layoutY="73.0" prefHeight="25.0" prefWidth="59.0" />
-        <TableView layoutX="41.0" layoutY="132.0" prefHeight="420.0" prefWidth="814.0">
+        <TableView fx:id="table" layoutX="41.0" layoutY="132.0" prefHeight="420.0" prefWidth="814.0">
             <columns>
-                <TableColumn prefWidth="75.0" text="Name" />
-                <TableColumn prefWidth="75.0" text="Birth" />
-                <TableColumn prefWidth="75.0" text="Death" />
-                <TableColumn prefWidth="75.0" text="Address" />
-                <TableColumn prefWidth="75.0" text="Column X" />
+                <TableColumn fx:id="nameColumn" prefWidth="203.33334350585938" text="Name" />
+                <TableColumn fx:id="birthColumn" prefWidth="174.66668701171875" text="Birth" />
+                <TableColumn fx:id="deathColumn" minWidth="0.0" prefWidth="184.00006103515625" text="Death" />
+            <TableColumn fx:id="hrefColumn" prefWidth="246.66668701171875" text="Href" />
             </columns>
         </TableView>
         <Button layoutX="724.0" layoutY="563.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />

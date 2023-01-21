@@ -1,4 +1,4 @@
-[ {
+{"People":[ {
   "href" : "/nhan-vat/an-duong-vuong",
   "name" : "An Dương Vương",
   "birth" : "không rõ",
@@ -9088,4 +9088,4 @@
   "name" : "Vương Thừa Vũ",
   "birth" : null,
   "death" : null
-} ]
+} ]}

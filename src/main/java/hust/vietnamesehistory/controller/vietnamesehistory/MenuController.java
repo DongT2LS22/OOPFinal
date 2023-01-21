@@ -14,12 +14,12 @@ public class MenuController {
     @FXML
     private Label action;
     @FXML
-    void EventScene(ActionEvent event) {
+    public void EventScene(ActionEvent event) {
         action.setText("Event");
     }
 
     @FXML
-    void PeopleScene(ActionEvent event) throws IOException {
+    public void PeopleScene(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("people.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
@@ -29,7 +29,7 @@ public class MenuController {
     }
 
     @FXML
-    void PeroidScene(ActionEvent event) throws IOException{
+    public void PeroidScene(ActionEvent event) throws IOException{
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroid.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
