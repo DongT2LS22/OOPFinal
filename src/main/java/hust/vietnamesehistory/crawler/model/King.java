@@ -1,25 +1,28 @@
-/**
- * This class was created at 18-Jan-23 14:08:36
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.crawler.model;
 
-import java.util.List;
-
 public class King extends Person{
+    private String period;
     private String reignTime;
     private String predecessor;
     private String successor;
     private String aliases;
     private String realName;
 
-    public King(String name, String href, List<String> periodsHref, String birth, String death, String reignTime, String predecessor, String successor, String aliases, String realName) {
-        super(name, href, periodsHref, birth, death);
+    public King(String name, String href, String birth, String death, String reignTime, String predecessor, String successor, String aliases, String realName) {
+        super(name, href, birth, death);
         this.reignTime = reignTime;
         this.predecessor = predecessor;
         this.successor = successor;
         this.aliases = aliases;
         this.realName = realName;
+    }
+
+    public String getPeriod() {
+        return period;
+    }
+
+    public void setPeriod(String period) {
+        this.period = period;
     }
 
     public String getReignTime() {

@@ -1,7 +1,3 @@
-/**
- * This class was created at 16-Jan-23 10:48:17
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.crawler.model;
 
 public abstract class Model {

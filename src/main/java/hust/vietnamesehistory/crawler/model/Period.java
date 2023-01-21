@@ -1,13 +1,12 @@
 package hust.vietnamesehistory.crawler.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Period extends Model {
-    private List<String> people = new ArrayList<>();
-    private List<String> places = new ArrayList<>();
-    private List<String> events = new ArrayList<>();
-    private List<String> festivals = new ArrayList<>();
+    private List<String> people;
+    private List<String> places;
+    private List<String> events;
+    private List<String> festivals;
 
     public Period(String href, String name, List<String> people, List<String> places,
                   List<String> events, List<String> festivals) {
