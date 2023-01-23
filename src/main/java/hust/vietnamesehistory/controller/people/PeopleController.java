@@ -1,6 +1,7 @@
 package hust.vietnamesehistory.controller.people;
 
 import hust.vietnamesehistory.controller.App;
+import hust.vietnamesehistory.crawler.model.King;
 import hust.vietnamesehistory.crawler.model.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -59,7 +60,11 @@ public class PeopleController implements Initializable {
         stage.setScene(scene);
         PeopleDetailController controller = fxmlLoader.getController();
         Person selected = table.getSelectionModel().getSelectedItem();
-        controller.setPerson(selected);
+        if(selected instanceof King)
+        {   King king = (King)selected;
+            controller.setKing(king);
+        }
+        else{controller.setPerson(selected);}
         stage.show();
     }
 
@@ -102,8 +107,43 @@ public class PeopleController implements Initializable {
                 }else{
                     death = arr.getJSONObject(i).getString("death");
                 }
-                Person p = new Person(href,name,birth,death);
-                personArrayList.add(p);
+                if(!arr.getJSONObject(i).has("reignTime")){
+                    Person p = new Person(href,name,birth,death);
+                    personArrayList.add(p);
+                }else{
+                    String reignTime;
+                    if(arr.getJSONObject(i).isNull("reignTime")){
+                        reignTime = "";
+                    }else{
+                        reignTime = arr.getJSONObject(i).getString("reignTime");
+                    }
+                    String predecessor;
+                    if(arr.getJSONObject(i).isNull("predecessor")){
+                        predecessor = "";
+                    }else{
+                        predecessor = arr.getJSONObject(i).getString("predecessor");
+                    }
+                    String successor;
+                    if(arr.getJSONObject(i).isNull("successor")){
+                        successor = "";
+                    }else{
+                        successor = arr.getJSONObject(i).getString("successor");
+                    }
+                    String aliases;
+                    if(arr.getJSONObject(i).isNull("aliases")){
+                        aliases = "";
+                    }else{
+                        aliases = arr.getJSONObject(i).getString("aliases");
+                    }
+                    String realName;
+                    if(arr.getJSONObject(i).isNull("realName")){
+                        realName = "";
+                    }else{
+                        realName = arr.getJSONObject(i).getString("realName");
+                    }
+                    Person p = new King(href,name,birth,death,reignTime,predecessor,successor,aliases,realName);
+                    personArrayList.add(p);
+                }
             }
         }
         personList = FXCollections.observableArrayList(
