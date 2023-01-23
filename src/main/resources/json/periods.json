@@ -1,4 +1,4 @@
-[ {
+{"Peroid":[{
   "href" : "/dong-lich-su/hong-bang-va-van-lang",
   "name" : "Hồng Bàng & Văn Lang",
   "people" : [ "/nhan-vat/kinh-duong-vuong", "/nhan-vat/lac-long-quan", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-thuong", "/nhan-vat/nha-chu", "/nhan-vat/ho-ton", "/nhan-vat/ly-thai-to", "/nhan-vat/thanh-vuong" ],
@@ -243,4 +243,4 @@
   "places" : [ "/dia-danh/song-cuu-long", "/dia-danh/tinh-tay-ninh", "/dia-danh/thi-xa-tay-ninh" ],
   "events" : [ ],
   "festivals" : [ ]
-} ]
+} ]}

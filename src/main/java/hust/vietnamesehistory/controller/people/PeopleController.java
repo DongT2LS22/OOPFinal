@@ -9,9 +9,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
@@ -41,6 +44,8 @@ public class PeopleController implements Initializable {
 
     @FXML
     private TableColumn<Person,String> hrefColumn;
+    @FXML
+    private TextField searchText;
     private ObservableList<Person> personList;
     private List<Person> personArrayList = new ArrayList<Person>();
 
@@ -52,6 +57,9 @@ public class PeopleController implements Initializable {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);
+        PeopleDetailController controller = fxmlLoader.getController();
+        Person selected = table.getSelectionModel().getSelectedItem();
+        controller.setPerson(selected);
         stage.show();
     }
 
@@ -106,5 +114,18 @@ public class PeopleController implements Initializable {
         birthColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("birth"));
         deathColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("death"));
         table.setItems(personList);
+    }
+    @FXML
+    public void searchPeople(ActionEvent event) {
+        List<Person> listPersonSearch = new ArrayList<Person>();
+        String search = searchText.getText();
+        for (Person p: personList
+             ) {
+            if(p.getName().startsWith(search)){
+                listPersonSearch.add(p);
+            }
+        }
+        ObservableList<Person> searchPeople = FXCollections.observableArrayList(listPersonSearch);
+        table.setItems(searchPeople);
     }
 }
