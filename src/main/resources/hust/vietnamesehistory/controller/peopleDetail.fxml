@@ -2,70 +2,124 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="540.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.people.PeopleDetailController">
+<AnchorPane prefHeight="600.0" prefWidth="600.0" styleClass="colum" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.people.PeopleDetailController">
    <children>
-      <Button layoutX="355.0" layoutY="420.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
-      <Label layoutX="53.0" layoutY="56.0" text="Tên">
+      <Button layoutX="350.0" layoutY="500.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu5.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="50.0" layoutY="60.0" prefHeight="50.0" prefWidth="200.0" text="Danh xưng  :">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/nameicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="50.0" layoutY="130.0" prefHeight="50.0" prefWidth="200.0" text="Năm sinh    :">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/birthdayicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="50.0" layoutY="200.0" prefHeight="50.0" prefWidth="200.0" text="Năm mất    :">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/deathdayicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="50.0" layoutY="270.0" prefHeight="50.0" prefWidth="200.0" text="Liên kết      :">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/linkicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="nameInfo" layoutX="250.0" layoutY="60.0" prefHeight="50.0" prefWidth="300.0" text="Info">
+         <font>
+            <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="51.0" layoutY="106.0" text="Sinh">
+      <Label fx:id="birthInfo" layoutX="250.0" layoutY="130.0" prefHeight="50.0" prefWidth="300.0" text="Info">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="52.0" layoutY="160.0" text="Mất">
+      <Label fx:id="deathInfo" layoutX="250.0" layoutY="200.0" prefHeight="50.0" prefWidth="300.0" text="Info">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="51.0" layoutY="211.0" text="Href">
+      <Label fx:id="hrefInfo" layoutX="250.0" layoutY="270.0" prefHeight="50.0" prefWidth="300.0" text="Info">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
       </Label>
-      <Label fx:id="nameInfo" layoutX="131.0" layoutY="56.0" text="Info">
+      <Label fx:id="predecessorInfo" layoutX="250.0" layoutY="340.0" prefHeight="50.0" prefWidth="300.0" text="Info">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
       </Label>
-      <Label fx:id="birthInfo" layoutX="131.0" layoutY="106.0" text="Info">
+      <Label fx:id="predecessorExist" layoutX="50.0" layoutY="340.0" prefHeight="50.0" prefWidth="200.0" text="Tiền nhiệm :">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/tiennhiemicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Label>
-      <Label fx:id="deathInfo" layoutX="131.0" layoutY="160.0" text="Info">
+      <Label fx:id="successorExist" layoutX="50.0" layoutY="410.0" prefHeight="50.0" prefWidth="200.0" text="Kế nhiệm   :">
          <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/kenhiemicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Label>
-      <Label fx:id="hrefInfo" layoutX="131.0" layoutY="211.0" text="Info">
+      <Label fx:id="successorInfo" layoutX="250.0" layoutY="410.0" prefHeight="50.0" prefWidth="300.0" text="Info">
          <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <Label fx:id="predecessorInfo" layoutX="131.0" layoutY="260.0" text="Info">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <Label fx:id="predecessorExist" layoutX="30.0" layoutY="260.0" text="Tiền nhiệm">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <Label fx:id="successorExist" layoutX="35.0" layoutY="312.0" text="Kế nhiệm">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <Label fx:id="successorInfo" layoutX="131.0" layoutY="312.0" text="Info">
-         <font>
-            <Font size="14.0" />
+            <Font size="24.0" />
          </font>
       </Label>
    </children>
