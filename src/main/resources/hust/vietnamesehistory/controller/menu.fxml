@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" stylesheets="@CssStyle/backgroundmenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.MenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="menu" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.MenuController">
    <children>
-      <Button layoutX="100.0" layoutY="190.0" mnemonicParsing="false" onAction="#PeopleScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Nhân vật " AnchorPane.leftAnchor="150.0">
+      <Button layoutX="100.0" layoutY="190.0" mnemonicParsing="false" onAction="#PeopleScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Nhân vật " AnchorPane.leftAnchor="150.0">
          <font>
             <Font size="24.0" />
          </font>
@@ -20,7 +20,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="100.0" layoutY="260.0" mnemonicParsing="false" onAction="#PeroidScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Thời kì     " AnchorPane.leftAnchor="150.0">
+      <Button layoutX="100.0" layoutY="260.0" mnemonicParsing="false" onAction="#PeroidScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thời kì     " AnchorPane.leftAnchor="150.0">
          <font>
             <Font size="24.0" />
          </font>
@@ -32,7 +32,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="100.0" layoutY="330.0" mnemonicParsing="false" onAction="#EventScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Lễ hội      " AnchorPane.leftAnchor="150.0">
+      <Button layoutX="100.0" layoutY="330.0" mnemonicParsing="false" onAction="#EventScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Lễ hội      " AnchorPane.leftAnchor="150.0">
          <font>
             <Font size="24.0" />
          </font>
@@ -44,7 +44,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="100.0" layoutY="400.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundbutton.css" text=" Thoát      " AnchorPane.leftAnchor="150.0">
+      <Button layoutX="100.0" layoutY="400.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thoát      " AnchorPane.leftAnchor="150.0">
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>

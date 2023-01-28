@@ -1,0 +1,16 @@
+.menu{
+    -fx-background-image: url('../images/menuimages/backgroundmenu.png'); 
+    -fx-background-size: cover;
+}
+.people{
+    -fx-background-image: url('../images/peopleimages/backgroundpeople.jpg'); 
+    -fx-background-size: 900 700;
+}
+.colum{
+    -fx-background-image: url('../images/peopleimages/backgroundcolum.jpg');
+    -fx-background-size: cover;
+}
+.button{
+    -fx-background-image: url('../images/menuimages/iconbutton.jpg'); 
+    -fx-background-size: 200 50;
+}

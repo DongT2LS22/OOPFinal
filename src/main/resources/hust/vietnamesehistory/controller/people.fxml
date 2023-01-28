@@ -2,32 +2,86 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="887.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.people.PeopleController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.people.PeopleController">
     <children>
-        <Button layoutX="41.0" layoutY="73.0" mnemonicParsing="false" onAction="#searchPeople" text="Search" />
-        <TextField fx:id="searchText" layoutX="115.0" layoutY="73.0" prefHeight="25.0" prefWidth="235.0" />
-        <ChoiceBox layoutX="368.0" layoutY="73.0" prefHeight="25.0" prefWidth="59.0" />
-        <TableView fx:id="table" layoutX="41.0" layoutY="132.0" prefHeight="420.0" prefWidth="814.0">
+        <Button layoutX="40.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchPeople" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon1.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <TextField fx:id="searchText" layoutX="250.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0" />
+        <ChoiceBox layoutX="660.0" layoutY="30.0" prefHeight="56.0" prefWidth="200.0" styleClass="button" stylesheets="@CssStyle/backgroundstyle.css" />
+        <TableView fx:id="table" layoutX="40.0" layoutY="100.0" prefHeight="500.0" prefWidth="820.0">
             <columns>
-                <TableColumn fx:id="nameColumn" prefWidth="203.33334350585938" text="Name" />
-                <TableColumn fx:id="birthColumn" prefWidth="174.66668701171875" text="Birth" />
-                <TableColumn fx:id="deathColumn" minWidth="0.0" prefWidth="184.00006103515625" text="Death" />
-            <TableColumn fx:id="hrefColumn" prefWidth="246.66668701171875" text="Href" />
+                <TableColumn fx:id="nameColumn" prefWidth="200.0" text="Danh xưng">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/peopleimages/nameicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+                <TableColumn fx:id="birthColumn" prefWidth="200.0" text="Năm sinh">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/peopleimages/birthdayicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+                <TableColumn fx:id="deathColumn" minWidth="0.0" prefWidth="200.0" text="Năm mất">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/peopleimages/deathdayicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="hrefColumn" prefWidth="220.0" text="Liên kết">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/peopleimages/linkicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
             </columns>
         </TableView>
-        <Button layoutX="724.0" layoutY="563.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
-        <Label layoutX="400.0" layoutY="14.0" prefHeight="38.0" prefWidth="95.0" text="People ">
-            <font>
-                <Font size="26.0" />
-            </font>
-        </Label>
-      <Button layoutX="803.0" layoutY="563.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
+        <Button layoutX="400.0" layoutY="620.0" mnemonicParsing="false" onAction="#detailScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Chi tiết">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon2.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="660.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu5.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
     </children>
 </AnchorPane>
