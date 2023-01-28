@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class App extends Application {
@@ -152,8 +153,61 @@ public class App extends Application {
         return festivalList;
     }
 
-    public static void setFestivalList(List<Festival> festivalList) {
-        App.festivalList = festivalList;
+    public static void setFestivalList() {
+        if(festivalList.isEmpty()){
+            String file = "src/main/resources/json/festival.json";
+            String jsonString = null;
+            try {
+                jsonString = new String(Files.readAllBytes(Paths.get(file)));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            JSONObject obj = new JSONObject(jsonString);
+            JSONArray arr = obj.getJSONArray("festival"); // notice that `"posts": [...]`
+            for (int i = 0; i < arr.length(); i++)
+            {
+                String note ; //note
+                if(arr.getJSONObject(i).isNull("note")){
+                    note = "";
+                }else{
+                    note = arr.getJSONObject(i).getString("note");
+                }
+                String date = arr.getJSONObject(i).getString("date"); //date
+                String name = arr.getJSONObject(i).getString("name"); //name
+
+                String root = arr.getJSONObject(i).getString("root"); //root
+                List<String> linkPeople = new ArrayList<String>();
+                List<Person> listPerson = new ArrayList<Person>();
+                JSONArray arrPeople = arr.getJSONObject(i).getJSONArray("person");
+                int lengthPeople = arrPeople.length();
+                for (int j=0;j<lengthPeople;j++){
+                    linkPeople.add(arrPeople.getString(j));
+                }
+                for (String p:linkPeople) {
+                    for (Person per:personList) {
+                        if(per.getHref().equals(p)){
+                            listPerson.add(per);
+                            break;
+                        }
+                    }
+                }
+                List<String> linkPlace = new ArrayList<String>();
+                List<Place> listPlace = new ArrayList<Place>();
+                JSONArray arrPlace = arr.getJSONObject(i).getJSONArray("place");
+                int lengthPlace = arrPlace.length();
+                for(int j=0;j<lengthPlace;j++){
+                    linkPlace.add(arrPlace.getString(j));
+                }
+                for (String p:linkPlace) {
+                    for (Place pl:placeList) {
+                        listPlace.add(pl);
+                        break;
+                    }
+                }
+                Festival fes = new Festival(name,date,listPlace,note,listPerson,root);
+                festivalList.add(fes);
+            }
+        }
     }
 
     public static List<Period> getPeriodList() {
@@ -167,6 +221,7 @@ public class App extends Application {
     public static void main(String[] args) {
         setPersonList();
         setPlaceList();
+        setFestivalList();
         launch();
     }
 }

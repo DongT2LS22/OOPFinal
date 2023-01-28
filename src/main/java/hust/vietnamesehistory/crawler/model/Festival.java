@@ -3,22 +3,22 @@ package hust.vietnamesehistory.crawler.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Festival extends Model{
+public class Festival{
+    String name;
     String date;
     List<Place> listofPlace = new ArrayList<Place>();
     String note;
     List<Person> listofPerson = new ArrayList<Person>();
 
-    public Festival() {
-    }
+    String root;
 
-
-    public Festival(String href, String name, String date, List<Place> listofPlace, String note, List<Person> listofPerson) {
-        super(href, name);
+    public Festival(String name,String date, List<Place> listofPlace, String note, List<Person> listofPerson,String root) {
+        this.name = name;
         this.date = date;
         this.listofPlace = listofPlace;
         this.note = note;
         this.listofPerson = listofPerson;
+        this.root = root;
     }
 
     public String getDate() {
