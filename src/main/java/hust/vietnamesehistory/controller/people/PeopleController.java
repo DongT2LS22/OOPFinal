@@ -81,73 +81,9 @@ public class PeopleController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle){
-        if(personArrayList.isEmpty()){
-            String file = "src/main/resources/json/people.json";
-            String jsonString = null;
-            try {
-                jsonString = new String(Files.readAllBytes(Paths.get(file)));
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            JSONObject obj = new JSONObject(jsonString);
-            JSONArray arr = obj.getJSONArray("People"); // notice that `"posts": [...]`
-            for (int i = 0; i < arr.length(); i++)
-            {
-                String href = arr.getJSONObject(i).getString("href");
-                String name = arr.getJSONObject(i).getString("name");
-                String birth;
-                String death;
-                if(arr.getJSONObject(i).isNull("birth")){
-                    birth = "";
-                }else{
-                    birth = arr.getJSONObject(i).getString("birth");
-                }
-                if(arr.getJSONObject(i).isNull("death")){
-                    death = "";
-                }else{
-                    death = arr.getJSONObject(i).getString("death");
-                }
-                if(!arr.getJSONObject(i).has("reignTime")){
-                    Person p = new Person(href,name,birth,death);
-                    personArrayList.add(p);
-                }else{
-                    String reignTime;
-                    if(arr.getJSONObject(i).isNull("reignTime")){
-                        reignTime = "";
-                    }else{
-                        reignTime = arr.getJSONObject(i).getString("reignTime");
-                    }
-                    String predecessor;
-                    if(arr.getJSONObject(i).isNull("predecessor")){
-                        predecessor = "";
-                    }else{
-                        predecessor = arr.getJSONObject(i).getString("predecessor");
-                    }
-                    String successor;
-                    if(arr.getJSONObject(i).isNull("successor")){
-                        successor = "";
-                    }else{
-                        successor = arr.getJSONObject(i).getString("successor");
-                    }
-                    String aliases;
-                    if(arr.getJSONObject(i).isNull("aliases")){
-                        aliases = "";
-                    }else{
-                        aliases = arr.getJSONObject(i).getString("aliases");
-                    }
-                    String realName;
-                    if(arr.getJSONObject(i).isNull("realName")){
-                        realName = "";
-                    }else{
-                        realName = arr.getJSONObject(i).getString("realName");
-                    }
-                    Person p = new King(href,name,birth,death,reignTime,predecessor,successor,aliases,realName);
-                    personArrayList.add(p);
-                }
-            }
-        }
+
         personList = FXCollections.observableArrayList(
-                personArrayList
+                App.getPersonList()
         );
         hrefColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("href"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("name"));

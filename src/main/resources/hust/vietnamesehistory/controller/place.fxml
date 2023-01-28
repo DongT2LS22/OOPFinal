@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="897.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.place.PlaceController">
+   <children>
+      <TableView fx:id="table" layoutX="70.0" layoutY="87.0" prefHeight="453.0" prefWidth="757.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="147.33330917358398" text="Tên" />
+          <TableColumn fx:id="nationalColumn" prefWidth="164.6667022705078" text="Quốc gia" />
+            <TableColumn fx:id="coordinatesColumn" prefWidth="182.66665649414062" text="Tọa độ" />
+            <TableColumn fx:id="locationColumn" prefWidth="153.33343505859375" text="Vị trí" />
+            <TableColumn fx:id="areaColumn" minWidth="0.0" prefWidth="111.333251953125" text="Diện tích" />
+        </columns>
+      </TableView>
+      <Button layoutX="544.0" layoutY="558.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
+      <Button layoutX="632.0" layoutY="558.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
+      <TextField fx:id="searchText" layoutX="204.0" layoutY="31.0" />
+      <Button layoutX="118.0" layoutY="31.0" mnemonicParsing="false" onAction="#searchPlace" text="Search" />
+   </children>
+</AnchorPane>

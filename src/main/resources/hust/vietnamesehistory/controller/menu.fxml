@@ -55,7 +55,7 @@
          <font>
             <Font size="24.0" />
          </font></Button>
-      <Button layoutX="150.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="  Địa điểm ">
+      <Button layoutX="150.0" layoutY="350.0" mnemonicParsing="false" onAction="#placeScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="  Địa điểm ">
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
