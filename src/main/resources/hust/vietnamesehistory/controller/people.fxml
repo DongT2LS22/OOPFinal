@@ -23,7 +23,10 @@
                </image>
             </ImageView>
          </graphic></Button>
-        <TextField fx:id="searchText" layoutX="250.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0" />
+        <TextField fx:id="searchText" layoutX="250.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
         <ChoiceBox layoutX="660.0" layoutY="30.0" prefHeight="56.0" prefWidth="200.0" styleClass="button" stylesheets="@CssStyle/backgroundstyle.css" />
         <TableView fx:id="table" layoutX="40.0" layoutY="100.0" prefHeight="500.0" prefWidth="820.0">
             <columns>
