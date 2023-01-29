@@ -10,11 +10,91 @@
   }, {
     "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat",
     "name" : "Bắc thuộc lần I",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/trieu-vu-vuong",
+      "name" : "Triệu Vũ Vương",
+      "birth" : "257 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), đời nhà Tần (nay là huyện Chính Định (正定), tỉnh Hà Bắc), Trung Quốc",
+      "death" : "137 TCN (120 tuổi) Phiên Ngung (nay là thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+      "reignTime" : null,
+      "predecessor" : null,
+      "successor" : "Triệu Văn Đế",
+      "aliases" : "70 năm",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-van-vuong",
+      "name" : "Triệu Văn Vương",
+      "birth" : "175 TCN",
+      "death" : "124 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Vũ Đế",
+      "successor" : "Triệu Minh Đế",
+      "aliases" : "137 TCN – 124 TCN",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-ai-vuong",
+      "name" : "Triệu Ai Vương",
+      "birth" : "117 TCN",
+      "death" : "112 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Minh Vương",
+      "successor" : "Triệu Dương Vương",
+      "aliases" : "113 TCN – 112 TCN",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-kien-duc",
+      "name" : "Triệu Kiến Đức",
+      "birth" : "?",
+      "death" : "111 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Ai Vương",
+      "successor" : "Triều đại diệt vong",
+      "aliases" : "112 TCN – 111 TCN",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat/nha-trieu",
     "name" : "Nhà Triệu",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/trieu-vu-vuong",
+      "name" : "Triệu Vũ Vương",
+      "birth" : "257 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), đời nhà Tần (nay là huyện Chính Định (正定), tỉnh Hà Bắc), Trung Quốc",
+      "death" : "137 TCN (120 tuổi) Phiên Ngung (nay là thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+      "reignTime" : null,
+      "predecessor" : null,
+      "successor" : "Triệu Văn Đế",
+      "aliases" : "70 năm",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-van-vuong",
+      "name" : "Triệu Văn Vương",
+      "birth" : "175 TCN",
+      "death" : "124 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Vũ Đế",
+      "successor" : "Triệu Minh Đế",
+      "aliases" : "137 TCN – 124 TCN",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-ai-vuong",
+      "name" : "Triệu Ai Vương",
+      "birth" : "117 TCN",
+      "death" : "112 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Minh Vương",
+      "successor" : "Triệu Dương Vương",
+      "aliases" : "113 TCN – 112 TCN",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-kien-duc",
+      "name" : "Triệu Kiến Đức",
+      "birth" : "?",
+      "death" : "111 TCN Nam Việt",
+      "reignTime" : null,
+      "predecessor" : "Triệu Ai Vương",
+      "successor" : "Triều đại diệt vong",
+      "aliases" : "112 TCN – 111 TCN",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/trung-nu-vuong",
     "name" : "Trưng Nữ Vương",
@@ -26,19 +106,79 @@
   }, {
     "href" : "/dong-lich-su/nha-ly-va-nha-trieu",
     "name" : "Nhà Lý & Nhà Triệu",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ly-nam-de",
+      "name" : "Lý Nam Đế",
+      "birth" : "17 tháng 10, 503",
+      "death" : "13 tháng 4, 548 (44 tuổi) Việt Nam",
+      "reignTime" : "Thiên Đức (天徳)",
+      "predecessor" : null,
+      "successor" : "Triệu Việt Vương",
+      "aliases" : "544 – 548",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/trieu-viet-vuong",
+      "name" : "Triệu Việt Vương",
+      "birth" : null,
+      "death" : "571",
+      "reignTime" : null,
+      "predecessor" : "Lý Nam Đế",
+      "successor" : "Hậu Lý Nam Đế",
+      "aliases" : null,
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ly-phat-tu",
+      "name" : "Lý Phật Tử",
+      "birth" : null,
+      "death" : "602",
+      "reignTime" : null,
+      "predecessor" : "Triệu Việt Vương",
+      "successor" : "Triều đại sụp đổ",
+      "aliases" : "571 – 602",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-tien-ly",
     "name" : "Nhà Tiền Lý",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ly-nam-de",
+      "name" : "Lý Nam Đế",
+      "birth" : "17 tháng 10, 503",
+      "death" : "13 tháng 4, 548 (44 tuổi) Việt Nam",
+      "reignTime" : "Thiên Đức (天徳)",
+      "predecessor" : null,
+      "successor" : "Triệu Việt Vương",
+      "aliases" : "544 – 548",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-trieu",
     "name" : "Nhà Triệu",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/trieu-viet-vuong",
+      "name" : "Triệu Việt Vương",
+      "birth" : null,
+      "death" : "571",
+      "reignTime" : null,
+      "predecessor" : "Lý Nam Đế",
+      "successor" : "Hậu Lý Nam Đế",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-hau-ly",
     "name" : "Nhà Hậu Lý",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ly-phat-tu",
+      "name" : "Lý Phật Tử",
+      "birth" : null,
+      "death" : "602",
+      "reignTime" : null,
+      "predecessor" : "Triệu Việt Vương",
+      "successor" : "Triều đại sụp đổ",
+      "aliases" : "571 – 602",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/bac-thuoc-lan-thu-ba",
     "name" : "Bắc thuộc lần III",
@@ -46,59 +186,579 @@
   }, {
     "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu",
     "name" : "Thời kỳ xây nền tự chủ",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/khuc-thua-du",
+      "name" : "Khúc Thừa Dụ",
+      "birth" : null,
+      "death" : "23 tháng 7 năm 907 Thành Đại La, Hà Nội",
+      "reignTime" : null,
+      "predecessor" : "Bắc thuộc lần 3",
+      "successor" : "Khúc Trung Chủ",
+      "aliases" : null,
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/khuc-hao",
+      "name" : "Khúc Hạo",
+      "birth" : null,
+      "death" : "cuối năm 917 Thành Đại La, Hà Nội",
+      "reignTime" : null,
+      "predecessor" : "Khúc Tiên Chủ",
+      "successor" : "Khúc Hậu Chủ",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu/ho-khuc",
     "name" : "Họ Khúc",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/khuc-thua-du",
+      "name" : "Khúc Thừa Dụ",
+      "birth" : null,
+      "death" : "23 tháng 7 năm 907 Thành Đại La, Hà Nội",
+      "reignTime" : null,
+      "predecessor" : "Bắc thuộc lần 3",
+      "successor" : "Khúc Trung Chủ",
+      "aliases" : null,
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/khuc-hao",
+      "name" : "Khúc Hạo",
+      "birth" : null,
+      "death" : "cuối năm 917 Thành Đại La, Hà Nội",
+      "reignTime" : null,
+      "predecessor" : "Khúc Tiên Chủ",
+      "successor" : "Khúc Hậu Chủ",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ngo",
     "name" : "Nhà Ngô",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ngo-quyen",
+      "name" : "Ngô Quyền",
+      "birth" : "12 tháng 3, 898 Đường Lâm",
+      "death" : "18 tháng 1, 944 (45 tuổi) Tĩnh Hải quân",
+      "reignTime" : null,
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Dương Bình Vương",
+      "aliases" : "939 – 944",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/duong-binh-vuong",
+      "name" : "Dương Bình Vương",
+      "birth" : null,
+      "death" : null,
+      "reignTime" : null,
+      "predecessor" : "Tiền Ngô Vương",
+      "successor" : "Hậu Ngô Vương",
+      "aliases" : null,
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ngo-xuong-van",
+      "name" : "Ngô Xương Văn",
+      "birth" : null,
+      "death" : "965",
+      "reignTime" : null,
+      "predecessor" : "Dương Bình Vương",
+      "successor" : "Ngô Xương Xí",
+      "aliases" : "950 – 965",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ngo-su-quan",
+      "name" : "Ngô Sứ Quân",
+      "birth" : null,
+      "death" : null,
+      "reignTime" : null,
+      "predecessor" : "Nam Tấn Vương",
+      "successor" : "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân.",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-dinh",
     "name" : "Nhà Đinh",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/dinh-tien-hoang",
+      "name" : "Đinh Tiên Hoàng",
+      "birth" : "22 tháng 3 năm 924 Gia Viễn, Ninh Bình",
+      "death" : "Tháng 10 năm 979 Hoa Lư, Ninh Bình",
+      "reignTime" : "Thái Bình 太平",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đinh Phế Đế",
+      "aliases" : "968 - 979",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/dinh-phe-de",
+      "name" : "Đinh Phế Đế",
+      "birth" : "974",
+      "death" : "1001 (26–27 tuổi)",
+      "reignTime" : null,
+      "predecessor" : "Đinh Tiên Hoàng",
+      "successor" : "Triều đại sụp đổ Nhà Tiền Lê",
+      "aliases" : null,
+      "realName" : "Đinh Toàn (丁璿) Đinh Tuệ (丁穗)"
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-tien-le",
     "name" : "Nhà Tiền Lê",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-dai-hanh",
+      "name" : "Lê Đại Hành",
+      "birth" : "10 tháng 8, 941",
+      "death" : "1005 (63–64 tuổi) Hoa Lư, Đại Cồ Việt",
+      "reignTime" : "",
+      "predecessor" : "Nhà Đinh",
+      "successor" : "Lê Trung Tông",
+      "aliases" : "980 – 1005",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-ngoa-trieu",
+      "name" : "Lê Ngọa Triều",
+      "birth" : "15 tháng 11, 986",
+      "death" : "19 tháng 11, 1009 (23 tuổi) Đại Cồ Việt",
+      "reignTime" : "Ứng Thiên (應天) Cảnh Thụy (景瑞)",
+      "predecessor" : "Lê Trung Tông",
+      "successor" : "Triều đại sụp đổ",
+      "aliases" : "1005 – 1009",
+      "realName" : "Lê Long Đĩnh (黎龍鋌) Lê Chí Trung (黎至忠)"
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ly",
     "name" : "Nhà Lý",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ly-thai-to",
+      "name" : "Lý Thái Tổ",
+      "birth" : "8 tháng 3, 974 Từ Sơn, Bắc Ninh",
+      "death" : "31 tháng 3, 1028 (54 tuổi) Long An điện, Thăng Long",
+      "reignTime" : "Thuận Thiên (順天)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Lý Thái Tông",
+      "aliases" : "21 tháng 11 năm 1009 – 31 tháng 3 năm 1028 (18 năm, 131 ngày)",
+      "realName" : "Lý Công Uẩn (李公蘊)"
+    }, {
+      "href" : "/nhan-vat/ly-thai-tong",
+      "name" : "Lý Thái Tông",
+      "birth" : "29 tháng 7, 1000 chùa Duyên Ninh, Ninh Bình",
+      "death" : "3 tháng 11, 1054 (54 tuổi) Trường Xuân điện, Thăng Long",
+      "reignTime" : "Thiên Thành (天成: 1028 - 1033) Thông Thụy (通瑞: 1034 - 1038) Càn Phù Hữu Đạo (乾符有道: 1039 - 1041) Minh Đạo (明道: 1042 - 1043) Thiên Cảm Thánh Vũ (天感聖武: 1044 - 1048) Sùng Hưng Đại Bảo (崇興大寶: 1049 - 1054)",
+      "predecessor" : "Lý Thái Tổ",
+      "successor" : "Lý Thánh Tông",
+      "aliases" : "1 tháng 4 năm 1028 – 3 tháng 11 năm 1054 (26 năm, 216 ngày)",
+      "realName" : "Lý Phật Mã (李佛瑪) Lý Đức Chính (李德政)"
+    }, {
+      "href" : "/nhan-vat/ly-thanh-tong",
+      "name" : "Lý Thánh Tông",
+      "birth" : "30 tháng 3 năm 1023",
+      "death" : "1 tháng 2, 1072 (48 tuổi)",
+      "reignTime" : "",
+      "predecessor" : "Lý Thái Tông",
+      "successor" : "Lý Nhân Tông",
+      "aliases" : "1054 – 1072",
+      "realName" : "Lý Nhật Tôn (李日尊)"
+    }, {
+      "href" : "/nhan-vat/ly-nhan-tong",
+      "name" : "Lý Nhân Tông",
+      "birth" : "22 tháng 2, 1066 Du Thiền các, Thăng Long",
+      "death" : "15 tháng 1, 1128 (61 tuổi) Điện Vĩnh Quang, Thăng Long",
+      "reignTime" : "Thái Ninh (1072-1076) Anh Vũ Chiêu Thắng (1076-1084) Quảng Hựu (1085-1092) Hội Phong (1092-1100) Long Phù (1101-1109) Hội Tường Đại Khánh (1110-1119) Thiên Phù Duệ Vũ (1120-1126) Thiên Phù Khánh Thọ (1127-1127)",
+      "predecessor" : "Lý Thánh Tông",
+      "successor" : "Lý Thần Tông",
+      "aliases" : "1072 – 1128",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ly-than-tong",
+      "name" : "Lý Thần Tông",
+      "birth" : "1116 Thăng Long",
+      "death" : "31 tháng 10 năm 1138 Điện Vĩnh Quang, Thăng Long",
+      "reignTime" : "Thiên Thuận (1128-1132) Thiên Chương Bảo Tự (1133-1138)",
+      "predecessor" : "Lý Nhân Tông",
+      "successor" : "Lý Anh Tông",
+      "aliases" : "1128 – 1138",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ly-anh-tong",
+      "name" : "Lý Anh Tông",
+      "birth" : "1136 Thăng Long",
+      "death" : "14 tháng 8, 1175 (38–39 tuổi) Thăng Long, Đại Việt",
+      "reignTime" : "",
+      "predecessor" : "Lý Thần Tông",
+      "successor" : "Lý Cao Tông",
+      "aliases" : "1138 – 1175",
+      "realName" : "Lý Thiên Tộ (李天祚)"
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-tran",
     "name" : "Nhà Trần",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/tran-thai-tong",
+      "name" : "Trần Thái Tông",
+      "birth" : "9 tháng 7, 1218 Hương Tức Mặc (nay thuộc Nam Định)",
+      "death" : "5/51277.Hưởng thọ 60 tuổi Điện Vạn Thọ, Thăng Long",
+      "reignTime" : "Kiến Trung (建中; 1225 -1232) Thiên Ứng Chính Bình (天應政平; 1232 - 1251) Nguyên Phong (元豐; 1251 - 1258)",
+      "predecessor" : "Sáng lập triều đại Lý Chiêu Hoàng (trên thực tế)",
+      "successor" : "Trần Thánh Tông",
+      "aliases" : "1225 – 1258",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tran-thanh-tong",
+      "name" : "Trần Thánh Tông",
+      "birth" : "12 tháng 10 năm 1240 Thăng Long",
+      "death" : "3/7/1290.Hưởng dương 50 tuổi. Cung Nhân Thọ, Thăng Long",
+      "reignTime" : "Thiệu Long (1258 – 1272) Bảo Phù (1273 - 1278)",
+      "predecessor" : "Trần Thái Tông",
+      "successor" : "Trần Nhân Tông",
+      "aliases" : "1258 – 1279",
+      "realName" : "Trần Hoảng (陳晃)"
+    }, {
+      "href" : "/nhan-vat/tran-nhan-tong",
+      "name" : "Trần Nhân Tông",
+      "birth" : "7 tháng 12, 1258 Thăng Long",
+      "death" : "14 hoặc 16 tháng 12, 1308 (50 tuổi) Am Ngọa Vân, núi Yên Tử",
+      "reignTime" : "Thiệu Bảo (1278–1285) Trùng Hưng (1285–1293)",
+      "predecessor" : "Trần Thánh Tông",
+      "successor" : "Trần Anh Tông",
+      "aliases" : "1278 – 1293",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tran-anh-tong",
+      "name" : "Trần Anh Tông",
+      "birth" : "25 tháng 10 năm 1276",
+      "death" : "21/4/1320.Hưởng dương 45 tuổi. Cung Trùng Quang, Thiên Trường",
+      "reignTime" : "Hưng Long (興隆)",
+      "predecessor" : "Trần Nhân Tông",
+      "successor" : "Trần Minh Tông",
+      "aliases" : "1293 – 1314",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tran-minh-tong",
+      "name" : "Trần Minh Tông",
+      "birth" : "4 tháng 9, 1300 Thăng Long",
+      "death" : "10/3/1357.Hưởng dương 57 tuổi Cung Bảo Nguyên, Thăng Long",
+      "reignTime" : "Đại Khánh (1314 – 1323) Khai Thái (1324 – 1329)",
+      "predecessor" : "Trần Anh Tông",
+      "successor" : "Trần Hiến Tông",
+      "aliases" : "1314 – 1329",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tran-hien-tong",
+      "name" : "Trần Hiến Tông",
+      "birth" : "17 tháng 5, 1319",
+      "death" : "11 tháng 6, 1341 (22 tuổi) Quang Triều cung, Thăng Long",
+      "reignTime" : "Khai Hựu (開佑)",
+      "predecessor" : "Trần Minh Tông",
+      "successor" : "Trần Dụ Tông",
+      "aliases" : "1329 - 1341",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-ho",
     "name" : "Nhà Hồ",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/ho-quy-ly",
+      "name" : "Hồ Quý Ly",
+      "birth" : "1336 Thanh Hóa, Việt Nam",
+      "death" : "1407 Bắc Kinh, Trung Quốc",
+      "reignTime" : "Thánh Nguyên",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Hồ Hán Thương",
+      "aliases" : "22 tháng 3 năm 1400 - tháng 12 năm 1401",
+      "realName" : "Lê Quý Ly Hồ Quý Ly Hồ Nhất Nguyên"
+    }, {
+      "href" : "/nhan-vat/ho-han-thuong",
+      "name" : "Hồ Hán Thương",
+      "birth" : null,
+      "death" : null,
+      "reignTime" : "Thiệu Thành (1401 - 1402) Khai Đại (1403 - 1407)",
+      "predecessor" : "Hồ Quý Ly",
+      "successor" : "Triều đại sụp đổ Giản Định Đế (Nhà Hậu Trần)",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-hau-tran",
     "name" : "Nhà Hậu Trần",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/tran-ngoi",
+      "name" : "Trần Ngỗi",
+      "birth" : null,
+      "death" : "1410",
+      "reignTime" : "Hưng Khánh",
+      "predecessor" : null,
+      "successor" : "Trùng Quang Đế",
+      "aliases" : null,
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tran-quy-khoang",
+      "name" : "Trần Quý Khoáng",
+      "birth" : null,
+      "death" : "1414",
+      "reignTime" : "Trùng Quang (重光: 1409 - 1414)",
+      "predecessor" : "Giản Định Đế",
+      "successor" : "Trần Cảo",
+      "aliases" : "17 tháng 3 năm 1409 – 31 tháng 3 năm 1414 (5 năm, 14 ngày)",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-hau-le",
     "name" : "Nhà Hậu Lê",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-thai-to",
+      "name" : "Lê Thái Tổ",
+      "birth" : "10 tháng 9, 1383/851 Lam Sơn, Thanh Hóa",
+      "death" : "5 tháng 10, 1433 (50 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Thuận Thiên (順天)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Lê Thái Tông",
+      "aliases" : "29 tháng 4 năm 1428 – 5 tháng 10 năm 1433 (5 năm, 159 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-thai-tong",
+      "name" : "Lê Thái Tông",
+      "birth" : "20 tháng 11, 1423 Lam Sơn, huyện Thọ Xuân, Thanh Hóa",
+      "death" : "4 tháng 8, 1442 (18 tuổi) Lệ Chi viên, huyện Gia Định 2",
+      "reignTime" : "Thiệu Bình (紹平: 1434 - 1439) Đại Bảo (大寶: 1440 - 1442)",
+      "predecessor" : "Lê Thái Tổ",
+      "successor" : "Lê Nhân Tông",
+      "aliases" : "1433 – 1442",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-nhan-tong",
+      "name" : "Lê Nhân Tông",
+      "birth" : "9 tháng 5, 14411 Đông Kinh, Đại Việt",
+      "death" : "3 tháng 10, 1459 (18 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Thái Hòa (大和, 1443 - 1453) Diên Ninh (延寧, 1454 - 1459)",
+      "predecessor" : "Lê Thái Tông",
+      "successor" : "Lê Nghi Dân",
+      "aliases" : "1442 – 1459",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-thanh-tong",
+      "name" : "Lê Thánh Tông",
+      "birth" : "25 tháng 8, 1442 Chùa Huy Văn (nay thuộc quận Đống Đa, Hà Nội)",
+      "death" : "3 tháng 3, 1497 (54 tuổi) Điện Bảo Quang, Đông Kinh",
+      "reignTime" : "Quang Thuận (光順: 1460 - 1469) Hồng Đức (洪德: 1470 - 1497)",
+      "predecessor" : "Lê Nghi Dân",
+      "successor" : "Lê Hiến Tông",
+      "aliases" : "1460 – 1497",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-hien-tong",
+      "name" : "Lê Hiến Tông",
+      "birth" : "10 tháng 8, 1461",
+      "death" : "24 tháng 5, 1504 (42 tuổi) Điện Đồ Trị, Đông Kinh",
+      "reignTime" : "Cảnh Thống (景統)",
+      "predecessor" : "Lê Thánh Tông",
+      "successor" : "Lê Túc Tông",
+      "aliases" : "1497 - 1504",
+      "realName" : "Lê Tranh (黎鏳) Lê Sanh (黎檉) Lê Huy (黎暉)"
+    }, {
+      "href" : "/nhan-vat/le-tuc-tong",
+      "name" : "Lê Túc Tông",
+      "birth" : "6 tháng 9, 1488 Đông Kinh",
+      "death" : "30 tháng 12, 1504 (16 tuổi) Điện Hoàng Cực, Đông Kinh",
+      "reignTime" : "Thái Trinh (泰貞)",
+      "predecessor" : "Lê Hiến Tông",
+      "successor" : "Lê Uy Mục",
+      "aliases" : "17 tháng 7 năm 1504 – 30 tháng 12 năm 1504 (0 năm, 166 ngày)1",
+      "realName" : "Lê Thuần (黎㵮)"
+    } ]
   }, {
     "href" : "/dong-lich-su/nam-bac-trieu",
     "name" : "Nam Bắc Triều",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-trang-tong",
+      "name" : "Lê Trang Tông",
+      "birth" : "1515",
+      "death" : "29 tháng 1, 1548 (33–34 tuổi) Thanh Hóa, Đại Việt",
+      "reignTime" : "Nguyên Hòa (元和)",
+      "predecessor" : "Lê Cung Hoàng",
+      "successor" : "Lê Trung Tông",
+      "aliases" : "1533 - 1548",
+      "realName" : "Lê Duy Ninh (黎維寧)"
+    }, {
+      "href" : "/nhan-vat/le-anh-tong",
+      "name" : "Lê Anh Tông",
+      "birth" : "1532",
+      "death" : "22 tháng 1, 1573 (40–41 tuổi) Đại Việt",
+      "reignTime" : "Thiên Hựu (天祐; 1557) Chính trị (正治; 1558 - 1571) Hồng Phúc (洪福; 1572)",
+      "predecessor" : "Lê Trung Tông",
+      "successor" : "Lê Thế Tông",
+      "aliases" : null,
+      "realName" : "Lê Duy Bang (黎維邦)"
+    }, {
+      "href" : "/nhan-vat/le-the-tong",
+      "name" : "Lê Thế Tông",
+      "birth" : "1567",
+      "death" : "1599 Đại Việt",
+      "reignTime" : "Gia Thái (嘉泰: 1573 - 1577) Quang Hưng (光興: 1578 - 1599)",
+      "predecessor" : "Lê Anh Tông",
+      "successor" : "Lê Kính Tông",
+      "aliases" : "1573 - 1599",
+      "realName" : "Lê Duy Đàm (黎維潭)"
+    } ]
   }, {
     "href" : "/dong-lich-su/nam-bac-trieu/nha-le-trung-hung",
     "name" : "Nhà Lê Trung Hưng",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-trang-tong",
+      "name" : "Lê Trang Tông",
+      "birth" : "1515",
+      "death" : "29 tháng 1, 1548 (33–34 tuổi) Thanh Hóa, Đại Việt",
+      "reignTime" : "Nguyên Hòa (元和)",
+      "predecessor" : "Lê Cung Hoàng",
+      "successor" : "Lê Trung Tông",
+      "aliases" : "1533 - 1548",
+      "realName" : "Lê Duy Ninh (黎維寧)"
+    }, {
+      "href" : "/nhan-vat/le-anh-tong",
+      "name" : "Lê Anh Tông",
+      "birth" : "1532",
+      "death" : "22 tháng 1, 1573 (40–41 tuổi) Đại Việt",
+      "reignTime" : "Thiên Hựu (天祐; 1557) Chính trị (正治; 1558 - 1571) Hồng Phúc (洪福; 1572)",
+      "predecessor" : "Lê Trung Tông",
+      "successor" : "Lê Thế Tông",
+      "aliases" : null,
+      "realName" : "Lê Duy Bang (黎維邦)"
+    }, {
+      "href" : "/nhan-vat/le-the-tong",
+      "name" : "Lê Thế Tông",
+      "birth" : "1567",
+      "death" : "1599 Đại Việt",
+      "reignTime" : "Gia Thái (嘉泰: 1573 - 1577) Quang Hưng (光興: 1578 - 1599)",
+      "predecessor" : "Lê Anh Tông",
+      "successor" : "Lê Kính Tông",
+      "aliases" : "1573 - 1599",
+      "realName" : "Lê Duy Đàm (黎維潭)"
+    } ]
   }, {
     "href" : "/dong-lich-su/trinh-nguyen-phan-tranh",
     "name" : "Trịnh Nguyễn Phân Tranh",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-kinh-tong",
+      "name" : "Lê Kính Tông",
+      "birth" : "1588",
+      "death" : "1619 (30–31 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Thận Đức (慎德: 1600 - 1601) Hoằng Định (弘定: 1601 - 1619)",
+      "predecessor" : "Lê Thế Tông",
+      "successor" : "Lê Thần Tông",
+      "aliases" : "1599 – 1619",
+      "realName" : "Lê Duy Tân (黎維新)"
+    }, {
+      "href" : "/nhan-vat/le-than-tong",
+      "name" : "Lê Thần Tông",
+      "birth" : "1607",
+      "death" : "1662 (54–55 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "",
+      "predecessor" : "Lê Chân Tông",
+      "successor" : "Lê Huyền Tông",
+      "aliases" : "1649 – 1662",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-chan-tong",
+      "name" : "Lê Chân Tông",
+      "birth" : "1630",
+      "death" : "1649 (18–19 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Phúc Thái (福泰: 1643 - 1649)",
+      "predecessor" : "Lê Thần Tông (lần 1)",
+      "successor" : "Lê Thần Tông (lần 2)",
+      "aliases" : "1643 – 1649",
+      "realName" : "Lê Duy Hựu"
+    }, {
+      "href" : "/nhan-vat/le-than-tong",
+      "name" : "Lê Thần Tông",
+      "birth" : "1607",
+      "death" : "1662 (54–55 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "",
+      "predecessor" : "Lê Chân Tông",
+      "successor" : "Lê Huyền Tông",
+      "aliases" : "1649 – 1662",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-huyen-tong",
+      "name" : "Lê Huyền Tông",
+      "birth" : "1654",
+      "death" : "1671 (16–17 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Cảnh Trị (景治: 1663 - 1671)",
+      "predecessor" : "Lê Thần Tông",
+      "successor" : "Lê Gia Tông",
+      "aliases" : "1662 - 1671",
+      "realName" : "Lê Duy Vũ (黎維禑)"
+    }, {
+      "href" : "/nhan-vat/le-gia-tong",
+      "name" : "Lê Gia Tông",
+      "birth" : "1661",
+      "death" : "1675 (13–14 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Dương Đức (陽德: 1672 - 1674) Đức Nguyên (德元: 1674 - 1675)",
+      "predecessor" : "Lê Huyền Tông",
+      "successor" : "Lê Hy Tông",
+      "aliases" : "1671 - 1675",
+      "realName" : "Lê Duy Cối Lê Duy Khoái"
+    } ]
   }, {
     "href" : "/dong-lich-su/trinh-nguyen-phan-tranh/nha-le-trung-hung",
     "name" : "Nhà Lê Trung Hưng",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/le-kinh-tong",
+      "name" : "Lê Kính Tông",
+      "birth" : "1588",
+      "death" : "1619 (30–31 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Thận Đức (慎德: 1600 - 1601) Hoằng Định (弘定: 1601 - 1619)",
+      "predecessor" : "Lê Thế Tông",
+      "successor" : "Lê Thần Tông",
+      "aliases" : "1599 – 1619",
+      "realName" : "Lê Duy Tân (黎維新)"
+    }, {
+      "href" : "/nhan-vat/le-than-tong",
+      "name" : "Lê Thần Tông",
+      "birth" : "1607",
+      "death" : "1662 (54–55 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "",
+      "predecessor" : "Lê Chân Tông",
+      "successor" : "Lê Huyền Tông",
+      "aliases" : "1649 – 1662",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-chan-tong",
+      "name" : "Lê Chân Tông",
+      "birth" : "1630",
+      "death" : "1649 (18–19 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Phúc Thái (福泰: 1643 - 1649)",
+      "predecessor" : "Lê Thần Tông (lần 1)",
+      "successor" : "Lê Thần Tông (lần 2)",
+      "aliases" : "1643 – 1649",
+      "realName" : "Lê Duy Hựu"
+    }, {
+      "href" : "/nhan-vat/le-than-tong",
+      "name" : "Lê Thần Tông",
+      "birth" : "1607",
+      "death" : "1662 (54–55 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "",
+      "predecessor" : "Lê Chân Tông",
+      "successor" : "Lê Huyền Tông",
+      "aliases" : "1649 – 1662",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/le-huyen-tong",
+      "name" : "Lê Huyền Tông",
+      "birth" : "1654",
+      "death" : "1671 (16–17 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Cảnh Trị (景治: 1663 - 1671)",
+      "predecessor" : "Lê Thần Tông",
+      "successor" : "Lê Gia Tông",
+      "aliases" : "1662 - 1671",
+      "realName" : "Lê Duy Vũ (黎維禑)"
+    }, {
+      "href" : "/nhan-vat/le-gia-tong",
+      "name" : "Lê Gia Tông",
+      "birth" : "1661",
+      "death" : "1675 (13–14 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Dương Đức (陽德: 1672 - 1674) Đức Nguyên (德元: 1674 - 1675)",
+      "predecessor" : "Lê Huyền Tông",
+      "successor" : "Lê Hy Tông",
+      "aliases" : "1671 - 1675",
+      "realName" : "Lê Duy Cối Lê Duy Khoái"
+    } ]
   }, {
     "href" : "/dong-lich-su/nha-tay-son",
     "name" : "Nhà Tây Sơn",
@@ -106,15 +766,155 @@
   }, {
     "href" : "/dong-lich-su/nha-nguyen",
     "name" : "Nhà Nguyễn",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/gia-long",
+      "name" : "Gia Long",
+      "birth" : "8 tháng 2, 1762 Huế, Đại Việt",
+      "death" : "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+      "reignTime" : "Gia Long (嘉隆)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Minh Mạng",
+      "aliases" : "1 tháng 6 năm 1802 – 3 tháng 2 năm 1820 (17 năm, 247 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/minh-mang",
+      "name" : "Minh Mạng",
+      "birth" : "25 tháng 5 năm 1791 Gia Định, Đại Việt",
+      "death" : "20 tháng 1, 1841 (49 tuổi) Huế, Đại Nam",
+      "reignTime" : "Minh Mạng (明命): 1820 - 1841",
+      "predecessor" : "Gia Long",
+      "successor" : "Thiệu Trị",
+      "aliases" : "1820 – 1841",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/thieu-tri",
+      "name" : "Thiệu Trị",
+      "birth" : "16 tháng 6 năm 1807 Huế, Việt Nam",
+      "death" : "4 tháng 10, 1847 (40 tuổi) Huế, Đại Nam",
+      "reignTime" : "Thiệu Trị (紹治;: 1841 - 1847)",
+      "predecessor" : "Minh Mạng",
+      "successor" : "Tự Đức",
+      "aliases" : "11 tháng 2 năm 1841 – 4 tháng 10 năm 1847 (6 năm, 235 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/tu-duc",
+      "name" : "Tự Đức",
+      "birth" : "22 tháng 9 năm 1829 Huế, Việt Nam",
+      "death" : "19 tháng 7, 1883 (53 tuổi) Huế, Đại Nam",
+      "reignTime" : "Tự Đức (嗣德)",
+      "predecessor" : "Thiệu Trị",
+      "successor" : "Dục Đức",
+      "aliases" : "5 tháng 10 năm 1847 – 19 tháng 7 năm 1883 (35 năm, 287 ngày)",
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/phap-thuoc",
     "name" : "Pháp Thuộc",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/duc-duc",
+      "name" : "Dục Đức",
+      "birth" : "23 tháng 2, 1852 Huế, Đại Nam",
+      "death" : "6 tháng 10, 1883 (31 tuổi) Huế, Đại Nam",
+      "reignTime" : null,
+      "predecessor" : "Tự Đức",
+      "successor" : "Hiệp Hòa",
+      "aliases" : "20 tháng 7 năm 1883 - 23 tháng 7 năm 1883 (0 năm, 3 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/kien-phuc",
+      "name" : "Kiến Phúc",
+      "birth" : "12 tháng 2 năm 1869 Huế, Đại Nam",
+      "death" : "31 tháng 7, 1884 (15 tuổi) Huế, Đại Nam",
+      "reignTime" : "Kiến Phúc (建福)",
+      "predecessor" : "Hiệp Hòa",
+      "successor" : "Hàm Nghi",
+      "aliases" : "2 tháng 12 năm 1883 - 31 tháng 7 năm 1884 (0 năm, 242 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ham-nghi",
+      "name" : "Hàm Nghi",
+      "birth" : "3 tháng 8 năm 1872 Huế, Đại Nam",
+      "death" : "4 tháng 1, 1943 (71 tuổi) Alger, Algérie, Pháp",
+      "reignTime" : "Hàm Nghi (咸宜)",
+      "predecessor" : "Kiến Phúc",
+      "successor" : "Đồng Khánh",
+      "aliases" : "2 tháng 8 năm 1884 – 1885",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/dong-khanh",
+      "name" : "Đồng Khánh",
+      "birth" : "19 tháng 2 năm 1864 Huế, Đại Nam",
+      "death" : "28 tháng 1, 1889 (24 tuổi) Huế, Đại Nam, Liên bang Đông Dương",
+      "reignTime" : "Đồng Khánh (同慶)",
+      "predecessor" : "Hàm Nghi",
+      "successor" : "Thành Thái",
+      "aliases" : "19 tháng 9 năm 1885 - 28 tháng 1 năm 1889 (3 năm, 131 ngày)",
+      "realName" : "Nguyễn Phúc Ưng Kỷ (阮福膺祺)"
+    }, {
+      "href" : "/nhan-vat/thanh-thai",
+      "name" : "Thành Thái",
+      "birth" : "14 tháng 3 năm 1879 Huế, Đại Nam",
+      "death" : "20 tháng 3, 1954 (75 tuổi) Sài Gòn, Quốc gia Việt Nam",
+      "reignTime" : "Thành Thái (成泰)",
+      "predecessor" : "Đồng Khánh",
+      "successor" : "Duy Tân",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/phap-thuoc/nha-nguyen",
     "name" : "Nhà Nguyễn",
-    "kings" : [ ]
+    "kings" : [ {
+      "href" : "/nhan-vat/duc-duc",
+      "name" : "Dục Đức",
+      "birth" : "23 tháng 2, 1852 Huế, Đại Nam",
+      "death" : "6 tháng 10, 1883 (31 tuổi) Huế, Đại Nam",
+      "reignTime" : null,
+      "predecessor" : "Tự Đức",
+      "successor" : "Hiệp Hòa",
+      "aliases" : "20 tháng 7 năm 1883 - 23 tháng 7 năm 1883 (0 năm, 3 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/kien-phuc",
+      "name" : "Kiến Phúc",
+      "birth" : "12 tháng 2 năm 1869 Huế, Đại Nam",
+      "death" : "31 tháng 7, 1884 (15 tuổi) Huế, Đại Nam",
+      "reignTime" : "Kiến Phúc (建福)",
+      "predecessor" : "Hiệp Hòa",
+      "successor" : "Hàm Nghi",
+      "aliases" : "2 tháng 12 năm 1883 - 31 tháng 7 năm 1884 (0 năm, 242 ngày)",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/ham-nghi",
+      "name" : "Hàm Nghi",
+      "birth" : "3 tháng 8 năm 1872 Huế, Đại Nam",
+      "death" : "4 tháng 1, 1943 (71 tuổi) Alger, Algérie, Pháp",
+      "reignTime" : "Hàm Nghi (咸宜)",
+      "predecessor" : "Kiến Phúc",
+      "successor" : "Đồng Khánh",
+      "aliases" : "2 tháng 8 năm 1884 – 1885",
+      "realName" : null
+    }, {
+      "href" : "/nhan-vat/dong-khanh",
+      "name" : "Đồng Khánh",
+      "birth" : "19 tháng 2 năm 1864 Huế, Đại Nam",
+      "death" : "28 tháng 1, 1889 (24 tuổi) Huế, Đại Nam, Liên bang Đông Dương",
+      "reignTime" : "Đồng Khánh (同慶)",
+      "predecessor" : "Hàm Nghi",
+      "successor" : "Thành Thái",
+      "aliases" : "19 tháng 9 năm 1885 - 28 tháng 1 năm 1889 (3 năm, 131 ngày)",
+      "realName" : "Nguyễn Phúc Ưng Kỷ (阮福膺祺)"
+    }, {
+      "href" : "/nhan-vat/thanh-thai",
+      "name" : "Thành Thái",
+      "birth" : "14 tháng 3 năm 1879 Huế, Đại Nam",
+      "death" : "20 tháng 3, 1954 (75 tuổi) Sài Gòn, Quốc gia Việt Nam",
+      "reignTime" : "Thành Thái (成泰)",
+      "predecessor" : "Đồng Khánh",
+      "successor" : "Duy Tân",
+      "aliases" : null,
+      "realName" : null
+    } ]
   }, {
     "href" : "/dong-lich-su/phap-thuoc/khoi-nghia-chong-phap",
     "name" : "Những cuộc khởi nghĩa chống thực dân Pháp",

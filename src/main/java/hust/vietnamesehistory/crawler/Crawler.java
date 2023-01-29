@@ -94,7 +94,7 @@ public class Crawler {
                             System.out.println("\tTên thật: " + king.getRealName());
 
                         } else {
-                            Person person = new Person(name, href, infoKV.get("Sinh"), infoKV.get("Mất"));
+                            Person person = new Person(href, name, infoKV.get("Sinh"), infoKV.get("Mất"));
                             people.add(person);
 
                             System.out.println("Danh nhân: " + person.getName());
@@ -218,6 +218,7 @@ public class Crawler {
                                     if (personHashMap.containsKey(kingHref)) {
                                         if (personHashMap.get(kingHref) instanceof King king) {
                                             kings.add(king);
+                                            System.out.println("+++++" + kingHref);
                                         }
                                     }
                                 } catch (Exception e) {
@@ -311,12 +312,8 @@ public class Crawler {
         List<Person> people = crawlPeople();
         List<Place> places = crawlPlaces();
         HashMap<String, Person> personHashMap = new HashMap<>();
-        HashMap<String, Place> placeHashMap = new HashMap<>();
         for (Person person : people) {
             personHashMap.put(person.getHref(), person);
-        }
-        for (Place place : places) {
-            placeHashMap.put(place.getHref(), place);
         }
         List<Period> periods = crawlPeriods(personHashMap);
 

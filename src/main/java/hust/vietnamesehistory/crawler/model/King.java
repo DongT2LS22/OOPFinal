@@ -8,7 +8,7 @@ public class King extends Person{
     private String realName;
 
     public King(String name, String href, String birth, String death, String reignTime, String predecessor, String successor, String aliases, String realName) {
-        super(name, href, birth, death);
+        super(href, name, birth, death);
         this.reignTime = reignTime;
         this.predecessor = predecessor;
         this.successor = successor;
