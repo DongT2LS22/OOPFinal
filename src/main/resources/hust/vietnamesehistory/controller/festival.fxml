@@ -4,22 +4,85 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalController">
    <children>
-      <TableView fx:id="table" layoutX="50.0" layoutY="74.0" prefHeight="380.0" prefWidth="747.0">
+      <TableView fx:id="table" layoutX="50.0" layoutY="100.0" prefHeight="500.0" prefWidth="800.0">
         <columns>
-          <TableColumn fx:id="dateColumn" prefWidth="117.99996948242188" text="Ngày" />
-          <TableColumn fx:id="nameColumn" minWidth="0.0" prefWidth="246.0" text="Tên lễ hội" />
-            <TableColumn fx:id="rootColumn" prefWidth="174.666748046875" text="Nguồn gốc" />
-            <TableColumn fx:id="noteColumn" prefWidth="206.66664632161462" text="Thông tin thêm" />
+          <TableColumn fx:id="dateColumn" prefWidth="200.0" text="Ngày hội">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/festivalimages/eventday.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+          <TableColumn fx:id="nameColumn" minWidth="0.0" prefWidth="200.0" text="Tên lễ hội">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/festivalimages/nameevent.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="rootColumn" prefWidth="200.0" text="Nguồn gốc">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/festivalimages/storyevent.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="noteColumn" prefWidth="200.0" text="Thông tin thêm">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/festivalimages/addition.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
         </columns>
       </TableView>
-      <Button layoutX="468.0" layoutY="479.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
-      <Button layoutX="572.0" layoutY="479.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
-      <TextField fx:id="searchText" layoutX="142.0" layoutY="29.0" prefHeight="25.0" prefWidth="187.0" />
-      <Button layoutX="71.0" layoutY="29.0" mnemonicParsing="false" onAction="#searchFestival" text="Search" />
+      <Button layoutX="650.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu5.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="400.0" layoutY="620.0" mnemonicParsing="false" onAction="#detailScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Chi tiết">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon2.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="searchText" layoutX="300.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchFestival" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon1.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
    </children>
 </AnchorPane>
