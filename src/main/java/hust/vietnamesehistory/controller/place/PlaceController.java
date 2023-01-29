@@ -1,6 +1,8 @@
 package hust.vietnamesehistory.controller.place;
 
 import hust.vietnamesehistory.controller.App;
+import hust.vietnamesehistory.controller.people.PeopleDetailController;
+import hust.vietnamesehistory.crawler.model.King;
 import hust.vietnamesehistory.crawler.model.Person;
 import hust.vietnamesehistory.crawler.model.Place;
 import javafx.collections.FXCollections;
@@ -54,8 +56,16 @@ public class PlaceController implements Initializable {
     }
 
     @FXML
-    void detailScene(ActionEvent event) {
-
+    void detailScene(ActionEvent event) throws IOException{
+        Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("placeDetail.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        PlaceDetailController controller = fxmlLoader.getController();
+        Place selected = table.getSelectionModel().getSelectedItem();
+        controller.setPlace(selected);
+        stage.show();
     }
 
     @FXML
