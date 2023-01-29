@@ -1,5 +1,6 @@
 package hust.vietnamesehistory.controller;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -43,5 +44,9 @@ public class MenuController {
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
+    }
+
+    @FXML void exit(ActionEvent event){
+        Platform.exit();
     }
 }

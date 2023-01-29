@@ -44,7 +44,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="150.0" layoutY="410.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thoát      ">
+      <Button layoutX="150.0" layoutY="410.0" mnemonicParsing="false" onAction="#exit" prefHeight="56.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thoát      ">
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
