@@ -4,22 +4,93 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="897.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.place.PlaceController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.place.PlaceController">
    <children>
-      <TableView fx:id="table" layoutX="70.0" layoutY="87.0" prefHeight="453.0" prefWidth="757.0">
+      <TableView fx:id="table" layoutX="50.0" layoutY="100.0" prefHeight="500.0" prefWidth="800.0">
         <columns>
-          <TableColumn fx:id="nameColumn" prefWidth="147.33330917358398" text="Tên" />
-          <TableColumn fx:id="nationalColumn" prefWidth="164.6667022705078" text="Quốc gia" />
-            <TableColumn fx:id="coordinatesColumn" prefWidth="182.66665649414062" text="Tọa độ" />
-            <TableColumn fx:id="locationColumn" prefWidth="153.33343505859375" text="Vị trí" />
-            <TableColumn fx:id="areaColumn" minWidth="0.0" prefWidth="111.333251953125" text="Diện tích" />
+          <TableColumn fx:id="nameColumn" prefWidth="160.0" text="Địa danh">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/placeimages/placenameicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+          <TableColumn fx:id="nationalColumn" prefWidth="160.0" text="Quốc gia">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/placeimages/nationicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="coordinatesColumn" prefWidth="160.0" text="Tọa độ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/placeimages/ploticon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="locationColumn" prefWidth="160.0" text="Vị trí">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/menuimages/placeicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+            <TableColumn fx:id="areaColumn" minWidth="0.0" prefWidth="160.0" text="Diện tích">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/placeimages/areaicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
         </columns>
       </TableView>
-      <Button layoutX="544.0" layoutY="558.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
-      <Button layoutX="632.0" layoutY="558.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
-      <TextField fx:id="searchText" layoutX="204.0" layoutY="31.0" />
-      <Button layoutX="118.0" layoutY="31.0" mnemonicParsing="false" onAction="#searchPlace" text="Search" />
+      <Button layoutX="400.0" layoutY="620.0" mnemonicParsing="false" onAction="#detailScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Chi tiết">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon2.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="650.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/iconmenu5.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="searchText" layoutX="300.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchPlace" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/peopleimages/peopleicon1.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
    </children>
 </AnchorPane>
