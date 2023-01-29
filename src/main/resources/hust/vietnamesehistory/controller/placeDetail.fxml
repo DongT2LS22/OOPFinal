@@ -75,7 +75,7 @@
                </image>
             </ImageView>
          </graphic></Label>
-      <Label fx:id="nameLabel" layoutX="250.0" layoutY="410.0" prefHeight="50.0" prefWidth="900.0" text="Label">
+      <Label fx:id="nameLabel" layoutX="250.0" layoutY="60.0" prefHeight="50.0" prefWidth="900.0" text="Label">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
@@ -95,7 +95,7 @@
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="hrefLabel" layoutX="250.0" layoutY="60.0" prefHeight="50.0" prefWidth="900.0" text="Label">
+      <Label fx:id="hrefLabel" layoutX="250.0" layoutY="410.0" prefHeight="50.0" prefWidth="900.0" text="Label">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
