@@ -32,7 +32,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="150.0" layoutY="290.0" mnemonicParsing="false" onAction="#EventScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Lễ hội      ">
+      <Button layoutX="150.0" layoutY="290.0" mnemonicParsing="false" onAction="#FestivalScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Lễ hội      ">
          <font>
             <Font size="24.0" />
          </font>

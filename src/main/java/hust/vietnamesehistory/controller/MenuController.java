@@ -13,7 +13,13 @@ import java.io.IOException;
 
 public class MenuController {
     @FXML
-    public void EventScene(ActionEvent event) {
+    public void FestivalScene(ActionEvent event) throws IOException{
+        Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("festival.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML

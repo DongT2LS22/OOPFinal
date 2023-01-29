@@ -200,8 +200,10 @@ public class App extends Application {
                 }
                 for (String p:linkPlace) {
                     for (Place pl:placeList) {
-                        listPlace.add(pl);
-                        break;
+                        if(pl.getHref().equals(p)){
+                            listPlace.add(pl);
+                            break;
+                        }
                     }
                 }
                 Festival fes = new Festival(name,date,listPlace,note,listPerson,root);

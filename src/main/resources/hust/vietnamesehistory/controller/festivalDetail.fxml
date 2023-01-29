@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="883.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalDetailController">
+   <children>
+      <Label layoutX="85.0" layoutY="76.0" text="Tên lễ hội" />
+      <Label layoutX="85.0" layoutY="121.0" text="Ngày diễn ra" />
+      <Label layoutX="85.0" layoutY="166.0" text="Nguồn gốc" />
+      <Label layoutX="85.0" layoutY="210.0" text="Địa điểm liên quan" />
+      <Label layoutX="85.0" layoutY="254.0" text="Nhân vật liên quan" />
+      <Label layoutX="85.0" layoutY="300.0" text="Thông tin thêm" />
+      <Label fx:id="nameLabel" layoutX="208.0" layoutY="76.0" text="Label" />
+      <Label fx:id="dateLabel" layoutX="208.0" layoutY="121.0" text="Label" />
+      <Label fx:id="rootLabel" layoutX="208.0" layoutY="166.0" text="Label" />
+      <Label fx:id="placeLabel" layoutX="208.0" layoutY="210.0" text="Label" />
+      <Label fx:id="personLabel" layoutX="208.0" layoutY="254.0" text="Label" />
+      <Label fx:id="noteLabel" layoutX="208.0" layoutY="300.0" text="Label" />
+      <Button layoutX="567.0" layoutY="433.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
+   </children>
+</AnchorPane>

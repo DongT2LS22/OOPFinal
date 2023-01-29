@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalController">
+   <children>
+      <TableView fx:id="table" layoutX="50.0" layoutY="74.0" prefHeight="380.0" prefWidth="747.0">
+        <columns>
+          <TableColumn fx:id="dateColumn" prefWidth="117.99996948242188" text="Ngày" />
+          <TableColumn fx:id="nameColumn" minWidth="0.0" prefWidth="246.0" text="Tên lễ hội" />
+            <TableColumn fx:id="rootColumn" prefWidth="174.666748046875" text="Nguồn gốc" />
+            <TableColumn fx:id="noteColumn" prefWidth="206.66664632161462" text="Thông tin thêm" />
+        </columns>
+      </TableView>
+      <Button layoutX="468.0" layoutY="479.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
+      <Button layoutX="572.0" layoutY="479.0" mnemonicParsing="false" onAction="#detailScene" text="Detail" />
+      <TextField fx:id="searchText" layoutX="142.0" layoutY="29.0" prefHeight="25.0" prefWidth="187.0" />
+      <Button layoutX="71.0" layoutY="29.0" mnemonicParsing="false" onAction="#searchFestival" text="Search" />
+   </children>
+</AnchorPane>
