@@ -11,7 +11,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -312,14 +311,41 @@ public class Crawler {
         while (true) {
             try {
                 JSONArray peopleArr = new JSONArray(people);
+                JSONArray placesArr = new JSONArray(places);
+                JSONArray periodsArr = new JSONArray(periods);
+                JSONArray festivalsArr = new JSONArray(festivals);
 
-//                ArrayPeople peopleArr = new ArrayPeople(people);
-//                ArrayPlaces placesArr = new ArrayPlaces(places);
-//                ArrayPeriods periodsArr = new ArrayPeriods(periods);
-//
-//                writer.writeValue(new File("src/main/resources/json/people.json"), peopleArr);
-//                writer.writeValue(new File("src/main/resources/json/places.json"), placesArr);
-//                writer.writeValue(new File("src/main/resources/json/periods.json"), periodsArr);
+                JSONObject peopleObj = new JSONObject();
+                JSONObject placesObj = new JSONObject();
+                JSONObject periodsObj = new JSONObject();
+                JSONObject festivalsObj = new JSONObject();
+
+                peopleObj.put("people", peopleArr);
+                placesObj.put("places", placesArr);
+                periodsObj.put("periods", periodsArr);
+                festivalsObj.put("festivals", festivalsArr);
+
+                FileWriter file;
+
+                file = new FileWriter("src/main/resources/json/people.json");
+                file.write(peopleObj.toString());
+                file.flush();
+                file.close();
+
+                file = new FileWriter("src/main/resources/json/places.json");
+                file.write(placesObj.toString());
+                file.flush();
+                file.close();
+
+                file = new FileWriter("src/main/resources/json/periods.json");
+                file.write(periodsObj.toString());
+                file.flush();
+                file.close();
+
+                file = new FileWriter("src/main/resources/json/festival.json");
+                file.write(festivalsObj.toString());
+                file.flush();
+                file.close();
                 break;
             } catch (Exception e) {
                 if (++count == MAX_TRIES) {
