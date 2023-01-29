@@ -4,12 +4,15 @@ import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import hust.vietnamesehistory.crawler.model.*;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,7 +26,8 @@ public class Crawler {
     public static final String TIMELINE_HREF = "/dong-lich-su";
     public static final String CHARACTERS_HREF = "/nhan-vat?start=";
     public static final String PLACES_HREF = "/dia-danh?start=";
-
+    public static final String FESTIVAL_URI = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
+    public static final String GOOGLE_URI = "https://www.google.com/search?q=";
     static List<Person> crawlPeople() {
         List<Person> people = new ArrayList<>();
         int idx = 0;
@@ -233,7 +237,7 @@ public class Crawler {
                                     System.out.println("Không tìm thấy thông tin nhân vật, địa danh nào. " + e);
                                 }
                             }
-                            Period period = new Period(href, name, people, places, null, null);
+                            Period period = new Period(href, name, people);
                             periods.add(period);
                         }
                         break;
@@ -249,6 +253,94 @@ public class Crawler {
             System.out.println("ERROR: Không thể lấy thông tin dòng lịch sử. " + e);
         }
         return periods;
+    }
+    static List<Festival> crawlFestivals() {
+        List<Festival> festivals = new ArrayList<>();
+        JSONObject obj = new JSONObject();
+        JSONArray jsonArray = new JSONArray();
+        try {
+            Document doc = Jsoup.connect(FESTIVAL_URI).timeout(0).get();
+            Elements elements = doc.getElementsByTag("tbody").get(1).getElementsByTag("tr");
+            elements.remove(0);
+            for (Element element: elements) {
+                JSONObject fes = new JSONObject();
+                Elements festival = element.getElementsByTag("td");
+                int length = festival.size();
+                for(int i=0;i<length;i++){
+                    if(i==0){
+                        fes.put("date",festival.get(i).text());
+                        System.out.println(festival.get(i).text());
+                    }
+                    if(i==1){
+                        String places = festival.get(i).text();
+                        JSONArray arrPlace = new JSONArray();
+                        if(places.contains(",")){
+                            String[] place = places.split(",");
+                            for (String p:place
+                            ) {
+                                JSONObject jsonPlace = new JSONObject();
+                                String search = searchGoogle(p);
+                                if(search!=""){
+                                    arrPlace.put(search);
+                                }
+                            }
+
+                        }else {
+                            if(searchGoogle(places)!=""){
+                                arrPlace.put(places);
+                            }
+                        }
+                        fes.put("place",arrPlace);
+                    }
+                    if(i==2){
+                        String name = festival.get(i).text();
+                        fes.put("name",name);
+                    }
+                    if(i==3){
+                        fes.put("root",festival.get(i).text());
+                    }
+                    if(i==4){
+                        String people = festival.get(i).text();
+                        JSONArray arrPeople = new JSONArray();
+                        if(people.contains(",")){
+                            String[] person = people.split(",");
+                            for (String p:person){
+                                String search = searchGoogle(p);
+                                if(search!=""){
+                                    arrPeople.put(search);
+                                }
+                            }
+                        }else{
+                            String search = searchGoogle(people);
+                            if(search!=""){
+                                arrPeople.put(search);
+                            }
+                        }
+                        fes.put("person",arrPeople);
+                    }
+                    if(i==5){
+                        fes.put("note",festival.get(i).text());
+                    }
+
+                }
+                jsonArray.put(fes);
+            }
+            obj.put("festival",jsonArray);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return festivals;
+    }
+
+    static String searchGoogle(String keyword) throws IOException{
+        Document doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
+        String link = doc.select(".yuRUbf a").first().attr("href");
+        if(link.contains(URI + "/dia-danh")||link.contains(URI + "/nhan-vat")){
+            link = link.replace(URI,"");
+        }else{
+            link = "";
+        }
+        return link;
     }
     public static void main(String[] args) {
         List<Person> people = crawlPeople();

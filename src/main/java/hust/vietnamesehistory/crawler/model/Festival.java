@@ -1,14 +1,13 @@
 package hust.vietnamesehistory.crawler.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Festival{
     String name;
     String date;
-    List<Place> listofPlace = new ArrayList<Place>();
+    List<Place> listofPlace;
     String note;
-    List<Person> listofPerson = new ArrayList<Person>();
+    List<Person> listofPerson;
 
     String root;
 
