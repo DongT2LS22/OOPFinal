@@ -199,7 +199,6 @@ public class Crawler {
                 System.out.println("=> " + name + "\n" + href);
 
                 List<String> people = new ArrayList<>();
-                List<String> places = new ArrayList<>();
 
                 int count = 0;
                 while (true) {
@@ -211,28 +210,11 @@ public class Crawler {
                                 try {
                                     Element subPeriod = periodE.getElementsByAttributeValue("class", "btn btn-secondary").get(0);
                                     Document subDoc = Jsoup.connect(URI + subPeriod.attr("href")).timeout(0).get();
-                                    Element content = subDoc.getElementsByClass("com-content-article__body").get(0);
-                                    Elements listHref = content.getElementsByTag("a");
-
-
-                                    for (Element hrefNode : listHref) {
-
-                                        // Nếu là link thông tin nhân vật
-                                        if (hrefNode.attr("href").contains("/nhan-vat/")
-                                                && !people.contains(hrefNode.attr("href"))) {
-                                            people.add(hrefNode.attr("href"));
-
-                                            System.out.println("\t" + hrefNode.attr("href"));
-
-                                        }
-                                        // Nếu là link thông tin địa danh
-                                        if (hrefNode.attr("href").contains("/dia-danh/")
-                                                && !places.contains(hrefNode.attr("href"))) {
-                                            places.add(hrefNode.attr("href"));
-
-                                            System.out.println("\t" + hrefNode.attr("href"));
-                                        }
-                                    }
+                                    Element kingElement = subDoc.getElementById("Mod100");
+                                    Element caption = kingElement.getElementsByClass("caption").get(0);
+                                    String kingHref = caption.getElementsByAttributeValueStarting("href", "/nhan-vat/")
+                                            .first().attr("href");
+                                    people.add(kingHref);
                                 } catch (Exception e) {
                                     System.out.println("Không tìm thấy thông tin nhân vật, địa danh nào. " + e);
                                 }
@@ -256,82 +238,60 @@ public class Crawler {
     }
     static List<Festival> crawlFestivals() {
         List<Festival> festivals = new ArrayList<>();
-        JSONObject obj = new JSONObject();
-        JSONArray jsonArray = new JSONArray();
         try {
             Document doc = Jsoup.connect(FESTIVAL_URI).timeout(0).get();
             Elements elements = doc.getElementsByTag("tbody").get(1).getElementsByTag("tr");
             elements.remove(0);
             for (Element element: elements) {
-                JSONObject fes = new JSONObject();
+                String name = null;
+                String date = null;
+                String note = null;
+                String root = null;
+                List<String> places = new ArrayList<>();
+                List<String> people = new ArrayList<>();
                 Elements festival = element.getElementsByTag("td");
-                int length = festival.size();
-                for(int i=0;i<length;i++){
-                    if(i==0){
-                        fes.put("date",festival.get(i).text());
-                        System.out.println(festival.get(i).text());
-                    }
-                    if(i==1){
-                        String places = festival.get(i).text();
-                        JSONArray arrPlace = new JSONArray();
-                        if(places.contains(",")){
-                            String[] place = places.split(",");
-                            for (String p:place
-                            ) {
-                                JSONObject jsonPlace = new JSONObject();
-                                String search = searchGoogle(p);
-                                if(search!=""){
-                                    arrPlace.put(search);
-                                }
-                            }
-
-                        }else {
-                            if(searchGoogle(places)!=""){
-                                arrPlace.put(places);
-                            }
-                        }
-                        fes.put("place",arrPlace);
-                    }
-                    if(i==2){
-                        String name = festival.get(i).text();
-                        fes.put("name",name);
-                    }
-                    if(i==3){
-                        fes.put("root",festival.get(i).text());
-                    }
-                    if(i==4){
-                        String people = festival.get(i).text();
-                        JSONArray arrPeople = new JSONArray();
-                        if(people.contains(",")){
-                            String[] person = people.split(",");
-                            for (String p:person){
-                                String search = searchGoogle(p);
-                                if(search!=""){
-                                    arrPeople.put(search);
-                                }
-                            }
-                        }else{
-                            String search = searchGoogle(people);
-                            if(search!=""){
-                                arrPeople.put(search);
-                            }
-                        }
-                        fes.put("person",arrPeople);
-                    }
-                    if(i==5){
-                        fes.put("note",festival.get(i).text());
-                    }
-
+                // date
+                if (festival.get(0).text().length() != 0) {
+                    date = festival.get(0).text();
                 }
-                jsonArray.put(fes);
+                // places
+                String placeStr = festival.get(1).text();
+                String[] listPlace = placeStr.split(",");
+                for (String p : listPlace) {
+                    String searchRes = searchGoogle(p);
+                    if(!searchRes.equals("")){
+                        places.add(searchRes);
+                    }
+                }
+                // name
+                if (festival.get(2).text().length() != 0) {
+                    name = festival.get(2).text();
+                }
+                // root
+                if (festival.get(3).text().length() != 0) {
+                    root = festival.get(3).text();
+                }
+                // people
+                String personStr = festival.get(4).text();
+                String[] listPerson = personStr.split(",");
+                for (String p : listPerson){
+                    String searchRes = searchGoogle(p);
+                    if(!searchRes.equals("")){
+                        people.add(searchRes);
+                    }
+                }
+                // note
+                if (festival.get(5).text().length() != 0) {
+                    note = festival.get(5).text();
+                }
+
+                Festival fes = new Festival(name, date, places, note, people, root);
             }
-            obj.put("festival",jsonArray);
         } catch (Exception e) {
             e.printStackTrace();
         }
         return festivals;
     }
-
     static String searchGoogle(String keyword) throws IOException{
         Document doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
         String link = doc.select(".yuRUbf a").first().attr("href");
@@ -346,33 +306,20 @@ public class Crawler {
         List<Person> people = crawlPeople();
         List<Place> places = crawlPlaces();
         List<Period> periods = crawlPeriods();
-        HashMap<String, String> mapping = new HashMap<>();
-        for (Period period : periods) {
-            for (String person : period.getPeople()) {
-                mapping.put(person, period.getHref());
-            }
-        }
-        for (Person person : people) {
-            if ((
-                       ((King) person).getAliases() != null
-                    || ((King) person).getPredecessor() != null
-                    || ((King) person).getSuccessor() != null
-                    || ((King) person).getReignTime() != null
-                    || ((King) person).getRealName() != null
-            ) && mapping.containsKey(person.getHref())){
-                ((King) person).setPeriod(mapping.get(person.getHref()));
-            }
-        }
+        List<Festival> festivals = crawlFestivals();
+
         int count = 0;
         while (true) {
             try {
-                ArrayPeople peopleArr = new ArrayPeople(people);
-                ArrayPlaces placesArr = new ArrayPlaces(places);
-                ArrayPeriods periodsArr = new ArrayPeriods(periods);
+                JSONArray peopleArr = new JSONArray(people);
 
-                writer.writeValue(new File("src/main/resources/json/people.json"), peopleArr);
-                writer.writeValue(new File("src/main/resources/json/places.json"), placesArr);
-                writer.writeValue(new File("src/main/resources/json/periods.json"), periodsArr);
+//                ArrayPeople peopleArr = new ArrayPeople(people);
+//                ArrayPlaces placesArr = new ArrayPlaces(places);
+//                ArrayPeriods periodsArr = new ArrayPeriods(periods);
+//
+//                writer.writeValue(new File("src/main/resources/json/people.json"), peopleArr);
+//                writer.writeValue(new File("src/main/resources/json/places.json"), placesArr);
+//                writer.writeValue(new File("src/main/resources/json/periods.json"), periodsArr);
                 break;
             } catch (Exception e) {
                 if (++count == MAX_TRIES) {

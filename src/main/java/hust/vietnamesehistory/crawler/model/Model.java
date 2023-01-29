@@ -9,8 +9,8 @@ public abstract class Model {
         this.name = name;
     }
 
-    private String href;
     private String name;
+    private String href;
 
     public String getName() {
         return name;

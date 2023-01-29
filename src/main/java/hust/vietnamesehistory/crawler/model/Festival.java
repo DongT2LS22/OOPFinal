@@ -5,18 +5,17 @@ import java.util.List;
 public class Festival{
     String name;
     String date;
-    List<Place> listofPlace;
+    List<String> places;
     String note;
-    List<Person> listofPerson;
-
+    List<String> people;
     String root;
 
-    public Festival(String name,String date, List<Place> listofPlace, String note, List<Person> listofPerson,String root) {
+    public Festival(String name,String date, List<String> places, String note, List<String> people,String root) {
         this.name = name;
         this.date = date;
-        this.listofPlace = listofPlace;
+        this.places = places;
         this.note = note;
-        this.listofPerson = listofPerson;
+        this.people = people;
         this.root = root;
     }
 
@@ -44,12 +43,12 @@ public class Festival{
         this.date = date;
     }
 
-    public List<Place> getListofPlace() {
-        return listofPlace;
+    public List<String> getPlaces() {
+        return places;
     }
 
-    public void setListofPlace(List<Place> listofPlace) {
-        this.listofPlace = listofPlace;
+    public void setPlaces(List<String> places) {
+        this.places = places;
     }
 
     public String getNote() {
@@ -60,11 +59,11 @@ public class Festival{
         this.note = note;
     }
 
-    public List<Person> getListofPerson() {
-        return listofPerson;
+    public List<String> getPeople() {
+        return people;
     }
 
-    public void setListofPerson(List<Person> listofPerson) {
-        this.listofPerson = listofPerson;
+    public void setPeople(List<String> people) {
+        this.people = people;
     }
 }
