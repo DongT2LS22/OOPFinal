@@ -37,11 +37,11 @@
                      </image>
                   </ImageView>
                </graphic></TableColumn>
-            <TableColumn fx:id="locationColumn" prefWidth="160.0" text="Vị trí">
+            <TableColumn fx:id="locationColumn" prefWidth="160.0" text="Địa điểm">
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/menuimages/placeicon.png" />
+                        <Image url="@images/placeimages/mapicon.png" />
                      </image>
                   </ImageView>
                </graphic></TableColumn>
