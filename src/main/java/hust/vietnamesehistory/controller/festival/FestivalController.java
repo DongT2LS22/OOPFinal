@@ -21,6 +21,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class FestivalController implements Initializable {
@@ -69,7 +71,16 @@ public class FestivalController implements Initializable {
 
     @FXML
     void searchFestival(ActionEvent event) {
-
+        List<Festival> listFestivalSearch = new ArrayList<Festival>();
+        String search = searchText.getText();
+        for (Festival p : festivalList
+        ) {
+            if(p.getName().contains(search)){
+                listFestivalSearch.add(p);
+            }
+        }
+        ObservableList<Festival> searchFestival = FXCollections.observableArrayList(listFestivalSearch);
+        table.setItems(searchFestival);
     }
 
     @Override

@@ -97,7 +97,7 @@ public class PeopleController implements Initializable {
         String search = searchText.getText();
         for (Person p: personList
              ) {
-            if(p.getName().startsWith(search)){
+            if(p.getName().contains(search)){
                 listPersonSearch.add(p);
             }
         }

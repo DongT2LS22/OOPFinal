@@ -21,6 +21,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class PlaceController implements Initializable {
@@ -70,7 +72,16 @@ public class PlaceController implements Initializable {
 
     @FXML
     void searchPlace(ActionEvent event){
-
+        List<Place> listPlaceSearch = new ArrayList<Place>();
+        String search = searchText.getText();
+        for (Place p: placeList
+        ) {
+            if(p.getName().contains(search)){
+                listPlaceSearch.add(p);
+            }
+        }
+        ObservableList<Place> searchPlaces = FXCollections.observableArrayList(listPlaceSearch);
+        table.setItems(searchPlaces);
     }
     ObservableList<Place> placeList;
 
