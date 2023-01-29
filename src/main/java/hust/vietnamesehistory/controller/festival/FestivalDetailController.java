@@ -49,12 +49,12 @@ public class FestivalDetailController {
         noteLabel.setText(festival.getNote());
         dateLabel.setText(festival.getDate());
         String people = "";
-        for (Person p:festival.getListofPerson()) {
+        for (Person p:festival.getPeople()) {
             people = people + p.getName() + " ";
         }
         personLabel.setText(people);
         String places = "";
-        for (Place p:festival.getListofPlace()) {
+        for (Place p:festival.getPlaces()) {
             places = places + p.getName() + " ";
         }
         placeLabel.setText(places);

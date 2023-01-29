@@ -181,7 +181,7 @@ public class Crawler {
         }
         return places;
     }
-    static List<Period> crawlPeriods() {
+    static List<Period> crawlPeriods(HashMap<String, Person> personHashMap) {
         List<Period> periods = new ArrayList<>();
         // Tạo document từ url dòng lịch sử
         try {
@@ -197,7 +197,7 @@ public class Crawler {
 
                 System.out.println("=> " + name + "\n" + href);
 
-                List<String> people = new ArrayList<>();
+                List<Person> people = new ArrayList<>();
 
                 int count = 0;
                 while (true) {
@@ -213,7 +213,9 @@ public class Crawler {
                                     Element caption = kingElement.getElementsByClass("caption").get(0);
                                     String kingHref = caption.getElementsByAttributeValueStarting("href", "/nhan-vat/")
                                             .first().attr("href");
-                                    people.add(kingHref);
+                                    if (personHashMap.containsKey(kingHref)) {
+                                        people.add(personHashMap.get(kingHref));
+                                    }
                                 } catch (Exception e) {
                                     System.out.println("Không tìm thấy thông tin nhân vật, địa danh nào. " + e);
                                 }
@@ -235,7 +237,7 @@ public class Crawler {
         }
         return periods;
     }
-    static List<Festival> crawlFestivals() {
+    static List<Festival> crawlFestivals(HashMap<String, Person> personHashMap, HashMap<String, Place> placeHashMap) {
         List<Festival> festivals = new ArrayList<>();
         try {
             Document doc = Jsoup.connect(FESTIVAL_URI).timeout(0).get();
@@ -246,8 +248,8 @@ public class Crawler {
                 String date = null;
                 String note = null;
                 String root = null;
-                List<String> places = new ArrayList<>();
-                List<String> people = new ArrayList<>();
+                List<Place> places = new ArrayList<>();
+                List<Person> people = new ArrayList<>();
                 Elements festival = element.getElementsByTag("td");
                 // date
                 if (festival.get(0).text().length() != 0) {
@@ -258,8 +260,8 @@ public class Crawler {
                 String[] listPlace = placeStr.split(",");
                 for (String p : listPlace) {
                     String searchRes = searchGoogle(p);
-                    if(!searchRes.equals("")){
-                        places.add(searchRes);
+                    if(placeHashMap.containsKey(searchRes)){
+                        places.add(placeHashMap.get(searchRes));
                     }
                 }
                 // name
@@ -275,8 +277,8 @@ public class Crawler {
                 String[] listPerson = personStr.split(",");
                 for (String p : listPerson){
                     String searchRes = searchGoogle(p);
-                    if(!searchRes.equals("")){
-                        people.add(searchRes);
+                    if(personHashMap.containsKey(searchRes)){
+                        people.add(personHashMap.get(searchRes));
                     }
                 }
                 // note
@@ -304,8 +306,16 @@ public class Crawler {
     public static void main(String[] args) {
         List<Person> people = crawlPeople();
         List<Place> places = crawlPlaces();
-        List<Period> periods = crawlPeriods();
-        List<Festival> festivals = crawlFestivals();
+        HashMap<String, Person> personHashMap = new HashMap<>();
+        HashMap<String, Place> placeHashMap = new HashMap<>();
+        for (Person person : people) {
+            personHashMap.put(person.getHref(), person);
+        }
+        for (Place place : places) {
+            placeHashMap.put(place.getHref(), place);
+        }
+        List<Period> periods = crawlPeriods(personHashMap);
+        List<Festival> festivals = crawlFestivals(personHashMap, placeHashMap);
 
         int count = 0;
         while (true) {

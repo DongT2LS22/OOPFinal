@@ -7,7 +7,7 @@ public class Place extends Model {
     private String area;
 
     public Place(String name, String href, String national, String location, String coordinates, String area) {
-        super(name, href);
+        super(href, name);
         this.national = national;
         this.location = location;
         this.coordinates = coordinates;
