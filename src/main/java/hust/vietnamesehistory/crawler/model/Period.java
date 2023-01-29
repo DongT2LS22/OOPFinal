@@ -3,18 +3,18 @@ package hust.vietnamesehistory.crawler.model;
 import java.util.List;
 
 public class Period extends Model {
-    private List<Person> kings;
+    private List<King> kings;
 
-    public Period(String href, String name, List<Person> kings) {
+    public Period(String href, String name, List<King> kings) {
         super(href, name);
         this.kings = kings;
     }
 
-    public List<Person> getKings() {
+    public List<King> getKings() {
         return kings;
     }
 
-    public  void setKings(List<Person> kings) {this.kings = kings; }
+    public  void setKings(List<King> kings) {this.kings = kings; }
 
 
 }

@@ -3,6 +3,8 @@ package hust.vietnamesehistory.crawler;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import hust.vietnamesehistory.crawler.model.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -11,6 +13,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -197,7 +200,7 @@ public class Crawler {
 
                 System.out.println("=> " + name + "\n" + href);
 
-                List<Person> people = new ArrayList<>();
+                List<King> kings = new ArrayList<>();
 
                 int count = 0;
                 while (true) {
@@ -210,17 +213,18 @@ public class Crawler {
                                     Element subPeriod = periodE.getElementsByAttributeValue("class", "btn btn-secondary").get(0);
                                     Document subDoc = Jsoup.connect(URI + subPeriod.attr("href")).timeout(0).get();
                                     Element kingElement = subDoc.getElementById("Mod100");
-                                    Element caption = kingElement.getElementsByClass("caption").get(0);
-                                    String kingHref = caption.getElementsByAttributeValueStarting("href", "/nhan-vat/")
+                                    String kingHref = kingElement.getElementsByAttributeValueStarting("href", "/nhan-vat/")
                                             .first().attr("href");
                                     if (personHashMap.containsKey(kingHref)) {
-                                        people.add(personHashMap.get(kingHref));
+                                        if (personHashMap.get(kingHref) instanceof King king) {
+                                            kings.add(king);
+                                        }
                                     }
                                 } catch (Exception e) {
                                     System.out.println("Không tìm thấy thông tin nhân vật, địa danh nào. " + e);
                                 }
                             }
-                            Period period = new Period(href, name, people);
+                            Period period = new Period(href, name, kings);
                             periods.add(period);
                         }
                         break;
@@ -315,47 +319,81 @@ public class Crawler {
             placeHashMap.put(place.getHref(), place);
         }
         List<Period> periods = crawlPeriods(personHashMap);
-        List<Festival> festivals = crawlFestivals(personHashMap, placeHashMap);
 
         int count = 0;
         while (true) {
             try {
-                JSONArray peopleArr = new JSONArray(people);
-                JSONArray placesArr = new JSONArray(places);
-                JSONArray periodsArr = new JSONArray(periods);
-                JSONArray festivalsArr = new JSONArray(festivals);
+                // Viết file people.json
+                ArrayNode personNodes = mapper.createArrayNode();
+                for (Person p : people) {
+                    if (p instanceof King k) {
+                        ObjectNode king = mapper.createObjectNode();
+                        king.put("href", k.getHref());
+                        king.put("name", k.getName());
+                        king.put("birth", k.getBirth());
+                        king.put("death", k.getDeath());
+                        king.put("reignTime", k.getReignTime());
+                        king.put("predecessor", k.getPredecessor());
+                        king.put("successor", k.getSuccessor());
+                        king.put("aliases", k.getAliases());
+                        king.put("realName", k.getRealName());
+                        personNodes.add(king);
+                    } else {
+                        ObjectNode person = mapper.createObjectNode();
+                        person.put("href", p.getHref());
+                        person.put("name", p.getName());
+                        person.put("birth", p.getBirth());
+                        person.put("death", p.getDeath());
+                        personNodes.add(person);
+                    }
+                }
+                ObjectNode peopleObj = mapper.createObjectNode();
+                peopleObj.set("people", personNodes);
+                writer.writeValue(new File("src/main/resources/json/people.json"), peopleObj);
 
-                JSONObject peopleObj = new JSONObject();
-                JSONObject placesObj = new JSONObject();
-                JSONObject periodsObj = new JSONObject();
-                JSONObject festivalsObj = new JSONObject();
+                // Viết file places.json
+                ArrayNode placeNodes = mapper.createArrayNode();
+                for (Place p : places) {
+                    ObjectNode place = mapper.createObjectNode();
+                    place.put("href", p.getHref());
+                    place.put("name", p.getName());
+                    place.put("national", p.getNational());
+                    place.put("location", p.getLocation());
+                    place.put("coordinates", p.getCoordinates());
+                    place.put("area", p.getArea());
+                    placeNodes.add(place);
+                }
+                ObjectNode placesObj = mapper.createObjectNode();
+                placesObj.set("places", placeNodes);
+                writer.writeValue(new File("src/main/resources/json/places.json"), placesObj);
 
-                peopleObj.put("people", peopleArr);
-                placesObj.put("places", placesArr);
-                periodsObj.put("periods", periodsArr);
-                festivalsObj.put("festivals", festivalsArr);
+                // Viết file periods.json
+                ArrayNode periodNodes = mapper.createArrayNode();
+                for (Period p : periods) {
+                    ObjectNode period = mapper.createObjectNode();
+                    period.put("href", p.getHref());
+                    period.put("name", p.getName());
+                    ArrayNode kings = mapper.createArrayNode();
+                    for (King k : p.getKings()) {
+                        ObjectNode king = mapper.createObjectNode();
+                        king.put("href", k.getHref());
+                        king.put("name", k.getName());
+                        king.put("birth", k.getBirth());
+                        king.put("death", k.getDeath());
+                        king.put("reignTime", k.getReignTime());
+                        king.put("predecessor", k.getPredecessor());
+                        king.put("successor", k.getSuccessor());
+                        king.put("aliases", k.getAliases());
+                        king.put("realName", k.getRealName());
+                        kings.add(king);
+                    }
+                    period.set("kings", kings);
+                    periodNodes.add(period);
+                }
+                ObjectNode periodsObj = mapper.createObjectNode();
+                periodsObj.set("periods", periodNodes);
+                writer.writeValue(new File("src/main/resources/json/periods.json"), periodsObj);
 
-                FileWriter file;
-
-                file = new FileWriter("src/main/resources/json/people.json");
-                file.write(peopleObj.toString());
-                file.flush();
-                file.close();
-
-                file = new FileWriter("src/main/resources/json/places.json");
-                file.write(placesObj.toString());
-                file.flush();
-                file.close();
-
-                file = new FileWriter("src/main/resources/json/periods.json");
-                file.write(periodsObj.toString());
-                file.flush();
-                file.close();
-
-                file = new FileWriter("src/main/resources/json/festival.json");
-                file.write(festivalsObj.toString());
-                file.flush();
-                file.close();
                 break;
             } catch (Exception e) {
                 if (++count == MAX_TRIES) {

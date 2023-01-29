@@ -1,246 +1,143 @@
-{"Peroid":[{
-  "href" : "/dong-lich-su/hong-bang-va-van-lang",
-  "name" : "Hồng Bàng & Văn Lang",
-  "people" : [ "/nhan-vat/kinh-duong-vuong", "/nhan-vat/lac-long-quan", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-thuong", "/nhan-vat/nha-chu", "/nhan-vat/ho-ton", "/nhan-vat/ly-thai-to", "/nhan-vat/thanh-vuong" ],
-  "places" : [ "/dia-danh/nuoc-viet", "/dia-danh/ho-dong-dinh", "/dia-danh/vu-ninh", "/dia-danh/duong-tuyen", "/dia-danh/vu-dinh", "/dia-danh/bo-vu-ninh", "/dia-danh/chua-kien-so", "/dia-danh/nui-tan-vien", "/dia-danh/song-hat", "/dia-danh/song-da" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/au-lac-va-nam-viet",
-  "name" : "Âu Lạc & Nam Việt",
-  "people" : [ "/nhan-vat/an-duong-vuong", "/nhan-vat/nha-duong", "/nhan-vat/cao-lo", "/nhan-vat/nha-chu", "/nhan-vat/tan-thuy-hoang", "/nhan-vat/ly-ong-trong", "/nhan-vat/trieu-da", "/nhan-vat/trong-thuy", "/nhan-vat/my-chau", "/nhan-vat/ho-hoi", "/nhan-vat/tran-thang", "/nhan-vat/nha-tan", "/nhan-vat/nha-han", "/nhan-vat/ngo-si-lien", "/nhan-vat/trieu-viet-vuong", "/nhan-vat/nha-thuc", "/nhan-vat/nha-trieu" ],
-  "places" : [ "/dia-danh/thanh-co-loa", "/dia-danh/nuoc-thuc", "/dia-danh/chau-vu-ninh", "/dia-danh/nuoc-tan", "/dia-danh/huyen-tu-liem", "/dia-danh/huyen-quy", "/dia-danh/tinh-quang-dong", "/dia-danh/vu-ninh", "/dia-danh/song-thien-duc", "/dia-danh/duong-son", "/dia-danh/bien-dong", "/dia-danh/nuoc-quac", "/dia-danh/nuoc-trinh" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat",
-  "name" : "Bắc thuộc lần I",
-  "people" : [ "/nhan-vat/nha-han", "/nhan-vat/dang-nhuong", "/nhan-vat/do-muc", "/nhan-vat/vu-de", "/nhan-vat/nha-tan", "/nhan-vat/tran-binh", "/nhan-vat/nha-tran", "/nhan-vat/le-van-huu", "/nhan-vat/trieu-vu-de", "/nhan-vat/ngo-si-lien", "/nhan-vat/duong-vuong", "/nhan-vat/duong-boc", "/nhan-vat/nha-minh", "/nhan-vat/nha-duong", "/nhan-vat/nha-dinh" ],
-  "places" : [ "/dia-danh/chau-thai", "/dia-danh/tinh-quang-dong", "/dia-danh/nuoc-viet", "/dia-danh/song-vi", "/dia-danh/nuoc-ngo", "/dia-danh/lo-bac-duc", "/dia-danh/nuoc-trinh", "/dia-danh/nuoc-quac" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat/nha-trieu",
-  "name" : "Nhà Triệu",
-  "people" : [ "/nhan-vat/vu-de", "/nhan-vat/nha-tan", "/nhan-vat/nha-han", "/nhan-vat/tran-binh", "/nhan-vat/nha-tran", "/nhan-vat/le-van-huu", "/nhan-vat/trieu-vu-de", "/nhan-vat/ngo-si-lien", "/nhan-vat/duong-vuong", "/nhan-vat/duong-boc", "/nhan-vat/nha-minh", "/nhan-vat/nha-duong", "/nhan-vat/nha-dinh" ],
-  "places" : [ "/dia-danh/tinh-quang-dong", "/dia-danh/nuoc-viet", "/dia-danh/song-vi", "/dia-danh/nuoc-ngo", "/dia-danh/lo-bac-duc", "/dia-danh/nuoc-trinh", "/dia-danh/nuoc-quac" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/trung-nu-vuong",
-  "name" : "Trưng Nữ Vương",
-  "people" : [ "/nhan-vat/trung-vuong", "/nhan-vat/le-van-huu", "/nhan-vat/trung-trac", "/nhan-vat/trung-nhi", "/nhan-vat/trung-nu-vuong", "/nhan-vat/le-thi-hoa", "/nhan-vat/le-ngoc-trinh" ],
-  "places" : [ "/dia-danh/quan-nam-hai", "/dia-danh/thanh-pho-viet-tri" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/bac-thuoc-lan-thu-hai",
-  "name" : "Bắc thuộc lần II",
-  "people" : [ "/nhan-vat/nha-han", "/nhan-vat/nha-duong", "/nhan-vat/ngo-si-lien", "/nhan-vat/le-van-huu", "/nhan-vat/nha-hau-duong", "/nhan-vat/nha-tran", "/nhan-vat/kinh-chau", "/nhan-vat/ngo-vuong", "/nhan-vat/bo-chat", "/nhan-vat/trieu-vu-de", "/nhan-vat/nha-tan", "/nhan-vat/trieu-da", "/nhan-vat/hoang-cai", "/nhan-vat/trieu-au", "/nhan-vat/nha-ngo", "/nhan-vat/nha-nguy", "/nhan-vat/vu-de", "/nhan-vat/le-hoan", "/nhan-vat/pham-hung", "/nhan-vat/ly-ton", "/nhan-vat/do-vien", "/nhan-vat/pham-ho-dat", "/nhan-vat/ly-thai-tong", "/nhan-vat/ly-thanh-tong", "/nhan-vat/ly-truong-nhan", "/nhan-vat/ly-thuc-hien", "/nhan-vat/nha-tong", "/nhan-vat/dang-chi", "/nhan-vat/nha-te", "/nhan-vat/nha-luong" ],
-  "places" : [ "/dia-danh/nuoc-viet", "/dia-danh/huyen-quang-tin", "/dia-danh/nuoc-lo", "/dia-danh/lac-duong", "/dia-danh/lac-thuy", "/dia-danh/nuoc-ngo", "/dia-danh/vu-xuong", "/dia-danh/nuoc-te", "/dia-danh/nuoc-tran", "/dia-danh/vu-lang", "/dia-danh/quan-nam-hai", "/dia-danh/song-phan", "/dia-danh/vu-binh", "/dia-danh/nuoc-tong", "/dia-danh/thanh-khu-tuc" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ly-va-nha-trieu",
-  "name" : "Nhà Lý & Nhà Triệu",
-  "people" : [ "/nhan-vat/ly-nam-de", "/nhan-vat/tran-ba-tien", "/nhan-vat/nha-luong", "/nhan-vat/trieu-tuc", "/nhan-vat/pham-tu", "/nhan-vat/trieu-quang-phuc", "/nhan-vat/le-van-huu", "/nhan-vat/ly-bi", "/nhan-vat/ngo-si-lien", "/nhan-vat/ly-phat-tu", "/nhan-vat/trieu-viet-vuong", "/nhan-vat/duong-kien", "/nhan-vat/duong-to", "/nhan-vat/nha-tuy" ],
-  "places" : [ "/dia-danh/vu-lam", "/dia-danh/bo-lai", "/dia-danh/chau-cuu-duc", "/dia-danh/song-to-lich", "/dia-danh/nuoc-da-nang", "/dia-danh/huyen-tu-liem", "/dia-danh/xa-ha-mo" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-tien-ly",
-  "name" : "Nhà Tiền Lý",
-  "people" : [ "/nhan-vat/ly-nam-de", "/nhan-vat/tran-ba-tien", "/nhan-vat/nha-luong", "/nhan-vat/trieu-tuc", "/nhan-vat/pham-tu", "/nhan-vat/trieu-quang-phuc" ],
-  "places" : [ "/dia-danh/vu-lam", "/dia-danh/bo-lai", "/dia-danh/chau-cuu-duc", "/dia-danh/song-to-lich" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-trieu",
-  "name" : "Nhà Triệu",
-  "people" : [ "/nhan-vat/trieu-tuc", "/nhan-vat/le-van-huu", "/nhan-vat/ly-bi", "/nhan-vat/tran-ba-tien", "/nhan-vat/ngo-si-lien", "/nhan-vat/ly-nam-de", "/nhan-vat/nha-luong", "/nhan-vat/ly-phat-tu", "/nhan-vat/trieu-viet-vuong" ],
-  "places" : [ "/dia-danh/nuoc-da-nang", "/dia-danh/huyen-tu-liem", "/dia-danh/xa-ha-mo" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-hau-ly",
-  "name" : "Nhà Hậu Lý",
-  "people" : [ "/nhan-vat/ly-nam-de", "/nhan-vat/trieu-viet-vuong", "/nhan-vat/ngo-si-lien", "/nhan-vat/tran-ba-tien", "/nhan-vat/duong-kien", "/nhan-vat/duong-to", "/nhan-vat/nha-tuy" ],
-  "places" : [ ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/bac-thuoc-lan-thu-ba",
-  "name" : "Bắc thuộc lần III",
-  "people" : [ "/nhan-vat/nha-tuy", "/nhan-vat/nha-han", "/nhan-vat/ngo-si-lien", "/nhan-vat/pham-ho-dat", "/nhan-vat/do-vien", "/nhan-vat/do-tue-do", "/nhan-vat/nha-tong", "/nhan-vat/ly-uyen", "/nhan-vat/nha-duong", "/nhan-vat/ly-tho", "/nhan-vat/do-nhu-hoi", "/nhan-vat/ly-tu-tien", "/nhan-vat/phung-hung", "/nhan-vat/duong-thanh", "/nhan-vat/hoang-dong", "/nhan-vat/vu-hon", "/nhan-vat/kinh-nam", "/nhan-vat/vu-nghia", "/nhan-vat/le-van-huu", "/nhan-vat/nha-luong", "/nhan-vat/duong-dinh-nghe", "/nhan-vat/ngo-vuong", "/nhan-vat/ngo-quyen" ],
-  "places" : [ "/dia-danh/thanh-dai-la", "/dia-danh/chau-hoan", "/dia-danh/chau-ai", "/dia-danh/song-to-lich", "/dia-danh/vu-chau", "/dia-danh/song-bach-dang" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu",
-  "name" : "Thời kỳ xây nền tự chủ",
-  "people" : [ "/nhan-vat/duong-dinh-nghe", "/nhan-vat/tran-trong-kim", "/nhan-vat/nha-nam-han", "/nhan-vat/nha-luong", "/nhan-vat/ngo-quyen", "/nhan-vat/nha-duong", "/nhan-vat/nha-hau-luong", "/nhan-vat/khuc-thua-du", "/nhan-vat/khuc-hao", "/nhan-vat/le-tung", "/nhan-vat/khuc-thua-hao", "/nhan-vat/khuc-thua-my", "/nhan-vat/nha-tong" ],
-  "places" : [ "/dia-danh/nuoc-viet", "/dia-danh/nuoc-tau", "/dia-danh/thanh-dai-la" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu/ho-khuc",
-  "name" : "Họ Khúc",
-  "people" : [ "/nhan-vat/nha-duong", "/nhan-vat/nha-hau-luong", "/nhan-vat/khuc-thua-du", "/nhan-vat/khuc-hao", "/nhan-vat/le-tung", "/nhan-vat/khuc-thua-hao", "/nhan-vat/nha-luong", "/nhan-vat/khuc-thua-my", "/nhan-vat/nha-nam-han", "/nhan-vat/duong-dinh-nghe", "/nhan-vat/nha-tong", "/nhan-vat/ngo-quyen" ],
-  "places" : [ "/dia-danh/nuoc-tau", "/dia-danh/nuoc-viet", "/dia-danh/thanh-dai-la" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ngo",
-  "name" : "Nhà Ngô",
-  "people" : [ "/nhan-vat/ngo-vuong", "/nhan-vat/duong-dinh-nghe", "/nhan-vat/le-van-huu", "/nhan-vat/ngo-si-lien", "/nhan-vat/duong-tam-kha", "/nhan-vat/pham-lenh-cong", "/nhan-vat/duong-cat-loi", "/nhan-vat/do-canh-thac", "/nhan-vat/nha-han", "/nhan-vat/trieu-khuong-dan", "/nhan-vat/nha-chu", "/nhan-vat/nha-ngo", "/nhan-vat/ngo-su-quan", "/nhan-vat/ngo-xuong-xi", "/nhan-vat/nguyen-thai-binh", "/nhan-vat/ngo-nhat-khanh", "/nhan-vat/ly-khue", "/nhan-vat/nguyen-thu-tiep", "/nhan-vat/nguyen-sieu", "/nhan-vat/tran-xa", "/nhan-vat/pham-bach-ho", "/nhan-vat/pham-phong-at", "/nhan-vat/tran-lam", "/nhan-vat/tran-minh-cong", "/nhan-vat/nha-dinh" ],
-  "places" : [ "/dia-danh/nuoc-viet", "/dia-danh/do-dong" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-dinh",
-  "name" : "Nhà Đinh",
-  "people" : [ "/nhan-vat/dinh-cong-tru", "/nhan-vat/do-thich", "/nhan-vat/trieu-vu", "/nhan-vat/duong-dinh-nghe", "/nhan-vat/ngo-vuong", "/nhan-vat/ngo-xuong-xi", "/nhan-vat/ngo-nhat-khanh", "/nhan-vat/nguyen-thai-binh", "/nhan-vat/do-canh-thac", "/nhan-vat/nguyen-thu-tiep", "/nhan-vat/pham-phong-at", "/nhan-vat/tran-minh-cong", "/nhan-vat/le-van-huu", "/nhan-vat/ly-nam-de", "/nhan-vat/nha-tong", "/nhan-vat/phan-my", "/nhan-vat/nguyen-bac", "/nhan-vat/le-hoan", "/nhan-vat/ngo-chan-luu", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-le", "/nhan-vat/dinh-dien", "/nhan-vat/nha-dinh", "/nhan-vat/pham-hap", "/nhan-vat/le-dai-hanh", "/nhan-vat/nha-chu", "/nhan-vat/ly-duong", "/nhan-vat/nha-minh", "/nhan-vat/dinh-tien-hoang", "/nhan-vat/ly-thai-to" ],
-  "places" : [ "/dia-danh/chau-hoan", "/dia-danh/do-dong", "/dia-danh/nuoc-viet", "/dia-danh/thanh-hoa", "/dia-danh/nuoc-tong" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-tien-le",
-  "name" : "Nhà Tiền Lê",
-  "people" : [ "/nhan-vat/nha-dinh", "/nhan-vat/hoang-hung", "/nhan-vat/le-van-huu", "/nhan-vat/le-dai-hanh", "/nhan-vat/dinh-dien", "/nhan-vat/nguyen-bac", "/nhan-vat/nha-han", "/nhan-vat/nha-duong", "/nhan-vat/ly-thai-to", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-tong", "/nhan-vat/dinh-toan", "/nhan-vat/ngo-quoc", "/nhan-vat/thanh-vuong", "/nhan-vat/le-ngoa-trieu", "/nhan-vat/nha-ly", "/nhan-vat/nha-le", "/nhan-vat/ly-cong-uan", "/nhan-vat/hoang-thai-hau", "/nhan-vat/nha-ha", "/nhan-vat/nha-thuong", "/nhan-vat/ton-hao", "/nhan-vat/nguyen-de", "/nhan-vat/tran-cao", "/nhan-vat/dang-van-hieu" ],
-  "places" : [ "/dia-danh/song-bach-dang", "/dia-danh/nuoc-viet", "/dia-danh/chau-hoan", "/dia-danh/nuoc-tong", "/dia-danh/chau-hong", "/dia-danh/chau-phong", "/dia-danh/nui-tan-vien", "/dia-danh/song-dai-hoang", "/dia-danh/nuoc-ngo" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ly",
-  "name" : "Nhà Lý",
-  "people" : [ "/nhan-vat/nha-le", "/nhan-vat/nha-ly", "/nhan-vat/le-trung-tong", "/nhan-vat/nha-thuong", "/nhan-vat/nha-chu", "/nhan-vat/thanh-vuong", "/nhan-vat/nha-dinh", "/nhan-vat/le-van-huu", "/nhan-vat/ly-thai-to", "/nhan-vat/ly-nhan-nghia", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-tong", "/nhan-vat/ly-thai-tong", "/nhan-vat/le-phung-hieu", "/nhan-vat/nha-duong", "/nhan-vat/duong-quang", "/nhan-vat/ly-mat", "/nhan-vat/nguyen-quang-loi", "/nhan-vat/nguyen-khanh", "/nhan-vat/vu-hoang-de", "/nhan-vat/le-dai-hanh", "/nhan-vat/vu-vuong", "/nhan-vat/do-hung", "/nhan-vat/nguyen-chau", "/nhan-vat/hoang-thai-hau", "/nhan-vat/nha-tran", "/nhan-vat/ly-dao-thanh", "/nhan-vat/le-van-thinh", "/nhan-vat/ly-thuong-kiet", "/nhan-vat/nha-minh", "/nhan-vat/trieu-tiet", "/nhan-vat/ly-nam-de", "/nhan-vat/nha-ngo", "/nhan-vat/mac-hien-tich", "/nhan-vat/nha-tan", "/nhan-vat/ly-bao-than", "/nhan-vat/tran-do", "/nhan-vat/le-ba-ngoc", "/nhan-vat/duong-tu", "/nhan-vat/ly-hien", "/nhan-vat/ly-nhan", "/nhan-vat/duong-tu-minh", "/nhan-vat/ly-khanh", "/nhan-vat/nguyen-phuc", "/nhan-vat/nguyen-hoan", "/nhan-vat/nguyen-khoan", "/nhan-vat/ly-cong-binh", "/nhan-vat/vu-dai", "/nhan-vat/nguyen-loc", "/nhan-vat/tran-luu", "/nhan-vat/nguyen-my", "/nhan-vat/nguyen-chi-thanh-2", "/nhan-vat/hoang-thai-tu", "/nhan-vat/do-anh-vu", "/nhan-vat/hoang-nghia-hien", "/nhan-vat/trieu-nguyet", "/nhan-vat/nguyen-quyen", "/nhan-vat/ly-mong", "/nhan-vat/do-an-di", "/nhan-vat/nha-nguyen-mong-co" ],
-  "places" : [ "/dia-danh/thanh-thang-long", "/dia-danh/dien-long-an", "/dia-danh/chua-luc-to", "/dia-danh/nuoc-tong", "/dia-danh/thanh-hoa-lu", "/dia-danh/thanh-dai-la", "/dia-danh/nuoc-viet", "/dia-danh/song-thien-duc", "/dia-danh/huyen-thach-ha", "/dia-danh/chau-hoan", "/dia-danh/chau-ai", "/dia-danh/song-lo", "/dia-danh/do-dong", "/dia-danh/tinh-hung-yen", "/dia-danh/chua-phap-van", "/dia-danh/song-to-lich", "/dia-danh/chau-phong", "/dia-danh/chau-nghe-an", "/dia-danh/chau-vu-ninh", "/dia-danh/ho-tay", "/dia-danh/chua-dien-huu", "/dia-danh/hoang-son", "/dia-danh/vu-thang", "/dia-danh/huyen-tu-liem", "/dia-danh/nui-tan-vien", "/dia-danh/song-nhu-nguyet", "/dia-danh/nuoc-nam", "/dia-danh/phu-nghia-hung", "/dia-danh/thanh-hung", "/dia-danh/phan-dien", "/dia-danh/vu-lam", "/dia-danh/vu-do", "/dia-danh/ly-son", "/dia-danh/duong-son", "/dia-danh/den-hai-ba" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-tran",
-  "name" : "Nhà Trần",
-  "people" : [ "/nhan-vat/nha-tran", "/nhan-vat/tran-thu-do", "/nhan-vat/nha-ly", "/nhan-vat/nguyen-non", "/nhan-vat/ly-hue-tong", "/nhan-vat/ngo-si-lien", "/nhan-vat/nha-thuong", "/nhan-vat/nha-chu", "/nhan-vat/vu-vuong", "/nhan-vat/tran-thai-tong", "/nhan-vat/ly-thai-to", "/nhan-vat/tran-chu-pho", "/nhan-vat/tran-anh-tong", "/nhan-vat/phan-phu-tien", "/nhan-vat/tran-du-tong", "/nhan-vat/nguyen-hien", "/nhan-vat/le-van-huu", "/nhan-vat/dang-ma-la", "/nhan-vat/le-phu-tran", "/nhan-vat/thanh-vuong", "/nhan-vat/vu-uy", "/nhan-vat/ly-thuong-kiet", "/nhan-vat/hoang-binh", "/nhan-vat/nha-tong", "/nhan-vat/nha-ha", "/nhan-vat/tran-kieu", "/nhan-vat/nha-nguyen-mong-co", "/nhan-vat/tran-co", "/nhan-vat/trieu-vu", "/nhan-vat/ly-chieu-hoang", "/nhan-vat/nguyen-si-co", "/nhan-vat/hoang-thai-hau", "/nhan-vat/do-khac-chung", "/nhan-vat/nguyen-thuyen", "/nhan-vat/tran-xa", "/nhan-vat/tran-khanh-du", "/nhan-vat/nguyen-chuong", "/nhan-vat/tran-phu-tran-nghe-tong", "/nhan-vat/nguyen-the-loc", "/nhan-vat/tran-binh-trong", "/nhan-vat/le-dai-hanh", "/nhan-vat/nha-duong", "/nhan-vat/tran-quoc", "/nhan-vat/tran-ich-tac", "/nhan-vat/le-dien", "/nhan-vat/nguyen-khoai", "/nhan-vat/trieu-trung", "/nhan-vat/ly-hang", "/nhan-vat/tran-hung-dao", "/nhan-vat/tran-kien", "/nhan-vat/pham-ngu-lao", "/nhan-vat/ngo-mien", "/nhan-vat/tran-thi-kien", "/nhan-vat/tran-khac-chung", "/nhan-vat/tran-quoc-khang", "/nhan-vat/ky-tin", "/nhan-vat/nguyen-van-lap", "/nhan-vat/bui-moc-dac", "/nhan-vat/mac-dinh-chi", "/nhan-vat/nguyen-trung-ngan", "/nhan-vat/nha-han", "/nhan-vat/vu-tong", "/nhan-vat/nguyen-binh", "/nhan-vat/pham-mai", "/nhan-vat/tran-an", "/nhan-vat/pham-ngo", "/nhan-vat/le-quat", "/nhan-vat/pham-su-manh", "/nhan-vat/dang-lo", "/nhan-vat/vu-de", "/nhan-vat/ly-thanh-tong" ],
-  "places" : [ "/dia-danh/phu-thien-truong", "/dia-danh/nui-tan-vien", "/dia-danh/tinh-thanh-hoa", "/dia-danh/nuoc-tong", "/dia-danh/thanh-thang-long", "/dia-danh/thanh-dai-la", "/dia-danh/song-cai", "/dia-danh/nui-yen-tu", "/dia-danh/lo-thien-truong", "/dia-danh/chua-dien-huu", "/dia-danh/ho-tay", "/dia-danh/song-to-lich", "/dia-danh/song-lo", "/dia-danh/nuoc-trinh", "/dia-danh/hoang-giang", "/dia-danh/chua-pho-minh", "/dia-danh/nuoc-viet", "/dia-danh/duong-minh", "/dia-danh/vu-ninh", "/dia-danh/nuoc-yen", "/dia-danh/nuoc-nam", "/dia-danh/chau-hoan", "/dia-danh/chau-ai", "/dia-danh/huyen-phu-ninh", "/dia-danh/song-bach-dang", "/dia-danh/nuoc-lo", "/dia-danh/phu-dien-chau", "/dia-danh/thanh-tong", "/dia-danh/vu-lam", "/dia-danh/thanh-binh-lo", "/dia-danh/nuoc-ngo", "/dia-danh/nuoc-so", "/dia-danh/nui-chi-linh", "/dia-danh/chau-thuan", "/dia-danh/thanh-do-ban", "/dia-danh/le-chung", "/dia-danh/thanh-trung", "/dia-danh/chau-dien" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-ho",
-  "name" : "Nhà Hồ",
-  "people" : [ "/nhan-vat/ho-hung-dat", "/nhan-vat/tran-nghe-tong", "/nhan-vat/nha-tran", "/nhan-vat/tran-khat-chan", "/nhan-vat/ngo-si-lien", "/nhan-vat/hoang-nguyen", "/nhan-vat/le-quy-ly", "/nhan-vat/phan-phu-tien", "/nhan-vat/ho-quy-ly", "/nhan-vat/nguyen-trai", "/nhan-vat/ly-tu-tan", "/nhan-vat/vu-mong-nguyen", "/nhan-vat/nha-minh", "/nhan-vat/tran-minh-tong", "/nhan-vat/ho-han-thuong", "/nhan-vat/hoang-hoi-khanh", "/nhan-vat/nguyen-phi-khanh", "/nhan-vat/nha-duong", "/nhan-vat/nguyen-canh-chan", "/nhan-vat/nha-han", "/nhan-vat/vu-de", "/nhan-vat/ly-quang", "/nhan-vat/nha-nguyen-mong-co", "/nhan-vat/tran-quy", "/nhan-vat/ly-ky", "/nhan-vat/nguyen-quan", "/nhan-vat/hoang-trung", "/nhan-vat/vu-cao", "/nhan-vat/tran-dinh", "/nhan-vat/nguyen-khang", "/nhan-vat/ngo-mien", "/nhan-vat/tran-huc", "/nhan-vat/ly-ban", "/nhan-vat/mac-thuy", "/nhan-vat/nguyen-huan", "/nhan-vat/mac-dinh-chi", "/nhan-vat/tran-tuan" ],
-  "places" : [ "/dia-danh/huyen-vinh-linh", "/dia-danh/nuoc-so", "/dia-danh/song-day", "/dia-danh/song-da", "/dia-danh/thanh-tay-do", "/dia-danh/vu-ninh", "/dia-danh/song-cai", "/dia-danh/thanh-da-bang", "/dia-danh/song-lo", "/dia-danh/hoang-giang" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-hau-tran",
-  "name" : "Nhà Hậu Trần",
-  "people" : [ "/nhan-vat/nha-tran", "/nhan-vat/tran-dinh", "/nhan-vat/nha-minh", "/nhan-vat/hoang-phuc", "/nhan-vat/mac-thuy", "/nhan-vat/nguyen-phi-khanh", "/nhan-vat/ngo-mien", "/nhan-vat/ngo-si-lien", "/nhan-vat/hoang-hoi-khanh", "/nhan-vat/dang-tat", "/nhan-vat/pham-the-cang", "/nhan-vat/ho-quang", "/nhan-vat/nguyen-quan", "/nhan-vat/ly-tu-cau", "/nhan-vat/phan-phu-tien", "/nhan-vat/duong-hung", "/nhan-vat/tran-linh-cong", "/nhan-vat/tran-thuan-tong", "/nhan-vat/tran-khat-chan", "/nhan-vat/tran-trieu-co", "/nhan-vat/bui-ba-ky", "/nhan-vat/tran-nguyet-ho", "/nhan-vat/tran-nguyen-dan", "/nhan-vat/nguyen-canh-chan", "/nhan-vat/tran-quy-khoang", "/nhan-vat/nguyen-suy", "/nhan-vat/nguyen-canh-di", "/nhan-vat/dang-dung", "/nhan-vat/nguyen-chuong", "/nhan-vat/do-duy-trung", "/nhan-vat/nguyen-hieu", "/nhan-vat/le-ngan", "/nhan-vat/le-canh-tuan", "/nhan-vat/ly-nhan", "/nhan-vat/nguyen-bieu", "/nhan-vat/hoang-trung", "/nhan-vat/nha-hau-tran" ],
-  "places" : [ "/dia-danh/song-lo", "/dia-danh/song-cai", "/dia-danh/hoang-giang", "/dia-danh/kinh-bac", "/dia-danh/tinh-son-dong", "/dia-danh/nuoc-tran", "/dia-danh/huyen-tu-liem", "/dia-danh/song-day", "/dia-danh/vu-le", "/dia-danh/nuoc-lo", "/dia-danh/nuoc-te", "/dia-danh/chau-nghe-an" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-hau-le",
-  "name" : "Nhà Hậu Lê",
-  "people" : [ "/nhan-vat/nha-tran", "/nhan-vat/dang-tat", "/nhan-vat/nguyen-suy", "/nhan-vat/tran-ngoi", "/nhan-vat/nguyen-trai", "/nhan-vat/le-thach", "/nhan-vat/le-ngan", "/nhan-vat/le-le", "/nhan-vat/nha-minh", "/nhan-vat/ly-ban", "/nhan-vat/hoang-phuc", "/nhan-vat/tran-due-tong", "/nhan-vat/nguyen-thuat", "/nhan-vat/le-sat", "/nhan-vat/tran-hiep", "/nhan-vat/le-trien", "/nhan-vat/tran-trung", "/nhan-vat/nguyen-si", "/nhan-vat/le-liet", "/nhan-vat/le-nhan-chu", "/nhan-vat/le-chien", "/nhan-vat/le-khoi", "/nhan-vat/le-boi", "/nhan-vat/le-no", "/nhan-vat/le-thai-to", "/nhan-vat/pham-van-xao", "/nhan-vat/le-kha", "/nhan-vat/le-van-linh", "/nhan-vat/tran-cao", "/nhan-vat/tran-phong", "/nhan-vat/tran-an", "/nhan-vat/le-thu", "/nhan-vat/le-luu", "/nhan-vat/le-lai", "/nhan-vat/ly-van", "/nhan-vat/ngo-si-lien", "/nhan-vat/ly-khanh", "/nhan-vat/ly-nhan", "/nhan-vat/ly-nham", "/nhan-vat/le-trung", "/nhan-vat/tran-tuan", "/nhan-vat/le-thieu-dinh", "/nhan-vat/trieu-tiet", "/nhan-vat/phan-phu-tien", "/nhan-vat/trieu-vu-de", "/nhan-vat/nha-ngo", "/nhan-vat/nha-dinh", "/nhan-vat/nha-ly", "/nhan-vat/nha-le", "/nhan-vat/ly-ky", "/nhan-vat/hoang-thai-hau", "/nhan-vat/hoang-nguyen", "/nhan-vat/le-trai", "/nhan-vat/nha-ho", "/nhan-vat/tran-binh", "/nhan-vat/pham-khac", "/nhan-vat/le-loi", "/nhan-vat/tran-thuan-du", "/nhan-vat/bui-cam-ho", "/nhan-vat/nguyen-thien-tich", "/nhan-vat/tran-nguyen-han", "/nhan-vat/le-long", "/nhan-vat/nguyen-khai", "/nhan-vat/nguyen-han", "/nhan-vat/phan-thien-tuoc", "/nhan-vat/thanh-vuong", "/nhan-vat/phan-nhan", "/nhan-vat/nguyen-nhu-khue", "/nhan-vat/ly-uc", "/nhan-vat/ly-hanh", "/nhan-vat/le-than", "/nhan-vat/nguyen-xi", "/nhan-vat/bui-quoc-hung", "/nhan-vat/tran-van-phuong", "/nhan-vat/ly-thanh", "/nhan-vat/hoang-ha", "/nhan-vat/duong-thi-bi", "/nhan-vat/nguyen-thi-lo", "/nhan-vat/nguyen-huu-quang", "/nhan-vat/pham-thi-nghieu", "/nhan-vat/nguyen-truc", "/nhan-vat/tran-van-huy", "/nhan-vat/pham-du", "/nhan-vat/nguyen-van-kiet", "/nhan-vat/vu-quynh", "/nhan-vat/nguyen-khac-hieu", "/nhan-vat/hoang-thanh", "/nhan-vat/le-tho-vuc", "/nhan-vat/nguyen-mong-tuan", "/nhan-vat/nguyen-van-phu", "/nhan-vat/ly-thuan-phong", "/nhan-vat/nha-duong", "/nhan-vat/nguyen-nghieu-tu", "/nhan-vat/nguyen-mau", "/nhan-vat/vu-ky", "/nhan-vat/le-quat", "/nhan-vat/nguyen-ba-ky", "/nhan-vat/phan-hoan", "/nhan-vat/nguyen-ba-thanh", "/nhan-vat/nguyen-cu-dao", "/nhan-vat/le-niem", "/nhan-vat/nguyen-sieu", "/nhan-vat/tran-kim", "/nhan-vat/le-thuong", "/nhan-vat/tran-thai-tong", "/nhan-vat/ly-tu-tan", "/nhan-vat/nguyen-thai", "/nhan-vat/vu-de", "/nhan-vat/nha-han", "/nhan-vat/nguyen-duc-trung", "/nhan-vat/le-yen", "/nhan-vat/nguyen-tu", "/nhan-vat/le-du", "/nhan-vat/le-van-luong", "/nhan-vat/do-bi", "/nhan-vat/trieu-thuan", "/nhan-vat/nguyen-thien", "/nhan-vat/nha-tong", "/nhan-vat/pham-ho", "/nhan-vat/nguyen-nhan-thiep", "/nhan-vat/le-hoang-duc", "/nhan-vat/ly-quang", "/nhan-vat/vu-huu", "/nhan-vat/do-nhuan", "/nhan-vat/nguyen-duc-trinh", "/nhan-vat/nguyen-tai", "/nhan-vat/le-tuan-ngan", "/nhan-vat/ly-bach", "/nhan-vat/le-phu-tran", "/nhan-vat/nguyen-duy-trinh", "/nhan-vat/nguyen-don", "/nhan-vat/vu-kiet", "/nhan-vat/vu-tuan-chieu", "/nhan-vat/tran-trung-lap", "/nhan-vat/trieu-nguyen", "/nhan-vat/le-ninh", "/nhan-vat/le-quang-chi", "/nhan-vat/nguyen-nghiem", "/nhan-vat/pham-don-le", "/nhan-vat/nguyen-trung", "/nhan-vat/do-can", "/nhan-vat/nguyen-xung-xac", "/nhan-vat/nguyen-quang-bat", "/nhan-vat/nha-chu", "/nhan-vat/tran-sung-dinh", "/nhan-vat/hoang-duc-luong", "/nhan-vat/bui-xuong-trach", "/nhan-vat/vu-due", "/nhan-vat/ngo-hoan", "/nhan-vat/le-tuan-mau", "/nhan-vat/duong-truc-nguyen", "/nhan-vat/vu-vuong", "/nhan-vat/vu-duong", "/nhan-vat/le-hung", "/nhan-vat/ngo-quyen", "/nhan-vat/nguyen-van-huan", "/nhan-vat/nguyen-huan", "/nhan-vat/duong-tu", "/nhan-vat/nha-ha", "/nhan-vat/nguyen-duc-thuan", "/nhan-vat/pham-thinh", "/nhan-vat/do-ly-khiem", "/nhan-vat/pham-thai", "/nhan-vat/le-tung", "/nhan-vat/tran-khue", "/nhan-vat/nguyen-nho-tong", "/nhan-vat/do-nhan", "/nhan-vat/le-quang-do", "/nhan-vat/dang-minh-khiem", "/nhan-vat/le-ich-moc", "/nhan-vat/nguyen-van-thai" ],
-  "places" : [ "/dia-danh/huyen-loi-duong", "/dia-danh/nuoc-nam", "/dia-danh/lac-thuy", "/dia-danh/nui-chi-linh", "/dia-danh/hoang-giang", "/dia-danh/thanh-tay-do", "/dia-danh/song-day", "/dia-danh/thanh-to", "/dia-danh/chau-hoa", "/dia-danh/huyen-do-gia", "/dia-danh/tran-nghe-an", "/dia-danh/thanh-son", "/dia-danh/song-hat", "/dia-danh/song-lo", "/dia-danh/thanh-dai-la", "/dia-danh/vu-ninh", "/dia-danh/song-bach-dang", "/dia-danh/song-nhi", "/dia-danh/huyen-tu-liem", "/dia-danh/hoang-mai", "/dia-danh/xu-thanh-hoa", "/dia-danh/xu-nghe-an", "/dia-danh/tran-vien", "/dia-danh/song-cai", "/dia-danh/huyen-thanh-oai", "/dia-danh/nuoc-viet", "/dia-danh/chau-hoan", "/dia-danh/chau-ai", "/dia-danh/thanh-thang-long", "/dia-danh/dien-kinh-thien", "/dia-danh/chua-phap-van", "/dia-danh/lo-thien-truong", "/dia-danh/huyen-thach-that", "/dia-danh/chua-con-son", "/dia-danh/cau-bong", "/dia-danh/song-thien-duc", "/dia-danh/huyen-dong-son", "/dia-danh/chua-bao-an", "/dia-danh/huyen-tu-ky", "/dia-danh/nui-tan-vien", "/dia-danh/huyen-chi-linh", "/dia-danh/chua-dien-huu", "/dia-danh/vu-thanh", "/dia-danh/huyen-thanh-tri", "/dia-danh/thanh-minh", "/dia-danh/thua-tuyen-thien-truong", "/dia-danh/tran-an", "/dia-danh/xu-lang-son", "/dia-danh/thua-tuyen-nghe-an", "/dia-danh/kinh-bac", "/dia-danh/phu-thien-truong", "/dia-danh/den-dinh-tien-hoang", "/dia-danh/phu-ngoc-ma", "/dia-danh/chau-thuan", "/dia-danh/chau-lam", "/dia-danh/huyen-hai-lang", "/dia-danh/xu-son-nam", "/dia-danh/song-to-lich", "/dia-danh/nuoc-te", "/dia-danh/nuoc-so", "/dia-danh/bien-dong", "/dia-danh/vu-lam", "/dia-danh/huyen-kinh-mon", "/dia-danh/vu-chau", "/dia-danh/song-to", "/dia-danh/nui-tam-dao" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nam-bac-trieu",
-  "name" : "Nam Bắc Triều",
-  "people" : [ "/nhan-vat/nguyen-kim", "/nhan-vat/nha-minh", "/nhan-vat/mac-dang-dung", "/nhan-vat/nguyen-binh-khiem", "/nhan-vat/hoang-sam", "/nhan-vat/nguyen-van-thai", "/nhan-vat/mac-dang-doanh", "/nhan-vat/nguyen-the-loc", "/nhan-vat/mac-phuc-hai", "/nhan-vat/nha-han", "/nhan-vat/nha-duong", "/nhan-vat/le-ninh", "/nhan-vat/nha-le", "/nhan-vat/vu-tuan", "/nhan-vat/pham-du", "/nhan-vat/nguyen-kinh", "/nhan-vat/pham-tu-nghi", "/nhan-vat/pham-quynh", "/nhan-vat/le-ba-ly", "/nhan-vat/mac-phuc-nguyen", "/nhan-vat/pham-doc", "/nhan-vat/tran-van-bao", "/nhan-vat/mac-chinh-trung", "/nhan-vat/vu-van-mat", "/nhan-vat/mac-kinh-dien", "/nhan-vat/nguyen-luong-thai", "/nhan-vat/vu-su-thuoc", "/nhan-vat/le-duy-bang", "/nhan-vat/vu-hoang-de", "/nhan-vat/do-uong", "/nhan-vat/nguyen-hoang", "/nhan-vat/dang-thi-tho", "/nhan-vat/hoang-dinh-ai", "/nhan-vat/mac-mau-hop", "/nhan-vat/mac-don-nhuong", "/nhan-vat/mac-ngoc-lien", "/nhan-vat/nha-mac", "/nhan-vat/pham-duy-quyet", "/nhan-vat/dang-huan", "/nhan-vat/pham-quang-tien", "/nhan-vat/le-quang-bi", "/nhan-vat/nguyen-ha", "/nhan-vat/nguyen-huu-lieu", "/nhan-vat/vu-cong-ky", "/nhan-vat/le-trac-tu", "/nhan-vat/vu-gioi", "/nhan-vat/nguyen-van-giai", "/nhan-vat/ngo-canh-huu", "/nhan-vat/nguyen-tuan-ngan", "/nhan-vat/nguyen-duc-mau", "/nhan-vat/ho-tay", "/nhan-vat/mac-kinh-chi", "/nhan-vat/bui-van-khue", "/nhan-vat/nguyen-thi-nien", "/nhan-vat/mac-toan", "/nhan-vat/tran-viet", "/nhan-vat/nguyen-tan", "/nhan-vat/mac-kinh-cung", "/nhan-vat/vu-duc-cung", "/nhan-vat/nguyen-mau-tuyen", "/nhan-vat/vu-tien", "/nhan-vat/mac-kinh-khoan", "/nhan-vat/nguyen-tru", "/nhan-vat/le-luu", "/nhan-vat/ly-toai-quang", "/nhan-vat/nguyen-duy-thi", "/nhan-vat/le-bat-tu", "/nhan-vat/nguyen-kiem", "/nhan-vat/nguyen-vy" ],
-  "places" : [ "/dia-danh/huyen-loi-duong", "/dia-danh/tran-nam-quan", "/dia-danh/thanh-tay-do", "/dia-danh/chau-hoan", "/dia-danh/huyen-an-duong", "/dia-danh/huyen-thanh-tri", "/dia-danh/thanh-thang-long", "/dia-danh/huyen-dong-son", "/dia-danh/vu-lang", "/dia-danh/tran-son-nam", "/dia-danh/kinh-bac", "/dia-danh/song-cai", "/dia-danh/song-lam", "/dia-danh/phu-ha-trung", "/dia-danh/song-ca", "/dia-danh/duong-nguyen", "/dia-danh/tran-yen", "/dia-danh/song-ma", "/dia-danh/song-hat", "/dia-danh/hoang-son", "/dia-danh/song-nhi", "/dia-danh/huyen-tu-ky", "/dia-danh/nui-tam-diep", "/dia-danh/huyen-yen-son", "/dia-danh/hoang-xa", "/dia-danh/song-to-lich", "/dia-danh/cau-den", "/dia-danh/cau-go", "/dia-danh/thanh-dai-la", "/dia-danh/huyen-tu-liem", "/dia-danh/xu-son-nam", "/dia-danh/huyen-thanh-oai", "/dia-danh/nui-tam-dao", "/dia-danh/huyen-kim-thanh", "/dia-danh/vu-an", "/dia-danh/huyen-thanh-ha", "/dia-danh/kinh-mon", "/dia-danh/huyen-yen-dung", "/dia-danh/vu-ninh", "/dia-danh/huyen-chi-linh", "/dia-danh/huyen-cam-giang", "/dia-danh/hoang-luong", "/dia-danh/chua-loi-am", "/dia-danh/huyen-son-duong", "/dia-danh/huyen-thanh-ba", "/dia-danh/huyen-pho-yen", "/dia-danh/thanh-cong", "/dia-danh/duong-ha", "/dia-danh/hoang-giang", "/dia-danh/huyen-dai-tu", "/dia-danh/vo-nhai", "/dia-danh/nui-yen-tu", "/dia-danh/huyen-tam-nong", "/dia-danh/xu-nghe-an", "/dia-danh/huyen-kim-dong", "/dia-danh/song-lo", "/dia-danh/nuoc-nam", "/dia-danh/huyen-thanh-mien", "/dia-danh/dien-kinh-thien" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nam-bac-trieu/nha-le-trung-hung",
-  "name" : "Nhà Lê Trung Hưng",
-  "people" : [ "/nhan-vat/nguyen-kim", "/nhan-vat/nha-minh", "/nhan-vat/mac-dang-dung", "/nhan-vat/nguyen-binh-khiem", "/nhan-vat/hoang-sam", "/nhan-vat/nguyen-van-thai", "/nhan-vat/mac-dang-doanh", "/nhan-vat/nguyen-the-loc", "/nhan-vat/mac-phuc-hai", "/nhan-vat/nha-han", "/nhan-vat/nha-duong", "/nhan-vat/le-ninh", "/nhan-vat/nha-le", "/nhan-vat/vu-tuan", "/nhan-vat/pham-du", "/nhan-vat/nguyen-kinh", "/nhan-vat/pham-tu-nghi", "/nhan-vat/pham-quynh", "/nhan-vat/le-ba-ly", "/nhan-vat/mac-phuc-nguyen", "/nhan-vat/pham-doc", "/nhan-vat/tran-van-bao", "/nhan-vat/mac-chinh-trung", "/nhan-vat/vu-van-mat", "/nhan-vat/mac-kinh-dien", "/nhan-vat/nguyen-luong-thai", "/nhan-vat/vu-su-thuoc", "/nhan-vat/le-duy-bang", "/nhan-vat/vu-hoang-de", "/nhan-vat/do-uong", "/nhan-vat/nguyen-hoang", "/nhan-vat/dang-thi-tho", "/nhan-vat/hoang-dinh-ai", "/nhan-vat/mac-mau-hop", "/nhan-vat/mac-don-nhuong", "/nhan-vat/mac-ngoc-lien", "/nhan-vat/nha-mac", "/nhan-vat/pham-duy-quyet", "/nhan-vat/dang-huan", "/nhan-vat/pham-quang-tien", "/nhan-vat/le-quang-bi", "/nhan-vat/nguyen-ha", "/nhan-vat/nguyen-huu-lieu", "/nhan-vat/vu-cong-ky", "/nhan-vat/le-trac-tu", "/nhan-vat/vu-gioi", "/nhan-vat/nguyen-van-giai", "/nhan-vat/ngo-canh-huu", "/nhan-vat/nguyen-tuan-ngan", "/nhan-vat/nguyen-duc-mau", "/nhan-vat/ho-tay", "/nhan-vat/mac-kinh-chi", "/nhan-vat/bui-van-khue", "/nhan-vat/nguyen-thi-nien", "/nhan-vat/mac-toan", "/nhan-vat/tran-viet", "/nhan-vat/nguyen-tan", "/nhan-vat/mac-kinh-cung", "/nhan-vat/vu-duc-cung", "/nhan-vat/nguyen-mau-tuyen", "/nhan-vat/vu-tien", "/nhan-vat/mac-kinh-khoan", "/nhan-vat/nguyen-tru", "/nhan-vat/le-luu", "/nhan-vat/ly-toai-quang", "/nhan-vat/nguyen-duy-thi", "/nhan-vat/le-bat-tu", "/nhan-vat/nguyen-kiem", "/nhan-vat/nguyen-vy" ],
-  "places" : [ "/dia-danh/huyen-loi-duong", "/dia-danh/tran-nam-quan", "/dia-danh/thanh-tay-do", "/dia-danh/chau-hoan", "/dia-danh/huyen-an-duong", "/dia-danh/huyen-thanh-tri", "/dia-danh/thanh-thang-long", "/dia-danh/huyen-dong-son", "/dia-danh/vu-lang", "/dia-danh/tran-son-nam", "/dia-danh/kinh-bac", "/dia-danh/song-cai", "/dia-danh/song-lam", "/dia-danh/phu-ha-trung", "/dia-danh/song-ca", "/dia-danh/duong-nguyen", "/dia-danh/tran-yen", "/dia-danh/song-ma", "/dia-danh/song-hat", "/dia-danh/hoang-son", "/dia-danh/song-nhi", "/dia-danh/huyen-tu-ky", "/dia-danh/nui-tam-diep", "/dia-danh/huyen-yen-son", "/dia-danh/hoang-xa", "/dia-danh/song-to-lich", "/dia-danh/cau-den", "/dia-danh/cau-go", "/dia-danh/thanh-dai-la", "/dia-danh/huyen-tu-liem", "/dia-danh/xu-son-nam", "/dia-danh/huyen-thanh-oai", "/dia-danh/nui-tam-dao", "/dia-danh/huyen-kim-thanh", "/dia-danh/vu-an", "/dia-danh/huyen-thanh-ha", "/dia-danh/kinh-mon", "/dia-danh/huyen-yen-dung", "/dia-danh/vu-ninh", "/dia-danh/huyen-chi-linh", "/dia-danh/huyen-cam-giang", "/dia-danh/hoang-luong", "/dia-danh/chua-loi-am", "/dia-danh/huyen-son-duong", "/dia-danh/huyen-thanh-ba", "/dia-danh/huyen-pho-yen", "/dia-danh/thanh-cong", "/dia-danh/duong-ha", "/dia-danh/hoang-giang", "/dia-danh/huyen-dai-tu", "/dia-danh/vo-nhai", "/dia-danh/nui-yen-tu", "/dia-danh/huyen-tam-nong", "/dia-danh/xu-nghe-an", "/dia-danh/huyen-kim-dong", "/dia-danh/song-lo", "/dia-danh/nuoc-nam", "/dia-danh/huyen-thanh-mien", "/dia-danh/dien-kinh-thien" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/trinh-nguyen-phan-tranh",
-  "name" : "Trịnh Nguyễn Phân Tranh",
-  "people" : [ "/nhan-vat/nguyen-hoang", "/nhan-vat/bui-van-khue", "/nhan-vat/nguyen-thi-nien", "/nhan-vat/nguyen-kim", "/nhan-vat/hoang-dinh-ai", "/nhan-vat/mac-mau-hop", "/nhan-vat/mac-kinh-cung", "/nhan-vat/nguyen-dang", "/nhan-vat/vu-vuong", "/nhan-vat/le-bat-tu", "/nhan-vat/nha-minh", "/nhan-vat/nguyen-danh-the", "/nhan-vat/nguyen-duy-thi", "/nhan-vat/nguyen-canh-kien", "/nhan-vat/nguyen-van-giai", "/nhan-vat/nguyen-van-giao", "/nhan-vat/nguyen-khai", "/nhan-vat/mac-kinh-khoan", "/nhan-vat/nguyen-nghi", "/nhan-vat/tran-vi", "/nhan-vat/nguyen-tu-cuong", "/nhan-vat/nguyen-phuc", "/nhan-vat/tran-vy", "/nhan-vat/duong-tri-trach", "/nhan-vat/pham-doc", "/nhan-vat/dang-huan", "/nhan-vat/nguyen-huu-lieu", "/nhan-vat/ly-ong-trong", "/nhan-vat/nguyen-minh-triet", "/nhan-vat/nguyen-van-quang", "/nhan-vat/nguyen-thi-ngoc-tu", "/nhan-vat/tran-nghi", "/nhan-vat/ly-thai-tong", "/nhan-vat/nguyen-xuan-chinh", "/nhan-vat/pham-cong-tru", "/nhan-vat/nha-han", "/nhan-vat/nguyen-dang-cao", "/nhan-vat/vu-hoang-de", "/nhan-vat/ngo-viet", "/nhan-vat/ho-si-duong", "/nhan-vat/nguyen-phuc-tan", "/nhan-vat/le-van-hieu", "/nhan-vat/le-huu-duc", "/nhan-vat/le-thi-hien", "/nhan-vat/nguyen-nhu-khue", "/nhan-vat/hoang-nghia-giao", "/nhan-vat/le-van-long", "/nhan-vat/do-le", "/nhan-vat/nguyen-dinh-tru", "/nhan-vat/nguyen-duc-trung", "/nhan-vat/dang-cong-chat", "/nhan-vat/hoang-van", "/nhan-vat/le-duy-cap", "/nhan-vat/duong-hao", "/nhan-vat/nha-ha", "/nhan-vat/ngo-tuan", "/nhan-vat/nguyen-viet-thu", "/nhan-vat/tran-dang-tuyen", "/nhan-vat/vu-duy-chi", "/nhan-vat/nha-thanh", "/nhan-vat/nguyen-vy", "/nhan-vat/nguyen-quang-thien", "/nhan-vat/nguyen-dang-minh", "/nhan-vat/nguyen-kha-trac", "/nhan-vat/nguyen-quan-nho", "/nhan-vat/mac-kinh-vu", "/nhan-vat/duong-lam", "/nhan-vat/nguyen-mau", "/nhan-vat/le-dinh-kien", "/nhan-vat/vu-van-mat", "/nhan-vat/vu-duc-cung", "/nhan-vat/vu-cong-tuan", "/nhan-vat/tran-hung-hoc", "/nhan-vat/le-duy-coi", "/nhan-vat/duong-duc", "/nhan-vat/le-lai", "/nhan-vat/nguyen-mau-tai", "/nhan-vat/vu-cong-dao" ],
-  "places" : [ "/dia-danh/hoang-giang", "/dia-danh/phu-ha-trung", "/dia-danh/tran-son-nam", "/dia-danh/nuoc-nam", "/dia-danh/vu-ninh", "/dia-danh/song-hat", "/dia-danh/song-thien-duc", "/dia-danh/huyen-thanh-tri", "/dia-danh/song-cai", "/dia-danh/huyen-kim-thanh", "/dia-danh/kinh-bac", "/dia-danh/dien-kinh-thien", "/dia-danh/huyen-thanh-mien", "/dia-danh/nui-tan-vien", "/dia-danh/huyen-kim-bang", "/dia-danh/hoang-mai", "/dia-danh/huyen-thanh-oai", "/dia-danh/song-nhi", "/dia-danh/huyen-thien-loc", "/dia-danh/xu-son-nam", "/dia-danh/hoang-son", "/dia-danh/huyen-cam-giang", "/dia-danh/xu-nghe-an", "/dia-danh/thanh-to", "/dia-danh/bo-lai", "/dia-danh/huyen-thach-ha", "/dia-danh/lac-xuyen", "/dia-danh/xa-an-truong", "/dia-danh/huyen-thanh-chuong", "/dia-danh/huyen-huong-son", "/dia-danh/nui-dung-quyet", "/dia-danh/huyen-nghi-xuan", "/dia-danh/huyen-tu-liem", "/dia-danh/ly-quoc", "/dia-danh/huyen-kim-dong", "/dia-danh/thanh-thang-long", "/dia-danh/huyen-loi-duong", "/dia-danh/thanh-cong", "/dia-danh/lac-son", "/dia-danh/huyen-chi-linh", "/dia-danh/xu-lang-son", "/dia-danh/huyen-yen-dung" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/trinh-nguyen-phan-tranh/nha-le-trung-hung",
-  "name" : "Nhà Lê Trung Hưng",
-  "people" : [ "/nhan-vat/nguyen-hoang", "/nhan-vat/bui-van-khue", "/nhan-vat/nguyen-thi-nien", "/nhan-vat/nguyen-kim", "/nhan-vat/hoang-dinh-ai", "/nhan-vat/mac-mau-hop", "/nhan-vat/mac-kinh-cung", "/nhan-vat/nguyen-dang", "/nhan-vat/vu-vuong", "/nhan-vat/le-bat-tu", "/nhan-vat/nha-minh", "/nhan-vat/nguyen-danh-the", "/nhan-vat/nguyen-duy-thi", "/nhan-vat/nguyen-canh-kien", "/nhan-vat/nguyen-van-giai", "/nhan-vat/nguyen-van-giao", "/nhan-vat/nguyen-khai", "/nhan-vat/mac-kinh-khoan", "/nhan-vat/nguyen-nghi", "/nhan-vat/tran-vi", "/nhan-vat/nguyen-tu-cuong", "/nhan-vat/nguyen-phuc", "/nhan-vat/tran-vy", "/nhan-vat/duong-tri-trach", "/nhan-vat/pham-doc", "/nhan-vat/dang-huan", "/nhan-vat/nguyen-huu-lieu", "/nhan-vat/ly-ong-trong", "/nhan-vat/nguyen-minh-triet", "/nhan-vat/nguyen-van-quang", "/nhan-vat/nguyen-thi-ngoc-tu", "/nhan-vat/tran-nghi", "/nhan-vat/ly-thai-tong", "/nhan-vat/nguyen-xuan-chinh", "/nhan-vat/pham-cong-tru", "/nhan-vat/nha-han", "/nhan-vat/nguyen-dang-cao", "/nhan-vat/vu-hoang-de", "/nhan-vat/ngo-viet", "/nhan-vat/ho-si-duong", "/nhan-vat/nguyen-phuc-tan", "/nhan-vat/le-van-hieu", "/nhan-vat/le-huu-duc", "/nhan-vat/le-thi-hien", "/nhan-vat/nguyen-nhu-khue", "/nhan-vat/hoang-nghia-giao", "/nhan-vat/le-van-long", "/nhan-vat/do-le", "/nhan-vat/nguyen-dinh-tru", "/nhan-vat/nguyen-duc-trung", "/nhan-vat/dang-cong-chat", "/nhan-vat/hoang-van", "/nhan-vat/le-duy-cap", "/nhan-vat/duong-hao", "/nhan-vat/nha-ha", "/nhan-vat/ngo-tuan", "/nhan-vat/nguyen-viet-thu", "/nhan-vat/tran-dang-tuyen", "/nhan-vat/vu-duy-chi", "/nhan-vat/nha-thanh", "/nhan-vat/nguyen-vy", "/nhan-vat/nguyen-quang-thien", "/nhan-vat/nguyen-dang-minh", "/nhan-vat/nguyen-kha-trac", "/nhan-vat/nguyen-quan-nho", "/nhan-vat/mac-kinh-vu", "/nhan-vat/duong-lam", "/nhan-vat/nguyen-mau", "/nhan-vat/le-dinh-kien", "/nhan-vat/vu-van-mat", "/nhan-vat/vu-duc-cung", "/nhan-vat/vu-cong-tuan", "/nhan-vat/tran-hung-hoc", "/nhan-vat/le-duy-coi", "/nhan-vat/duong-duc", "/nhan-vat/le-lai", "/nhan-vat/nguyen-mau-tai", "/nhan-vat/vu-cong-dao" ],
-  "places" : [ "/dia-danh/hoang-giang", "/dia-danh/phu-ha-trung", "/dia-danh/tran-son-nam", "/dia-danh/nuoc-nam", "/dia-danh/vu-ninh", "/dia-danh/song-hat", "/dia-danh/song-thien-duc", "/dia-danh/huyen-thanh-tri", "/dia-danh/song-cai", "/dia-danh/huyen-kim-thanh", "/dia-danh/kinh-bac", "/dia-danh/dien-kinh-thien", "/dia-danh/huyen-thanh-mien", "/dia-danh/nui-tan-vien", "/dia-danh/huyen-kim-bang", "/dia-danh/hoang-mai", "/dia-danh/huyen-thanh-oai", "/dia-danh/song-nhi", "/dia-danh/huyen-thien-loc", "/dia-danh/xu-son-nam", "/dia-danh/hoang-son", "/dia-danh/huyen-cam-giang", "/dia-danh/xu-nghe-an", "/dia-danh/thanh-to", "/dia-danh/bo-lai", "/dia-danh/huyen-thach-ha", "/dia-danh/lac-xuyen", "/dia-danh/xa-an-truong", "/dia-danh/huyen-thanh-chuong", "/dia-danh/huyen-huong-son", "/dia-danh/nui-dung-quyet", "/dia-danh/huyen-nghi-xuan", "/dia-danh/huyen-tu-liem", "/dia-danh/ly-quoc", "/dia-danh/huyen-kim-dong", "/dia-danh/thanh-thang-long", "/dia-danh/huyen-loi-duong", "/dia-danh/thanh-cong", "/dia-danh/lac-son", "/dia-danh/huyen-chi-linh", "/dia-danh/xu-lang-son", "/dia-danh/huyen-yen-dung" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-tay-son",
-  "name" : "Nhà Tây Sơn",
-  "people" : [ "/nhan-vat/nguyen-phuc", "/nhan-vat/vu-vuong", "/nhan-vat/nguyen-cu-trinh", "/nhan-vat/nguyen-nhac", "/nhan-vat/nguyen-lu", "/nhan-vat/nguyen-hue", "/nhan-vat/ly-tai", "/nhan-vat/quan-viep", "/nhan-vat/hoang-ngu-phuc", "/nhan-vat/nha-le", "/nhan-vat/mac-thien-tu", "/nhan-vat/do-thanh-nhan", "/nhan-vat/nguyen-anh", "/nhan-vat/pham-ngan", "/nhan-vat/hoang-to-ly", "/nhan-vat/quan-huy", "/nhan-vat/nguyen-huu-chinh", "/nhan-vat/pham-ngo-cau", "/nhan-vat/hoang-dinh-the", "/nhan-vat/le-duy-ky", "/nhan-vat/le-chieu-thong", "/nhan-vat/hoang-phung-co", "/nhan-vat/pham-van-tham", "/nhan-vat/vu-van-nham", "/nhan-vat/ngo-thi-nham", "/nhan-vat/phan-huy-ich", "/nhan-vat/ngo-van-so", "/nhan-vat/nha-tay-son", "/nhan-vat/nguyen-van-due", "/nhan-vat/nha-thanh", "/nhan-vat/nha-hau-le", "/nhan-vat/hoang-xuan-han", "/nhan-vat/hoang-van-dong", "/nhan-vat/nguyen-quang-thuy", "/nhan-vat/tran-quang-dieu", "/nhan-vat/le-trung", "/nhan-vat/vu-van-dung" ],
-  "places" : [ "/dia-danh/nuoc-xiem", "/dia-danh/tran-bien", "/dia-danh/thanh-sai-gon", "/dia-danh/song-rach-gam", "/dia-danh/song-tien", "/dia-danh/thanh-thang-long", "/dia-danh/dien-ban", "/dia-danh/nui-ky-lan", "/dia-danh/nui-quyet", "/dia-danh/song-lam", "/dia-danh/tran-ninh", "/dia-danh/xu-nghe-an", "/dia-danh/nui-hong-linh", "/dia-danh/kinh-bac" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/nha-nguyen",
-  "name" : "Nhà Nguyễn",
-  "people" : [ "/nhan-vat/nguyen-phuc-luan", "/nhan-vat/nguyen-thi-hoan", "/nhan-vat/nguyen-phuc-thuan", "/nhan-vat/nguyen-anh", "/nhan-vat/nha-tay-son", "/nhan-vat/le-quang-dinh", "/nhan-vat/nha-thanh", "/nhan-vat/trieu-da", "/nhan-vat/dang-tran-thuong", "/nhan-vat/nguyen-phuc-dam", "/nhan-vat/pham-thi-hang", "/nhan-vat/pham-phu-thu", "/nhan-vat/nguyen-truong-to" ],
-  "places" : [ "/dia-danh/huyen-huong-tra", "/dia-danh/song-cuu-an", "/dia-danh/thanh-gia-dinh", "/dia-danh/huong-cang" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/phap-thuoc",
-  "name" : "Pháp Thuộc",
-  "people" : [ "/nhan-vat/nguyen-van-tuong", "/nhan-vat/ton-that-thuyet", "/nhan-vat/nguyen-huu-do", "/nhan-vat/phan-dinh-binh" ],
-  "places" : [ "/dia-danh/nuoc-phap" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/phap-thuoc/nha-nguyen",
-  "name" : "Nhà Nguyễn",
-  "people" : [ "/nhan-vat/nguyen-van-tuong", "/nhan-vat/ton-that-thuyet", "/nhan-vat/nguyen-huu-do", "/nhan-vat/phan-dinh-binh" ],
-  "places" : [ "/dia-danh/nuoc-phap" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/phap-thuoc/khoi-nghia-chong-phap",
-  "name" : "Những cuộc khởi nghĩa chống thực dân Pháp",
-  "people" : [ "/nhan-vat/do-trinh-thoai", "/nhan-vat/truong-dinh", "/nhan-vat/tran-xuan-hoa", "/nhan-vat/nguyen-trung-truc", "/nhan-vat/nguyen-thong", "/nhan-vat/ton-that-thuyet", "/nhan-vat/dinh-cong-trang", "/nhan-vat/pham-banh", "/nhan-vat/hoang-bat-dat", "/nhan-vat/hoang-ke-viem", "/nhan-vat/nguyen-don-tiet", "/nhan-vat/tran-xuan-soan", "/nhan-vat/ho-chi-minh", "/nhan-vat/nguyen-thien-thuat", "/nhan-vat/vu-giac", "/nhan-vat/hoang-ta-viem", "/nhan-vat/nguyen-thien-ke", "/nhan-vat/nguyen-quang-bich", "/nhan-vat/hoang-cao-khai", "/nhan-vat/nguyen-thien-duong", "/nhan-vat/nguyen-huu-hao", "/nhan-vat/hoang-van", "/nhan-vat/pham-van-son", "/nhan-vat/phan-dinh-phung", "/nhan-vat/hoang-hoa-tham", "/nhan-vat/phan-boi-chau" ],
-  "places" : [ "/dia-danh/tinh-thanh-hoa", "/dia-danh/thanh-hue", "/dia-danh/cau-giay", "/dia-danh/tinh-nam-dinh", "/dia-danh/tinh-bac-ninh", "/dia-danh/huyen-ha-trung", "/dia-danh/huyen-van-lam", "/dia-danh/tinh-hung-yen", "/dia-danh/thanh-hung-hoa", "/dia-danh/song-hong", "/dia-danh/huyen-thanh-tri", "/dia-danh/thanh-hai-duong", "/dia-danh/song-thai-binh", "/dia-danh/cau-duong", "/dia-danh/chau-phi", "/dia-danh/song-ma", "/dia-danh/song-da", "/dia-danh/huyen-ba-thuoc", "/dia-danh/phu-lang-thuong", "/dia-danh/thanh-ha-noi" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/phap-thuoc/dang-cong-san-viet-nam",
-  "name" : "Đảng Cộng Sản Việt Nam",
-  "people" : [ "/nhan-vat/ho-chi-minh", "/nhan-vat/nguyen-duc-canh", "/nhan-vat/nguyen-phong-sac", "/nhan-vat/le-mao", "/nhan-vat/vo-liet", "/nhan-vat/tran-binh", "/nhan-vat/dinh-nhu", "/nhan-vat/tran-dinh-tho", "/nhan-vat/pham-van", "/nhan-vat/nguyen-van-ty", "/nhan-vat/nguyen-ai-quoc", "/nhan-vat/ngo-gia-tu", "/nhan-vat/chau-van-liem", "/nhan-vat/nguyen-thieu", "/nhan-vat/ho-tung-mau", "/nhan-vat/le-hong-son", "/nhan-vat/vo-nguyen-giap", "/nhan-vat/phan-ke-toai", "/nhan-vat/tran-trong-kim", "/nhan-vat/nguyen-khang", "/nhan-vat/hoang-quoc-viet", "/nhan-vat/nguyen-luong-bang", "/nhan-vat/tran-dang-ninh", "/nhan-vat/le-thanh-nghi", "/nhan-vat/tran-huy-lieu", "/nhan-vat/nguyen-thi-thap", "/nhan-vat/hoang-dieu", "/nhan-vat/tran-tu-binh", "/nhan-vat/nguyen-quyet", "/nhan-vat/phan-anh", "/nhan-vat/pham-khac-hoe", "/nhan-vat/tran-dinh-nam", "/nhan-vat/tran-van-giau", "/nhan-vat/pham-ngoc-thach", "/nhan-vat/huynh-phu-so", "/nhan-vat/phan-boi-chau" ],
-  "places" : [ "/dia-danh/thanh-pho-vinh", "/dia-danh/huyen-nam-dan", "/dia-danh/huyen-thanh-chuong", "/dia-danh/huyen-can-loc", "/dia-danh/huong-khe", "/dia-danh/tinh-nghe-an", "/dia-danh/thanh-pho-ha-tinh", "/dia-danh/huyen-dien-chau", "/dia-danh/huyen-do-luong", "/dia-danh/huyen-huong-son", "/dia-danh/huyen-thach-ha", "/dia-danh/chua-chan-tien", "/dia-danh/huong-cang", "/dia-danh/chau-au", "/dia-danh/tinh-cao-bang", "/dia-danh/song-hong" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa",
-  "name" : "Việt Nam Dân Chủ Cộng Hoà",
-  "people" : [ "/nhan-vat/ho-chi-minh", "/nhan-vat/nguyen-tuong-tam", "/nhan-vat/vu-hong-khanh", "/nhan-vat/nguyen-hai-than", "/nhan-vat/nguyen-van-xuan", "/nhan-vat/le-van-hoach", "/nhan-vat/nguyen-van-thinh", "/nhan-vat/nguyen-van-tam", "/nhan-vat/nguyen-van-sam", "/nhan-vat/ngo-dinh-diem", "/nhan-vat/pham-van-dong", "/nhan-vat/nguyen-vinh-thuy", "/nhan-vat/vo-nguyen-giap", "/nhan-vat/ton-duc-thang", "/nhan-vat/le-duan", "/nhan-vat/pham-hung", "/nhan-vat/hoang-quoc-viet", "/nhan-vat/hoang-minh-giam", "/nhan-vat/ly-thai-to", "/nhan-vat/hoang-xuan-han", "/nhan-vat/nguyen-manh-tuong", "/nhan-vat/phan-anh", "/nhan-vat/nguyen-manh-ha", "/nhan-vat/huynh-thien-loc", "/nhan-vat/duong-bach-mai", "/nhan-vat/dang-phuc-thong", "/nhan-vat/hoang-van-duc", "/nhan-vat/vu-trong-khanh", "/nhan-vat/nguyen-van-luyen", "/nhan-vat/nguyen-van-tinh", "/nhan-vat/tran-quoc-tuan", "/nhan-vat/vo-nhai", "/nhan-vat/nguyen-luong-bang", "/nhan-vat/tran-dang-ninh", "/nhan-vat/nguyen-phan-long", "/nhan-vat/phan-huy-quat", "/nhan-vat/tran-van-huu", "/nhan-vat/le-loi", "/nhan-vat/le-lai", "/nhan-vat/tran-van-on", "/nhan-vat/hoang-van-thu", "/nhan-vat/phan-dinh-phung", "/nhan-vat/nguyen-huu-tri", "/nhan-vat/le-van-luong", "/nhan-vat/duong-minh-chau", "/nhan-vat/tran-hung-dao", "/nhan-vat/hoang-hoa-tham", "/nhan-vat/nguyen-quoc-tri", "/nhan-vat/nguyen-thi-chien", "/nhan-vat/ngo-gia-kham", "/nhan-vat/tran-dai-nghia", "/nhan-vat/hoang-hanh", "/nhan-vat/ngo-dinh-nhu", "/nhan-vat/phan-chu-trinh", "/nhan-vat/nguyen-huu-tho", "/nhan-vat/pham-huy-thong", "/nhan-vat/ly-nhan", "/nhan-vat/duong-van-minh", "/nhan-vat/nguyen-chanh-thi", "/nhan-vat/nha-trang", "/nhan-vat/le-duc-tho", "/nhan-vat/nguyen-thanh-le", "/nhan-vat/tran-cong-tuong", "/nhan-vat/tran-buu-kiem", "/nhan-vat/nguyen-thi-binh", "/nhan-vat/huynh-tan-phat", "/nhan-vat/nguyen-duy-trinh", "/nhan-vat/tran-van-lam" ],
-  "places" : [ "/dia-danh/chau-phi", "/dia-danh/chau-au", "/dia-danh/nuoc-anh", "/dia-danh/nuoc-phap", "/dia-danh/tinh-tay-ninh", "/dia-danh/cau-thi-nghe", "/dia-danh/huyen-cai-be", "/dia-danh/phan-thiet", "/dia-danh/thanh-ha-noi", "/dia-danh/thanh-pho-ha-noi", "/dia-danh/thanh-pho-da-nang", "/dia-danh/cau-den", "/dia-danh/thi-xa-hai-duong", "/dia-danh/thanh-pho-vinh", "/dia-danh/thi-xa-bac-ninh", "/dia-danh/thanh-pho-nam-dinh", "/dia-danh/thanh-pho-hue", "/dia-danh/tinh-ha-dong", "/dia-danh/thi-xa-ha-dong", "/dia-danh/thi-xa-bac-kan", "/dia-danh/huyen-dai-tu", "/dia-danh/tinh-thai-nguyen", "/dia-danh/tinh-bac-kan", "/dia-danh/song-lo", "/dia-danh/song-hong", "/dia-danh/song-gam", "/dia-danh/tinh-phuc-yen", "/dia-danh/phu-lang-thuong", "/dia-danh/tinh-hai-duong", "/dia-danh/huyen-cam-giang", "/dia-danh/huyen-gia-loc", "/dia-danh/song-thao", "/dia-danh/tinh-cao-bang", "/dia-danh/thi-xa-thai-nguyen", "/dia-danh/thi-xa-lao-cai", "/dia-danh/thi-tran-sa-pa", "/dia-danh/thi-xa-quang-tri", "/dia-danh/thanh-pho-hai-phong", "/dia-danh/tinh-thai-binh", "/dia-danh/tinh-tuyen-quang", "/dia-danh/tinh-quang-nam", "/dia-danh/tinh-nghe-an", "/dia-danh/huyen-phong-dien", "/dia-danh/song-be", "/dia-danh/tinh-phu-tho", "/dia-danh/song-day", "/dia-danh/tinh-ha-nam", "/dia-danh/song-da", "/dia-danh/tinh-lao-cai", "/dia-danh/tinh-van-nam", "/dia-danh/tinh-yen-bai", "/dia-danh/tinh-son-la", "/dia-danh/tinh-nghia-lo", "/dia-danh/tinh-lai-chau", "/dia-danh/tinh-nam-dinh", "/dia-danh/song-luoc", "/dia-danh/thi-xa-lang-son", "/dia-danh/dien-bien", "/dia-danh/nui-truong-son", "/dia-danh/thi-xa-lai-chau", "/dia-danh/thi-xa-kon-tum", "/dia-danh/huyen-cam-lo", "/dia-danh/song-ma", "/dia-danh/tinh-binh-dinh", "/dia-danh/dien-bien-phu", "/dia-danh/song-ben-hai", "/dia-danh/tinh-ben-tre", "/dia-danh/thi-xa-tay-ninh", "/dia-danh/huyen-chau-thanh", "/dia-danh/thanh-pho-thanh-hoa", "/dia-danh/nuoc-mi", "/dia-danh/song-gianh", "/dia-danh/huong-giang", "/dia-danh/song-me-cong", "/dia-danh/tinh-quang-tri", "/dia-danh/tinh-kon-tum" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa/khang-chien-chong-phap",
-  "name" : "Kháng chiến chống Pháp",
-  "people" : [ "/nhan-vat/ho-chi-minh", "/nhan-vat/nguyen-tuong-tam", "/nhan-vat/vu-hong-khanh", "/nhan-vat/nguyen-hai-than", "/nhan-vat/nguyen-van-xuan", "/nhan-vat/le-van-hoach", "/nhan-vat/nguyen-van-thinh", "/nhan-vat/nguyen-van-tam", "/nhan-vat/nguyen-van-sam", "/nhan-vat/ngo-dinh-diem", "/nhan-vat/pham-van-dong", "/nhan-vat/nguyen-vinh-thuy", "/nhan-vat/vo-nguyen-giap", "/nhan-vat/ton-duc-thang", "/nhan-vat/le-duan", "/nhan-vat/pham-hung", "/nhan-vat/hoang-quoc-viet", "/nhan-vat/hoang-minh-giam", "/nhan-vat/ly-thai-to", "/nhan-vat/hoang-xuan-han", "/nhan-vat/nguyen-manh-tuong", "/nhan-vat/phan-anh", "/nhan-vat/nguyen-manh-ha", "/nhan-vat/huynh-thien-loc", "/nhan-vat/duong-bach-mai", "/nhan-vat/dang-phuc-thong", "/nhan-vat/hoang-van-duc", "/nhan-vat/vu-trong-khanh", "/nhan-vat/nguyen-van-luyen", "/nhan-vat/nguyen-van-tinh", "/nhan-vat/tran-quoc-tuan", "/nhan-vat/vo-nhai", "/nhan-vat/nguyen-luong-bang", "/nhan-vat/tran-dang-ninh", "/nhan-vat/nguyen-phan-long", "/nhan-vat/phan-huy-quat", "/nhan-vat/tran-van-huu", "/nhan-vat/le-loi", "/nhan-vat/le-lai", "/nhan-vat/tran-van-on", "/nhan-vat/hoang-van-thu", "/nhan-vat/phan-dinh-phung", "/nhan-vat/nguyen-huu-tri", "/nhan-vat/le-van-luong", "/nhan-vat/duong-minh-chau", "/nhan-vat/tran-hung-dao", "/nhan-vat/hoang-hoa-tham", "/nhan-vat/nguyen-quoc-tri", "/nhan-vat/nguyen-thi-chien", "/nhan-vat/ngo-gia-kham", "/nhan-vat/tran-dai-nghia", "/nhan-vat/hoang-hanh" ],
-  "places" : [ "/dia-danh/chau-phi", "/dia-danh/chau-au", "/dia-danh/nuoc-anh", "/dia-danh/nuoc-phap", "/dia-danh/tinh-tay-ninh", "/dia-danh/cau-thi-nghe", "/dia-danh/huyen-cai-be", "/dia-danh/phan-thiet", "/dia-danh/thanh-ha-noi", "/dia-danh/thanh-pho-ha-noi", "/dia-danh/thanh-pho-da-nang", "/dia-danh/cau-den", "/dia-danh/thi-xa-hai-duong", "/dia-danh/thanh-pho-vinh", "/dia-danh/thi-xa-bac-ninh", "/dia-danh/thanh-pho-nam-dinh", "/dia-danh/thanh-pho-hue", "/dia-danh/tinh-ha-dong", "/dia-danh/thi-xa-ha-dong", "/dia-danh/thi-xa-bac-kan", "/dia-danh/huyen-dai-tu", "/dia-danh/tinh-thai-nguyen", "/dia-danh/tinh-bac-kan", "/dia-danh/song-lo", "/dia-danh/song-hong", "/dia-danh/song-gam", "/dia-danh/tinh-phuc-yen", "/dia-danh/phu-lang-thuong", "/dia-danh/tinh-hai-duong", "/dia-danh/huyen-cam-giang", "/dia-danh/huyen-gia-loc", "/dia-danh/song-thao", "/dia-danh/tinh-cao-bang", "/dia-danh/thi-xa-thai-nguyen", "/dia-danh/thi-xa-lao-cai", "/dia-danh/thi-tran-sa-pa", "/dia-danh/thi-xa-quang-tri", "/dia-danh/thanh-pho-hai-phong", "/dia-danh/tinh-thai-binh", "/dia-danh/tinh-tuyen-quang", "/dia-danh/tinh-quang-nam", "/dia-danh/tinh-nghe-an", "/dia-danh/huyen-phong-dien", "/dia-danh/song-be", "/dia-danh/tinh-phu-tho", "/dia-danh/song-day", "/dia-danh/tinh-ha-nam", "/dia-danh/song-da", "/dia-danh/tinh-lao-cai", "/dia-danh/tinh-van-nam", "/dia-danh/tinh-yen-bai", "/dia-danh/tinh-son-la", "/dia-danh/tinh-nghia-lo", "/dia-danh/tinh-lai-chau", "/dia-danh/tinh-nam-dinh", "/dia-danh/song-luoc", "/dia-danh/thi-xa-lang-son", "/dia-danh/dien-bien", "/dia-danh/nui-truong-son", "/dia-danh/thi-xa-lai-chau", "/dia-danh/thi-xa-kon-tum", "/dia-danh/huyen-cam-lo", "/dia-danh/song-ma", "/dia-danh/tinh-binh-dinh" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa/khang-chien-chong-mi",
-  "name" : "Kháng chiến chống Mĩ",
-  "people" : [ "/nhan-vat/ho-chi-minh", "/nhan-vat/ngo-dinh-diem", "/nhan-vat/ngo-dinh-nhu", "/nhan-vat/phan-chu-trinh", "/nhan-vat/nguyen-huu-tho", "/nhan-vat/pham-huy-thong", "/nhan-vat/le-duan", "/nhan-vat/duong-minh-chau", "/nhan-vat/ly-nhan", "/nhan-vat/duong-van-minh", "/nhan-vat/nguyen-chanh-thi", "/nhan-vat/nha-trang", "/nhan-vat/le-duc-tho", "/nhan-vat/nguyen-thanh-le", "/nhan-vat/tran-cong-tuong", "/nhan-vat/tran-buu-kiem", "/nhan-vat/nguyen-thi-binh", "/nhan-vat/huynh-tan-phat", "/nhan-vat/nguyen-duy-trinh", "/nhan-vat/tran-van-lam", "/nhan-vat/nguyen-van-thieu", "/nhan-vat/pham-van-dong", "/nhan-vat/le-thanh-nghi", "/nhan-vat/tran-van-huong", "/nhan-vat/nguyen-thanh-trung" ],
-  "places" : [ "/dia-danh/dien-bien-phu", "/dia-danh/nuoc-phap", "/dia-danh/song-ben-hai", "/dia-danh/tinh-quang-nam", "/dia-danh/tinh-ben-tre", "/dia-danh/thi-xa-tay-ninh", "/dia-danh/huyen-chau-thanh", "/dia-danh/tinh-tay-ninh", "/dia-danh/chau-phi", "/dia-danh/thanh-pho-thanh-hoa", "/dia-danh/nuoc-mi", "/dia-danh/tinh-nghe-an", "/dia-danh/song-gianh", "/dia-danh/thanh-pho-hue", "/dia-danh/thanh-pho-da-nang", "/dia-danh/huong-giang", "/dia-danh/song-me-cong", "/dia-danh/chau-au", "/dia-danh/tinh-quang-tri", "/dia-danh/tinh-kon-tum", "/dia-danh/tinh-binh-dinh", "/dia-danh/song-cuu-long", "/dia-danh/tinh-ninh-thuan", "/dia-danh/tinh-binh-thuan", "/dia-danh/tinh-long-khanh" ],
-  "events" : [ ],
-  "festivals" : [ ]
-}, {
-  "href" : "/dong-lich-su/viet-nam-xhcn",
-  "name" : "Cộng hoà xã hội chủ nghĩa Việt Nam",
-  "people" : [ "/nhan-vat/ho-chi-minh", "/nhan-vat/nha-nuoc-viet-nam", "/nhan-vat/ton-duc-thang", "/nhan-vat/nguyen-luong-bang", "/nhan-vat/nguyen-huu-tho", "/nhan-vat/pham-van-dong", "/nhan-vat/pham-hung", "/nhan-vat/huynh-tan-phat", "/nhan-vat/vo-nguyen-giap", "/nhan-vat/nguyen-duy-trinh", "/nhan-vat/le-thanh-nghi", "/nhan-vat/vo-chi-cong", "/nhan-vat/do-muoi", "/nhan-vat/to-huu", "/nhan-vat/tran-quynh", "/nhan-vat/le-duan", "/nhan-vat/le-duc-tho", "/nhan-vat/nguyen-van-linh", "/nhan-vat/vo-van-kiet" ],
-  "places" : [ "/dia-danh/song-cuu-long", "/dia-danh/tinh-tay-ninh", "/dia-danh/thi-xa-tay-ninh" ],
-  "events" : [ ],
-  "festivals" : [ ]
-} ]}
+{
+  "periods" : [ {
+    "href" : "/dong-lich-su/hong-bang-va-van-lang",
+    "name" : "Hồng Bàng & Văn Lang",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/au-lac-va-nam-viet",
+    "name" : "Âu Lạc & Nam Việt",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat",
+    "name" : "Bắc thuộc lần I",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/bac-thuoc-lan-thu-nhat/nha-trieu",
+    "name" : "Nhà Triệu",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/trung-nu-vuong",
+    "name" : "Trưng Nữ Vương",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/bac-thuoc-lan-thu-hai",
+    "name" : "Bắc thuộc lần II",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ly-va-nha-trieu",
+    "name" : "Nhà Lý & Nhà Triệu",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-tien-ly",
+    "name" : "Nhà Tiền Lý",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-trieu",
+    "name" : "Nhà Triệu",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ly-va-nha-trieu/nha-hau-ly",
+    "name" : "Nhà Hậu Lý",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/bac-thuoc-lan-thu-ba",
+    "name" : "Bắc thuộc lần III",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu",
+    "name" : "Thời kỳ xây nền tự chủ",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/thoi-ky-xay-nen-tu-chu/ho-khuc",
+    "name" : "Họ Khúc",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ngo",
+    "name" : "Nhà Ngô",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-dinh",
+    "name" : "Nhà Đinh",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-tien-le",
+    "name" : "Nhà Tiền Lê",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ly",
+    "name" : "Nhà Lý",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-tran",
+    "name" : "Nhà Trần",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-ho",
+    "name" : "Nhà Hồ",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-hau-tran",
+    "name" : "Nhà Hậu Trần",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-hau-le",
+    "name" : "Nhà Hậu Lê",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nam-bac-trieu",
+    "name" : "Nam Bắc Triều",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nam-bac-trieu/nha-le-trung-hung",
+    "name" : "Nhà Lê Trung Hưng",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/trinh-nguyen-phan-tranh",
+    "name" : "Trịnh Nguyễn Phân Tranh",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/trinh-nguyen-phan-tranh/nha-le-trung-hung",
+    "name" : "Nhà Lê Trung Hưng",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-tay-son",
+    "name" : "Nhà Tây Sơn",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/nha-nguyen",
+    "name" : "Nhà Nguyễn",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/phap-thuoc",
+    "name" : "Pháp Thuộc",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/phap-thuoc/nha-nguyen",
+    "name" : "Nhà Nguyễn",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/phap-thuoc/khoi-nghia-chong-phap",
+    "name" : "Những cuộc khởi nghĩa chống thực dân Pháp",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/phap-thuoc/dang-cong-san-viet-nam",
+    "name" : "Đảng Cộng Sản Việt Nam",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa",
+    "name" : "Việt Nam Dân Chủ Cộng Hoà",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa/khang-chien-chong-phap",
+    "name" : "Kháng chiến chống Pháp",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/viet-nam-dan-chu-cong-hoa/khang-chien-chong-mi",
+    "name" : "Kháng chiến chống Mĩ",
+    "kings" : [ ]
+  }, {
+    "href" : "/dong-lich-su/viet-nam-xhcn",
+    "name" : "Cộng hoà xã hội chủ nghĩa Việt Nam",
+    "kings" : [ ]
+  } ]
+}

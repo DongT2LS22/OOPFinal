@@ -1,7 +1,6 @@
 package hust.vietnamesehistory.crawler.model;
 
 public class King extends Person{
-    private String period;
     private String reignTime;
     private String predecessor;
     private String successor;
@@ -15,14 +14,6 @@ public class King extends Person{
         this.successor = successor;
         this.aliases = aliases;
         this.realName = realName;
-    }
-
-    public String getPeriod() {
-        return period;
-    }
-
-    public void setPeriod(String period) {
-        this.period = period;
     }
 
     public String getReignTime() {
