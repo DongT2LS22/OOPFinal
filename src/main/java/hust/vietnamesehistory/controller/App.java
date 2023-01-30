@@ -42,7 +42,7 @@ public class App extends Application {
                 throw new RuntimeException(e);
             }
             JSONObject obj = new JSONObject(jsonString);
-            JSONArray arr = obj.getJSONArray("People"); // notice that `"posts": [...]`
+            JSONArray arr = obj.getJSONArray("people"); // notice that `"posts": [...]`
             for (int i = 0; i < arr.length(); i++)
             {
                 String href = arr.getJSONObject(i).getString("href");
@@ -93,7 +93,7 @@ public class App extends Application {
                     }else{
                         realName = arr.getJSONObject(i).getString("realName");
                     }
-                    Person p = new King(href,name,birth,death,reignTime,predecessor,successor,aliases,realName);
+                    Person p = new King(name,href,birth,death,reignTime,predecessor,successor,aliases,realName);
                     personList.add(p);
                 }
             }
@@ -114,7 +114,7 @@ public class App extends Application {
                 throw new RuntimeException(e);
             }
             JSONObject obj = new JSONObject(jsonString);
-            JSONArray arr = obj.getJSONArray("Place"); // notice that `"posts": [...]`
+            JSONArray arr = obj.getJSONArray("places"); // notice that `"posts": [...]`
             for (int i = 0; i < arr.length(); i++)
             {
                 String href = arr.getJSONObject(i).getString("href");
