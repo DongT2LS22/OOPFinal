@@ -15,5 +15,7 @@ public class Test {
         JSONObject obj = new JSONObject();
         obj.put("birth",p.getBirth());
         System.out.println(repo.getBirth(obj));
+        System.out.println("Hello world");
     }
+
 }
