@@ -7,7 +7,6 @@ package hust.vietnamesehistory.crawler;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import hust.vietnamesehistory.crawler.model.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -15,13 +14,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-public class Test {
+public class CrawlerFestival {
     public static final ObjectMapper mapper = new ObjectMapper();
     public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     public static void main(String[] args) throws IOException {
