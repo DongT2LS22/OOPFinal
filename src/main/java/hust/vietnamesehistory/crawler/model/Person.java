@@ -1,16 +1,24 @@
 package hust.vietnamesehistory.crawler.model;
 
-import java.security.PrivateKey;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Person extends Model {
     private String birth;
     private String death;
+    private List<Person> parents = new ArrayList<Person>();
+    private List<Person> mates = new ArrayList<Person>();
 
-    private Person dad,mom;
-    private Person mate;
+    public List<Person> getParents() {
+        return parents;
+    }
 
-    private List<Person> child;
+    public void setParents(List<Person> parents) {
+        this.parents = parents;
+    }
+
+    public Person() {
+    }
 
     public Person(String href, String name, String birth, String death) {
         super(href, name);
@@ -18,31 +26,20 @@ public class Person extends Model {
         this.death = death;
     }
 
-    public Person(String birth, String death, Person dad, Person mom,Person mate, List<Person> child) {
-        this.birth = birth;
-        this.death = death;
-        this.dad = dad;
-        this.mom = mom;
-        this.child = child;
-        this.mate = mate;
-    }
-
-    public Person(String href, String name, String birth, String death, Person dad, Person mom,Person mate, List<Person> child) {
+    public Person(String href, String name, String birth, String death, List<Person> parents, List<Person> mates) {
         super(href, name);
         this.birth = birth;
         this.death = death;
-        this.dad = dad;
-        this.mom = mom;
-        this.child = child;
-        this.mate = mate;
+        this.parents = parents;
+        this.mates = mates;
     }
 
-    public Person getMate() {
-        return mate;
+    public List<Person> getMates() {
+        return mates;
     }
 
-    public void setMate(Person mate) {
-        this.mate = mate;
+    public void setMates(List<Person> mates) {
+        this.mates = mates;
     }
 
     public String getBirth() {
@@ -61,27 +58,4 @@ public class Person extends Model {
         this.death = death;
     }
 
-    public Person getDad() {
-        return dad;
-    }
-
-    public void setDad(Person dad) {
-        this.dad = dad;
-    }
-
-    public Person getMom() {
-        return mom;
-    }
-
-    public void setMom(Person mom) {
-        this.mom = mom;
-    }
-
-    public List<Person> getChild() {
-        return child;
-    }
-
-    public void setChild(List<Person> child) {
-        this.child = child;
-    }
 }
