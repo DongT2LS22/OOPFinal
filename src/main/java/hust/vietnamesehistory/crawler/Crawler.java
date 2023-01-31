@@ -25,8 +25,6 @@ import java.util.List;
 
 public class Crawler {
     public static final int MAX_TRIES = 3;
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     public static final PersonRepository personRepository = new PersonRepository();
     public static final PlaceRepository placeRepository = new PlaceRepository();
     public static final PeriodRepository periodRepository = new PeriodRepository();
