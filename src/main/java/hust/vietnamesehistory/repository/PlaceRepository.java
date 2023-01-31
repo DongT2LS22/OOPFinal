@@ -1,6 +1,8 @@
 package hust.vietnamesehistory.repository;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
@@ -10,6 +12,7 @@ import hust.vietnamesehistory.crawler.model.Place;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PlaceRepository implements Repository<Place> {
@@ -18,7 +21,20 @@ public class PlaceRepository implements Repository<Place> {
     public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<Place> readJson(String filePath) throws IOException {
-        return null;
+        List<Place> places = new ArrayList<>();
+        ObjectNode placesObj = reader.forType(new TypeReference<ObjectNode>(){}).readValue(new File(filePath));
+        ArrayNode arrayNode = placesObj.withArray("places");
+        for (JsonNode node : arrayNode) {
+            String href = node.get("href").asText();
+            String name = node.get("name").asText();
+            String national = node.get("national").asText();
+            String location = node.get("location").asText();
+            String coordinates = node.get("coordinates").asText();
+            String area = node.get("area").asText();
+            Place place = new Place(name,href, national, location, coordinates, area);
+            places.add(place);
+        }
+        return places;
     }
 
     @Override

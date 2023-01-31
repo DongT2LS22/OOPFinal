@@ -29,6 +29,21 @@ public class PersonRepository implements Repository<Person> {
         for (JsonNode node : arrayNode) {
             String href = node.get("href").asText();
             String name = node.get("name").asText();
+            String birth = node.get("birth").asText();
+            String death = node.get("death").asText();
+            if (node.has("reignTime")) {
+                String reignTime = node.get("reignTime").asText();
+                String predecessor = node.get("predecessor").asText();
+                String successor = node.get("successor").asText();
+                String aliases = node.get("aliases").asText();
+                String realName = node.get("realName").asText();
+                King king = new King(name, href, birth, death, reignTime
+                        , predecessor, successor, aliases, realName);
+                people.add(king);
+            } else {
+                Person person = new Person(href, name, birth, death);
+                people.add(person);
+            }
         }
         return people;
     }
