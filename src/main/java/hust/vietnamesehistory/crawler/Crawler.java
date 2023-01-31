@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import hust.vietnamesehistory.crawler.model.*;
+import hust.vietnamesehistory.repository.PeriodRepository;
+import hust.vietnamesehistory.repository.PersonRepository;
+import hust.vietnamesehistory.repository.PlaceRepository;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -24,6 +27,9 @@ public class Crawler {
     public static final int MAX_TRIES = 3;
     public static final ObjectMapper mapper = new ObjectMapper();
     public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
+    public static final PersonRepository personRepository = new PersonRepository();
+    public static final PlaceRepository placeRepository = new PlaceRepository();
+    public static final PeriodRepository periodRepository = new PeriodRepository();
     public static final String URI = "https://nguoikesu.com";
     public static final String TIMELINE_HREF = "/dong-lich-su";
     public static final String CHARACTERS_HREF = "/nhan-vat?start=";
@@ -320,76 +326,9 @@ public class Crawler {
         int count = 0;
         while (true) {
             try {
-                // Viết file people.json
-                ArrayNode personNodes = mapper.createArrayNode();
-                for (Person p : people) {
-                    if (p instanceof King k) {
-                        ObjectNode king = mapper.createObjectNode();
-                        king.put("href", k.getHref());
-                        king.put("name", k.getName());
-                        king.put("birth", k.getBirth());
-                        king.put("death", k.getDeath());
-                        king.put("reignTime", k.getReignTime());
-                        king.put("predecessor", k.getPredecessor());
-                        king.put("successor", k.getSuccessor());
-                        king.put("aliases", k.getAliases());
-                        king.put("realName", k.getRealName());
-                        personNodes.add(king);
-                    } else {
-                        ObjectNode person = mapper.createObjectNode();
-                        person.put("href", p.getHref());
-                        person.put("name", p.getName());
-                        person.put("birth", p.getBirth());
-                        person.put("death", p.getDeath());
-                        personNodes.add(person);
-                    }
-                }
-                ObjectNode peopleObj = mapper.createObjectNode();
-                peopleObj.set("people", personNodes);
-                writer.writeValue(new File("src/main/resources/json/people.json"), peopleObj);
-
-                // Viết file places.json
-                ArrayNode placeNodes = mapper.createArrayNode();
-                for (Place p : places) {
-                    ObjectNode place = mapper.createObjectNode();
-                    place.put("href", p.getHref());
-                    place.put("name", p.getName());
-                    place.put("national", p.getNational());
-                    place.put("location", p.getLocation());
-                    place.put("coordinates", p.getCoordinates());
-                    place.put("area", p.getArea());
-                    placeNodes.add(place);
-                }
-                ObjectNode placesObj = mapper.createObjectNode();
-                placesObj.set("places", placeNodes);
-                writer.writeValue(new File("src/main/resources/json/places.json"), placesObj);
-
-                // Viết file periods.json
-                ArrayNode periodNodes = mapper.createArrayNode();
-                for (Period p : periods) {
-                    ObjectNode period = mapper.createObjectNode();
-                    period.put("href", p.getHref());
-                    period.put("name", p.getName());
-                    ArrayNode kings = mapper.createArrayNode();
-                    for (King k : p.getKings()) {
-                        ObjectNode king = mapper.createObjectNode();
-                        king.put("href", k.getHref());
-                        king.put("name", k.getName());
-                        king.put("birth", k.getBirth());
-                        king.put("death", k.getDeath());
-                        king.put("reignTime", k.getReignTime());
-                        king.put("predecessor", k.getPredecessor());
-                        king.put("successor", k.getSuccessor());
-                        king.put("aliases", k.getAliases());
-                        king.put("realName", k.getRealName());
-                        kings.add(king);
-                    }
-                    period.set("kings", kings);
-                    periodNodes.add(period);
-                }
-                ObjectNode periodsObj = mapper.createObjectNode();
-                periodsObj.set("periods", periodNodes);
-                writer.writeValue(new File("src/main/resources/json/periods.json"), periodsObj);
+                personRepository.writeJson(people, "src/main/resources/json/people.json");
+                placeRepository.writeJson(places, "src/main/resources/json/places.json");
+                periodRepository.writeJson(periods, "src/main/resources/json/periods.json");
 
                 break;
             } catch (Exception e) {
