@@ -9,15 +9,11 @@ import hust.vietnamesehistory.crawler.model.*;
 import hust.vietnamesehistory.repository.PeriodRepository;
 import hust.vietnamesehistory.repository.PersonRepository;
 import hust.vietnamesehistory.repository.PlaceRepository;
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
