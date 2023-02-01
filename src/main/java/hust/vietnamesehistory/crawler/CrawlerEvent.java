@@ -42,39 +42,38 @@ public class CrawlerEvent {
             Elements elements = doc.select(".mw-parser-output>*");
             int length = elements.size();
             String year = null;
-            for (int i=0;i<length;i++) {
-                Element e = elements.get(i);
+            for (Element e : elements) {
                 Boolean pb = e.select("p>b").isEmpty();
                 Boolean dldd = e.select("dl>dd").isEmpty();
-                if ((pb||dldd)
-                        &&(e.select("h2").isEmpty()&&e.select("h3").isEmpty()&&e.select("h1").isEmpty())
-                        &&(e.select("table").isEmpty())){
-                    if(pb){
+                if ((pb || dldd)
+                        && (e.select("h2").isEmpty() && e.select("h3").isEmpty() && e.select("h1").isEmpty())
+                        && (e.select("table").isEmpty())) {
+                    if (pb) {
                         Elements dds = e.select("dl>dd");
-                        for (Element dd:dds) {
+                        for (Element dd : dds) {
                             Event event = new Event();
                             String date = year + " " + dd.select("b").text();
                             event.setDate(date);
-                            String name = dd.text().replace(dd.select("b").text()+" ","");
+                            String name = dd.text().replace(dd.select("b").text() + " ", "");
                             event.setName(name);
-                            if (!dd.select("a").isEmpty()){
+                            if (!dd.select("a").isEmpty()) {
                                 Elements dda = dd.select("a");
                                 List<Place> places = new ArrayList<Place>();
                                 List<Person> people = new ArrayList<Person>();
-                                for (Element ddat:dda) // ddat : lay text cua dd>a
+                                for (Element ddat : dda) // ddat : lay text cua dd>a
                                 {
                                     String search = Crawler.searchGoogle(ddat.text());
-                                    if(search.contains("dia-danh")){
-                                        for (Place placeSearch: placeList) {
-                                            if(placeSearch.getHref().equals(search)){
+                                    if (search.contains("dia-danh")) {
+                                        for (Place placeSearch : placeList) {
+                                            if (placeSearch.getHref().equals(search)) {
                                                 places.add(placeSearch);
                                                 break;
                                             }
                                         }
                                     }
-                                    if(search.contains("nhan-vat")){
-                                        for (Person personSearch: personList) {
-                                            if(personSearch.getHref().equals(search)){
+                                    if (search.contains("nhan-vat")) {
+                                        for (Person personSearch : personList) {
+                                            if (personSearch.getHref().equals(search)) {
                                                 people.add(personSearch);
                                                 break;
                                             }
@@ -87,35 +86,35 @@ public class CrawlerEvent {
                             events.add(event);
                         }
                     }
-                    if(dldd){
+                    if (dldd) {
                         Event event = new Event();
-                        if(!e.select("b").isEmpty()){
+                        if (!e.select("b").isEmpty()) {
                             String date = e.select("b").text();
                             event.setDate(date);
-                            String name = e.text().replace(date+" ","");
-                            if(name.equals(date)){
+                            String name = e.text().replace(date + " ", "");
+                            if (name.equals(date)) {
                                 year = date;
-                            }else {
+                            } else {
                                 event.setName(name);
-                                if (!e.select("a").isEmpty()){
+                                if (!e.select("a").isEmpty()) {
                                     Elements ea = e.select("a");
                                     List<Place> places = new ArrayList<Place>();
                                     List<Person> people = new ArrayList<Person>();
-                                    for (Element eat:ea) // ddat : lay text cua dd>a
+                                    for (Element eat : ea) // ddat : lay text cua dd>a
                                     {
                                         String search = Crawler.searchGoogle(eat.text());
-                                        if(search.contains("dia-danh")){
-                                            for (Place placeSearch: placeList) {
-                                                if(placeSearch.getHref().equals(search)){
+                                        if (search.contains("dia-danh")) {
+                                            for (Place placeSearch : placeList) {
+                                                if (placeSearch.getHref().equals(search)) {
                                                     places.add(placeSearch);
                                                     System.out.println(placeSearch.getHref());
                                                     break;
                                                 }
                                             }
                                         }
-                                        if(search.contains("nhan-vat")){
-                                            for (Person personSearch: personList) {
-                                                if(personSearch.getHref().equals(search)){
+                                        if (search.contains("nhan-vat")) {
+                                            for (Person personSearch : personList) {
+                                                if (personSearch.getHref().equals(search)) {
                                                     people.add(personSearch);
                                                     System.out.println(personSearch.getHref());
                                                     break;
