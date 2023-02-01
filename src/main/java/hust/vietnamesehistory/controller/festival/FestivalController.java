@@ -67,8 +67,8 @@ public class FestivalController implements Initializable {
     }
 
     @FXML
-    void searchFestival(ActionEvent event) {
-        List<Festival> listFestivalSearch = new ArrayList<Festival>();
+    void searchFestival() {
+        List<Festival> listFestivalSearch = new ArrayList<>();
         String search = searchText.getText();
         for (Festival p : festivalList
         ) {
@@ -85,10 +85,10 @@ public class FestivalController implements Initializable {
         festivalList = FXCollections.observableArrayList(
                 App.getFestivalList()
         );
-        dateColumn.setCellValueFactory(new PropertyValueFactory<Festival,String>("date"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<Festival,String>("name"));
-        rootColumn.setCellValueFactory(new PropertyValueFactory<Festival,String>("root"));
-        noteColumn.setCellValueFactory(new PropertyValueFactory<Festival,String>("note"));
+        dateColumn.setCellValueFactory(new PropertyValueFactory<>("date"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        rootColumn.setCellValueFactory(new PropertyValueFactory<>("root"));
+        noteColumn.setCellValueFactory(new PropertyValueFactory<>("note"));
         table.setItems(festivalList);
     }
 }

@@ -23,7 +23,6 @@ public class Crawler {
     public static final String TIMELINE_HREF = "/dong-lich-su";
     public static final String CHARACTERS_HREF = "/nhan-vat?start=";
     public static final String PLACES_HREF = "/dia-danh?start=";
-    public static final String GOOGLE_URI = "https://www.google.com/search?q=";
     static List<Person> crawlPeople() {
         List<Person> people = new ArrayList<>();
         int idx = 0;
@@ -235,21 +234,6 @@ public class Crawler {
             System.out.println("ERROR: Không thể lấy thông tin dòng lịch sử. " + e);
         }
         return periods;
-    }
-    static String searchGoogle(String keyword) {
-        Document doc = null;
-        try {
-            doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
-        } catch (IOException e) {
-            return "";
-        }
-        String link = doc.select(".yuRUbf a").first().attr("href");
-        if(link.contains(URI + "/dia-danh")||link.contains(URI + "/nhan-vat")){
-            link = link.replace(URI,"");
-        }else{
-            link = "";
-        }
-        return link;
     }
     public static void main(String[] args) {
         List<Person> people = crawlPeople();

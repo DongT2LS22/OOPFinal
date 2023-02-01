@@ -1,12 +1,5 @@
-/**
- * This class was created at 21-Jan-23 17:32:12
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.crawler;
 
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import hust.vietnamesehistory.controller.App;
 import hust.vietnamesehistory.model.Festival;
 import hust.vietnamesehistory.model.Person;
@@ -27,9 +20,9 @@ public class CrawlerFestival {
         App.setPlaceList();
         List<Person>personList = App.getPersonList();
         List<Place> placeList = App.getPlaceList();
-        List<Festival> festivals = new ArrayList<Festival>();
+        List<Festival> festivals = new ArrayList<>();
         String url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
-        Document doc = null;
+        Document doc;
         try {
             doc = Jsoup.connect(url).get();
         } catch (IOException e) {
@@ -48,8 +41,8 @@ public class CrawlerFestival {
                 }
                 if(i==1){
                     String places = festival.get(i).text();
-                    String search = null;
-                    List<Place> arrPlace = new ArrayList<Place>();
+                    String search;
+                    List<Place> arrPlace = new ArrayList<>();
                     if(places.contains(",")){
                         String[] place = places.split(",");
                         for (String p:place) {
@@ -58,7 +51,7 @@ public class CrawlerFestival {
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
-                            if(search!=""){
+                            if(!search.equals("")){
                                 for (Place pl:placeList) {
                                     if(pl.getHref().equals(search)){
                                         arrPlace.add(pl);
@@ -71,7 +64,7 @@ public class CrawlerFestival {
                     }else {
                         try {
                             search = searchGoogle(places);
-                            if(search!=""){
+                            if(!search.equals("")){
                                 for (Place pl:placeList) {
                                     if(pl.getHref().equals(search)){
                                         arrPlace.add(pl);
@@ -94,8 +87,8 @@ public class CrawlerFestival {
                 }
                 if(i==4){
                     String people = festival.get(i).text();
-                    List<Person> arrPeople = new ArrayList<Person>();
-                    String search = null;
+                    List<Person> arrPeople = new ArrayList<>();
+                    String search;
                     if(people.contains(",")){
                         String[] person = people.split(",");
                         for (String p:person){
@@ -104,7 +97,7 @@ public class CrawlerFestival {
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
-                            if(search!=""){
+                            if(!search.equals("")){
                                 System.out.println(search);
                                 for (Person per:personList) {
                                     if(per.getHref().equals(search)){
@@ -117,7 +110,7 @@ public class CrawlerFestival {
                     }else{
                         try {
                             search = searchGoogle(people);
-                            if(search!=""){
+                            if(!search.equals("")){
                                 for (Person per:personList) {
                                     if(per.getHref().equals(search)){
                                         arrPeople.add(per);
@@ -148,7 +141,6 @@ public class CrawlerFestival {
     public static String searchGoogle(String keyword) throws IOException{
         String url = "https://www.google.com/search?q=";
         Document doc = Jsoup.connect(url+keyword+" nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
-        String html = doc.html();
         String link = doc.select(".yuRUbf a").first().attr("href");
         if(link.contains("https://nguoikesu.com/dia-danh")||link.contains("https://nguoikesu.com/nhan-vat")){
             link = link.replace("https://nguoikesu.com","");
