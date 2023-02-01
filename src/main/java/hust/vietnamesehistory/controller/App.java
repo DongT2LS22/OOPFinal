@@ -1,6 +1,9 @@
 package hust.vietnamesehistory.controller;
 
 import hust.vietnamesehistory.crawler.model.*;
+import hust.vietnamesehistory.repository.PeriodRepository;
+import hust.vietnamesehistory.repository.PersonRepository;
+import hust.vietnamesehistory.repository.PlaceRepository;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -34,68 +37,11 @@ public class App extends Application {
     }
     public static void setPersonList(){
         if(personList.isEmpty()){
-            String file = "src/main/resources/json/people.json";
-            String jsonString = null;
+            PersonRepository personRepo = new PersonRepository();
             try {
-                jsonString = new String(Files.readAllBytes(Paths.get(file)));
+                personList = personRepo.readJson("src/main/resources/json/people.json");
             } catch (IOException e) {
                 throw new RuntimeException(e);
-            }
-            JSONObject obj = new JSONObject(jsonString);
-            JSONArray arr = obj.getJSONArray("people"); // notice that `"posts": [...]`
-            for (int i = 0; i < arr.length(); i++)
-            {
-                String href = arr.getJSONObject(i).getString("href");
-                String name = arr.getJSONObject(i).getString("name");
-                String birth;
-                String death;
-                if(arr.getJSONObject(i).isNull("birth")){
-                    birth = "";
-                }else{
-                    birth = arr.getJSONObject(i).getString("birth");
-                }
-                if(arr.getJSONObject(i).isNull("death")){
-                    death = "";
-                }else{
-                    death = arr.getJSONObject(i).getString("death");
-                }
-                if(!arr.getJSONObject(i).has("reignTime")){
-                    Person p = new Person(href,name,birth,death);
-                    personList.add(p);
-                }else{
-                    String reignTime;
-                    if(arr.getJSONObject(i).isNull("reignTime")){
-                        reignTime = "";
-                    }else{
-                        reignTime = arr.getJSONObject(i).getString("reignTime");
-                    }
-                    String predecessor;
-                    if(arr.getJSONObject(i).isNull("predecessor")){
-                        predecessor = "";
-                    }else{
-                        predecessor = arr.getJSONObject(i).getString("predecessor");
-                    }
-                    String successor;
-                    if(arr.getJSONObject(i).isNull("successor")){
-                        successor = "";
-                    }else{
-                        successor = arr.getJSONObject(i).getString("successor");
-                    }
-                    String aliases;
-                    if(arr.getJSONObject(i).isNull("aliases")){
-                        aliases = "";
-                    }else{
-                        aliases = arr.getJSONObject(i).getString("aliases");
-                    }
-                    String realName;
-                    if(arr.getJSONObject(i).isNull("realName")){
-                        realName = "";
-                    }else{
-                        realName = arr.getJSONObject(i).getString("realName");
-                    }
-                    Person p = new King(name,href,birth,death,reignTime,predecessor,successor,aliases,realName);
-                    personList.add(p);
-                }
             }
         }
     }
@@ -106,45 +52,11 @@ public class App extends Application {
 
     public static void setPlaceList() {
         if(placeList.isEmpty()){
-            String file = "src/main/resources/json/places.json";
-            String jsonString = null;
+            PlaceRepository placeRepo = new PlaceRepository();
             try {
-                jsonString = new String(Files.readAllBytes(Paths.get(file)));
+                placeList = placeRepo.readJson("src/main/resources/json/places.json");
             } catch (IOException e) {
                 throw new RuntimeException(e);
-            }
-            JSONObject obj = new JSONObject(jsonString);
-            JSONArray arr = obj.getJSONArray("places"); // notice that `"posts": [...]`
-            for (int i = 0; i < arr.length(); i++)
-            {
-                String href = arr.getJSONObject(i).getString("href");
-                String name = arr.getJSONObject(i).getString("name");
-                String location;
-                if(arr.getJSONObject(i).isNull("location")){
-                    location = "";
-                }else{
-                    location = arr.getJSONObject(i).getString("location");
-                }
-                String area ;
-                if(arr.getJSONObject(i).isNull("area")){
-                    area = "";
-                }else{
-                    area = arr.getJSONObject(i).getString("area");
-                }
-                String national ;
-                if(arr.getJSONObject(i).isNull("national")){
-                    national = "";
-                }else{
-                    national = arr.getJSONObject(i).getString("national");
-                }
-                String coordinates;
-                if(arr.getJSONObject(i).isNull("coordinates")){
-                    coordinates = "";
-                }else{
-                    coordinates = arr.getJSONObject(i).getString("coordinates");
-                }
-                Place p = new Place(href,name,national,location,coordinates,area);
-                placeList.add(p);
             }
         }
     }
@@ -155,6 +67,12 @@ public class App extends Application {
 
     public static void setFestivalList() {
         if(festivalList.isEmpty()){
+//            FestivalRepository fesRepo = new PlaceRepository();
+//            try {
+//                festivalList = fesRepo.readJson("src/main/resources/json/festival.json");
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
             String file = "src/main/resources/json/festival.json";
             String jsonString = null;
             try {
@@ -217,7 +135,14 @@ public class App extends Application {
     }
 
     public static void setPeriodList(List<Period> periodList) {
-        App.periodList = periodList;
+        if(periodList.isEmpty()){
+            PeriodRepository periodRepo = new PeriodRepository();
+            try {
+                periodList = periodRepo.readJson("src/main/resources/json/periods.json");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     public static void main(String[] args) {
