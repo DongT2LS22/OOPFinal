@@ -1,28 +1,23 @@
 package hust.vietnamesehistory.controller;
 
 import hust.vietnamesehistory.model.*;
-import hust.vietnamesehistory.repository.FestivalRepository;
-import hust.vietnamesehistory.repository.PeriodRepository;
-import hust.vietnamesehistory.repository.PersonRepository;
-import hust.vietnamesehistory.repository.PlaceRepository;
+import hust.vietnamesehistory.repository.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
 public class App extends Application {
-    private static List<Person> personList = new ArrayList<Person>();
-    private static List<Place> placeList = new ArrayList<Place>();
-    private static List<Festival> festivalList = new ArrayList<Festival>();
-    private static List<Period> periodList = new ArrayList<Period>();
+    private static List<Person> personList = new ArrayList<>();
+    private static List<Place> placeList = new ArrayList<>();
+    private static List<Festival> festivalList = new ArrayList<>();
+    private static List<Period> periodList = new ArrayList<>();
+
+    private static List<Event> eventList = new ArrayList<>();
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
@@ -91,10 +86,26 @@ public class App extends Application {
         }
     }
 
+    public static List<Event> getEventList() {
+        return eventList;
+    }
+
+    public static void setEventList() {
+        if(eventList.isEmpty()){
+            EventRepository eventRepo = new EventRepository();
+            try {
+                eventList = eventRepo.readJson("src/main/resources/json/events.json");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         setPersonList();
         setPlaceList();
         setFestivalList();
+        setEventList();
         launch();
     }
 }

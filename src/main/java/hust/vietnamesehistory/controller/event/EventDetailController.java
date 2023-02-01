@@ -42,12 +42,12 @@ public class EventDetailController {
         dateLabel.setText(event.getDate());
         String people = "";
         for (Person p:event.getPeople()) {
-            people = people + p.getName() + ",";
+            people = people + p.getName() + " , ";
         }
         personLabel.setText(people);
         String places = "";
         for (Place p:event.getPlaces()) {
-            places = places + p.getName() + ",";
+            places = places + p.getName() + " , ";
         }
         placeLabel.setText(places);
     }
