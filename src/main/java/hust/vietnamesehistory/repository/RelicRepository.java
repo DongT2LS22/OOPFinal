@@ -1,15 +1,7 @@
-/**
- * This class was created at 01-Feb-23 09:53:55
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.repository;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import hust.vietnamesehistory.crawler.model.Relic;

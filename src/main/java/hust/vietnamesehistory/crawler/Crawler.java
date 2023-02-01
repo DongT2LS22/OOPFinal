@@ -1,10 +1,5 @@
 package hust.vietnamesehistory.crawler;
 
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import hust.vietnamesehistory.crawler.model.*;
 import hust.vietnamesehistory.repository.PeriodRepository;
 import hust.vietnamesehistory.repository.PersonRepository;

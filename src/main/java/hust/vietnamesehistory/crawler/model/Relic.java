@@ -1,7 +1,3 @@
-/**
- * This class was created at 30-Jan-23 17:47:07
- * This class is owned by FaceNet Company
- */
 package hust.vietnamesehistory.crawler.model;
 
 public class Relic extends Place{
