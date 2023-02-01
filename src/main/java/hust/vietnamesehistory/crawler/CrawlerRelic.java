@@ -1,6 +1,6 @@
 package hust.vietnamesehistory.crawler;
 
-import hust.vietnamesehistory.crawler.model.Relic;
+import hust.vietnamesehistory.model.Relic;
 import hust.vietnamesehistory.repository.RelicRepository;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

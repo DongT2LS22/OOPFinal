@@ -14,7 +14,7 @@ module hust.vietnamesehistory.controller {
     exports hust.vietnamesehistory.controller.festival;
     opens hust.vietnamesehistory.controller.place to javafx.fxml;
     opens hust.vietnamesehistory.controller.people to javafx.fxml;
-    opens hust.vietnamesehistory.crawler.model to javafx.base;
+    opens hust.vietnamesehistory.model to javafx.base;
     opens hust.vietnamesehistory.controller.festival to javafx.fxml;
-    exports hust.vietnamesehistory.crawler.model to com.fasterxml.jackson.databind;
+    exports hust.vietnamesehistory.model to com.fasterxml.jackson.databind;
 }

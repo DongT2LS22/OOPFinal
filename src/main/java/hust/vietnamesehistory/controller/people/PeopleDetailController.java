@@ -1,8 +1,8 @@
 package hust.vietnamesehistory.controller.people;
 
 import hust.vietnamesehistory.controller.App;
-import hust.vietnamesehistory.crawler.model.King;
-import hust.vietnamesehistory.crawler.model.Person;
+import hust.vietnamesehistory.model.King;
+import hust.vietnamesehistory.model.Person;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

@@ -1,6 +1,6 @@
 package hust.vietnamesehistory.crawler;
 
-import hust.vietnamesehistory.crawler.model.*;
+import hust.vietnamesehistory.model.*;
 import hust.vietnamesehistory.repository.PeriodRepository;
 import hust.vietnamesehistory.repository.PersonRepository;
 import hust.vietnamesehistory.repository.PlaceRepository;

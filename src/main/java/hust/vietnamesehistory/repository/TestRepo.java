@@ -1,8 +1,8 @@
 package hust.vietnamesehistory.repository;
 
-import hust.vietnamesehistory.crawler.model.Period;
-import hust.vietnamesehistory.crawler.model.Person;
-import hust.vietnamesehistory.crawler.model.Place;
+import hust.vietnamesehistory.model.Period;
+import hust.vietnamesehistory.model.Person;
+import hust.vietnamesehistory.model.Place;
 
 import java.io.IOException;
 import java.util.List;

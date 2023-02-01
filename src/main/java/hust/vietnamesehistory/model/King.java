@@ -1,4 +1,4 @@
-package hust.vietnamesehistory.crawler.model;
+package hust.vietnamesehistory.model;
 
 public class King extends Person{
     private String reignTime;

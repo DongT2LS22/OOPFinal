@@ -4,8 +4,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import hust.vietnamesehistory.crawler.model.King;
-import hust.vietnamesehistory.crawler.model.Period;
+import hust.vietnamesehistory.model.King;
+import hust.vietnamesehistory.model.Period;
 
 import java.io.File;
 import java.io.IOException;

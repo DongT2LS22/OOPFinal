@@ -1,7 +1,7 @@
 package hust.vietnamesehistory.controller.place;
 
 import hust.vietnamesehistory.controller.App;
-import hust.vietnamesehistory.crawler.model.Place;
+import hust.vietnamesehistory.model.Place;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
