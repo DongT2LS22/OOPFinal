@@ -19,6 +19,10 @@ public class Festival{
         this.root = root;
     }
 
+    public Festival() {
+
+    }
+
     public String getName() {
         return name;
     }
