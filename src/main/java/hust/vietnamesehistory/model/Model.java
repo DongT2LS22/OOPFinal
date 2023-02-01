@@ -1,4 +1,4 @@
-package hust.vietnamesehistory.crawler.model;
+package hust.vietnamesehistory.model;
 
 public abstract class Model {
     public Model() {

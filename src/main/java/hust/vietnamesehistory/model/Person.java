@@ -1,9 +1,4 @@
-package hust.vietnamesehistory.crawler.model;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
-
-import java.util.ArrayList;
-import java.util.List;
+package hust.vietnamesehistory.model;
 
 public class Person extends Model {
     private String birth;

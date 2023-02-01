@@ -1,10 +1,7 @@
 package hust.vietnamesehistory.controller.festival;
 
 import hust.vietnamesehistory.controller.App;
-import hust.vietnamesehistory.controller.people.PeopleDetailController;
-import hust.vietnamesehistory.crawler.model.Festival;
-import hust.vietnamesehistory.crawler.model.King;
-import hust.vietnamesehistory.crawler.model.Person;
+import hust.vietnamesehistory.model.Festival;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

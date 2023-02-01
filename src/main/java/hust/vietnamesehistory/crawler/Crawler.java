@@ -1,11 +1,6 @@
 package hust.vietnamesehistory.crawler;
 
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import hust.vietnamesehistory.crawler.model.*;
+import hust.vietnamesehistory.model.*;
 import hust.vietnamesehistory.repository.PeriodRepository;
 import hust.vietnamesehistory.repository.PersonRepository;
 import hust.vietnamesehistory.repository.PlaceRepository;
@@ -28,7 +23,6 @@ public class Crawler {
     public static final String TIMELINE_HREF = "/dong-lich-su";
     public static final String CHARACTERS_HREF = "/nhan-vat?start=";
     public static final String PLACES_HREF = "/dia-danh?start=";
-    public static final String FESTIVAL_URI = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
     public static final String GOOGLE_URI = "https://www.google.com/search?q=";
     static List<Person> crawlPeople() {
         List<Person> people = new ArrayList<>();
@@ -241,62 +235,6 @@ public class Crawler {
             System.out.println("ERROR: Không thể lấy thông tin dòng lịch sử. " + e);
         }
         return periods;
-    }
-    static List<Festival> crawlFestivals(HashMap<String, Person> personHashMap, HashMap<String, Place> placeHashMap) {
-        List<Festival> festivals = new ArrayList<>();
-        try {
-            Document doc = Jsoup.connect(FESTIVAL_URI).timeout(0).get();
-            Elements elements = doc.getElementsByTag("tbody").get(1).getElementsByTag("tr");
-            elements.remove(0);
-            for (Element element: elements) {
-                String name = null;
-                String date = null;
-                String note = null;
-                String root = null;
-                List<Place> places = new ArrayList<>();
-                List<Person> people = new ArrayList<>();
-                Elements festival = element.getElementsByTag("td");
-                // date
-                if (festival.get(0).text().length() != 0) {
-                    date = festival.get(0).text();
-                }
-                // places
-                String placeStr = festival.get(1).text();
-                String[] listPlace = placeStr.split(",");
-                for (String p : listPlace) {
-                    String searchRes = searchGoogle(p);
-                    if(placeHashMap.containsKey(searchRes)){
-                        places.add(placeHashMap.get(searchRes));
-                    }
-                }
-                // name
-                if (festival.get(2).text().length() != 0) {
-                    name = festival.get(2).text();
-                }
-                // root
-                if (festival.get(3).text().length() != 0) {
-                    root = festival.get(3).text();
-                }
-                // people
-                String personStr = festival.get(4).text();
-                String[] listPerson = personStr.split(",");
-                for (String p : listPerson){
-                    String searchRes = searchGoogle(p);
-                    if(personHashMap.containsKey(searchRes)){
-                        people.add(personHashMap.get(searchRes));
-                    }
-                }
-                // note
-                if (festival.get(5).text().length() != 0) {
-                    note = festival.get(5).text();
-                }
-
-                Festival fes = new Festival(name, date, places, note, people, root);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return festivals;
     }
     static String searchGoogle(String keyword) throws IOException{
         Document doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();

@@ -1,6 +1,6 @@
 package hust.vietnamesehistory.controller;
 
-import hust.vietnamesehistory.crawler.model.*;
+import hust.vietnamesehistory.model.*;
 import hust.vietnamesehistory.repository.PeriodRepository;
 import hust.vietnamesehistory.repository.PersonRepository;
 import hust.vietnamesehistory.repository.PlaceRepository;
@@ -15,7 +15,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class App extends Application {

@@ -1,4 +1,4 @@
-package hust.vietnamesehistory.crawler.model;
+package hust.vietnamesehistory.model;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package hust.vietnamesehistory.crawler;
 
-import hust.vietnamesehistory.crawler.model.Event;
+import hust.vietnamesehistory.model.Event;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;

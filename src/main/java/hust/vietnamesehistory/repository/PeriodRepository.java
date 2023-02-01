@@ -1,15 +1,11 @@
 package hust.vietnamesehistory.repository;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import hust.vietnamesehistory.crawler.model.King;
-import hust.vietnamesehistory.crawler.model.Period;
+import hust.vietnamesehistory.model.King;
+import hust.vietnamesehistory.model.Period;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,9 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PeriodRepository implements Repository<Period>{
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectReader reader = mapper.reader();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<Period> readJson(String filePath) throws IOException {
         List<Period> periods = new ArrayList<>();

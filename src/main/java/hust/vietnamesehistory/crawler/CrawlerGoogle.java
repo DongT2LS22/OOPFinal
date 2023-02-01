@@ -1,14 +1,13 @@
 package hust.vietnamesehistory.crawler;
 
 import hust.vietnamesehistory.controller.App;
-import hust.vietnamesehistory.crawler.model.Person;
+import hust.vietnamesehistory.model.Person;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class CrawlerGoogle {
