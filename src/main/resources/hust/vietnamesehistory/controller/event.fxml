@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="610.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.Event">
+<AnchorPane prefHeight="610.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventController">
    <children>
       <Button layoutX="531.0" layoutY="516.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
@@ -53,10 +52,10 @@
             </ImageView>
          </graphic>
       </Button>
-      <TableView layoutX="80.0" layoutY="121.0" prefHeight="368.0" prefWidth="458.0">
+      <TableView fx:id="table" layoutX="80.0" layoutY="121.0" prefHeight="368.0" prefWidth="458.0">
         <columns>
-          <TableColumn prefWidth="230.0" text="Tên sự kiện" />
-          <TableColumn prefWidth="227.0" text="Ngày sự kiện" />
+          <TableColumn fx:id="nameColumn" prefWidth="230.0" text="Tên sự kiện" />
+          <TableColumn fx:id="dateColumn" prefWidth="227.0" text="Ngày sự kiện" />
         </columns>
       </TableView>
    </children>
