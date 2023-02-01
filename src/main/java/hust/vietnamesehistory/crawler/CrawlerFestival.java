@@ -22,8 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CrawlerFestival {
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     static List<Festival> crawlFestival(){
         App.setPersonList();
         App.setPlaceList();
@@ -50,11 +48,11 @@ public class CrawlerFestival {
                 }
                 if(i==1){
                     String places = festival.get(i).text();
+                    String search = null;
                     List<Place> arrPlace = new ArrayList<Place>();
                     if(places.contains(",")){
                         String[] place = places.split(",");
                         for (String p:place) {
-                            String search = null;
                             try {
                                 search = searchGoogle(p);
                             } catch (IOException e) {
@@ -72,8 +70,8 @@ public class CrawlerFestival {
 
                     }else {
                         try {
-                            if(searchGoogle(places)!=""){
-                                String search = null;
+                            search = searchGoogle(places);
+                            if(search!=""){
                                 for (Place pl:placeList) {
                                     if(pl.getHref().equals(search)){
                                         arrPlace.add(pl);

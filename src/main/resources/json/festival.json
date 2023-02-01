@@ -673,14 +673,28 @@
     "note" : "của Người Hoa, tổ chức vào năm chẵn Tây Lịch",
     "root" : "",
     "people" : [ ],
-    "places" : [ ]
+    "places" : [ {
+      "href" : "/dia-danh/phan-thiet",
+      "name" : "Phan Thiết",
+      "national" : "Việt Nam",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "206,45 km²"
+    } ]
   }, {
     "name" : "Lễ hội Katê",
     "date" : "",
     "note" : "Lễ hội người Chăm, 1 tháng 7 theo lịch Chăm",
     "root" : "",
     "people" : [ ],
-    "places" : [ ]
+    "places" : [ {
+      "href" : "/dia-danh/tinh-binh-thuan",
+      "name" : "tỉnh Bình Thuận",
+      "national" : "Việt Nam",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "7.812,8 km²"
+    } ]
   }, {
     "name" : "Lễ hội chọi trâu",
     "date" : "9/8",
