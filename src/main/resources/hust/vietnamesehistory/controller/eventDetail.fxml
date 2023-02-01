@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="352.0" prefWidth="1108.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.EventDetail">
+   <children>
+      <Label layoutX="60.0" layoutY="39.0" prefHeight="50.0" prefWidth="300.0" text="Tên sự kiện              :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/festivalimages/nameevent.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="60.0" layoutY="119.0" prefHeight="50.0" prefWidth="300.0" text="Ngày diễn ra            :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/festivalimages/eventday.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="60.0" layoutY="200.0" prefHeight="50.0" prefWidth="300.0" text="Địa điểm liên quan  :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/menuimages/placeicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="60.0" layoutY="280.0" prefHeight="50.0" prefWidth="300.0" text="Nhân vật liên quan  :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/festivalimages/character.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="360.0" layoutY="39.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" layoutX="360.0" layoutY="119.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="placeLabel" layoutX="360.0" layoutY="200.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="personLabel" layoutX="360.0" layoutY="280.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

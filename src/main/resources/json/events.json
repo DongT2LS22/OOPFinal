@@ -1,0 +1,1617 @@
+{
+  "events" : [ {
+    "date" : "Niên biểu lịch sử Việt Nam",
+    "name" : "là hệ thống các sự kiện lịch sử Việt Nam nổi bật theo thời gian từ các thời tiền sử, huyền sử, cổ đại, trung đại, cận đại cho tới lịch sử hiện đại ngày nay.",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "25.000 TCN–7.000 TCN",
+    "name" : "Văn hóa Soi Nhụ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "23.000 TCN",
+    "name" : "Văn hóa Ngườm",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "23.000 TCN–1.000 TCN",
+    "name" : "Văn hóa Tràng An",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "20.000 TCN–12.000 TCN",
+    "name" : "Văn hóa Sơn Vi",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "12.000 TCN–10.000 TCN",
+    "name" : "Văn hóa Hòa Bình",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "10.000 TCN - 8.000 TCN",
+    "name" : "Văn hóa Bắc Sơn",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "8.000 TCN - 6.000 TCN",
+    "name" : "Văn hóa Quỳnh Văn",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "7.000 TCN - 5.000 TCN",
+    "name" : "Văn hóa Cái Bèo",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "6.000 TCN - 5.000 TCN",
+    "name" : "Văn hóa Đa Bút",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "3.000 TCN–1.500 TCN",
+    "name" : "Văn hóa Hạ Long",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "2.000 TCN–1.500 TCN",
+    "name" : "Văn hóa Phùng Nguyên",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "2.000 TCN–1.000 TCN",
+    "name" : "Văn hóa Tiền Sa Huỳnh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1.500 TCN–1.000 TCN",
+    "name" : "Văn hóa Đồng Đậu",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1.000 TCN - 600 TCN",
+    "name" : "Văn hóa Gò Mun",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1.000 TCN - 200 ",
+    "name" : "1.000 TCN - 200 Văn hóa Sa Huỳnh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1.000 TCN - 0",
+    "name" : "Văn hóa Đồng Nai",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "700 TCN–100",
+    "name" : "Văn hóa Đông Sơn",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1 - 630",
+    "name" : "Văn hóa Óc Eo",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "Thế kỉ VII TCN",
+    "name" : "vua Hùng thành lập quốc gia Văn Lang",
+    "people" : [ {
+      "href" : "/nhan-vat/hung-vuong",
+      "name" : "Hùng Vương",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "207 TCN",
+    "name" : "An Dương Vương thôn tính Văn Lang, thành lập quốc gia Âu Lạc",
+    "people" : [ {
+      "href" : "/nhan-vat/an-duong-vuong",
+      "name" : "An Dương Vương",
+      "birth" : "không rõ",
+      "death" : "208 TCN / 179 TCN1",
+      "reignTime" : "null",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Triều đại sụp đổ",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "218 TCN - 207 TCN",
+    "name" : "Chiến tranh Tần-Việt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "179 TCN",
+    "name" : "Triệu Đà xâm lược nước Âu Lạc, sáp nhập vào quốc gia Nam Việt",
+    "people" : [ {
+      "href" : "/nhan-vat/trieu-da",
+      "name" : "Triệu Đà",
+      "birth" : "257 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), đời nhà Tần (nay là huyện Chính Định (正定), tỉnh Hà Bắc), Trung Quốc",
+      "death" : "137 TCN (120 tuổi) Phiên Ngung (nay là thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+      "reignTime" : "null",
+      "predecessor" : "null",
+      "successor" : "Triệu Văn Đế",
+      "aliases" : "70 năm",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "111 TCN",
+    "name" : "Chiến tranh Hán-Nam Việt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "111 TCN",
+    "name" : "nhà Hán thôn tính Nam Việt",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-han",
+      "name" : "nhà Hán",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "40",
+    "name" : "khởi nghĩa Hai Bà Trưng, Trưng Trắc thành lập quốc gia Lĩnh Nam, kinh đô đặt tại Mê Linh",
+    "people" : [ {
+      "href" : "/nhan-vat/hai-ba-trung",
+      "name" : "Hai Bà Trưng",
+      "birth" : "null",
+      "death" : "null"
+    }, {
+      "href" : "/nhan-vat/trung-trac",
+      "name" : "Trưng Trắc",
+      "birth" : "null",
+      "death" : "null"
+    }, {
+      "href" : "/nhan-vat/trung-vuong",
+      "name" : "Trưng Vương",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "42 - 43",
+    "name" : "Chiến tranh Lĩnh Nam - Đông Hán",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "43",
+    "name" : "Đông Hán thôn tính Lĩnh Nam",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-nam-de",
+      "name" : "Lý Nam Đế",
+      "birth" : "17 tháng 10, 503",
+      "death" : "13 tháng 4, 548 (44 tuổi) Việt Nam",
+      "reignTime" : "Thiên Đức (天徳)",
+      "predecessor" : "null",
+      "successor" : "Triệu Việt Vương",
+      "aliases" : "544 – 548",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "156–160",
+    "name" : "Khởi nghĩa Chu Đạt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "178–181",
+    "name" : "Khởi nghĩa Lương Long",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "192",
+    "name" : "Khu Liên khởi nghĩa, tách quận Nhật Nam thành lập quốc gia Lâm Ấp",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "229 23 tháng 6",
+    "name" : "Tôn Quyền xưng đế, lập nước Đông Ngô, ly khai nhà Hán",
+    "people" : [ {
+      "href" : "/nhan-vat/ton-quyen",
+      "name" : "Tôn Quyền",
+      "birth" : "5 tháng 7 năm 182 Hạ Bi, Từ Châu, Nhà Hán",
+      "death" : "21 tháng 5 năm 252 (70 tuổi)[a] Kiến Nghiệp, Đông Ngô",
+      "reignTime" : "",
+      "predecessor" : "Tôn Sách",
+      "successor" : "Tôn Lượng",
+      "aliases" : "null",
+      "realName" : "null"
+    }, {
+      "href" : "/nhan-vat/nha-han",
+      "name" : "nhà Hán",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "246 - 248",
+    "name" : "Khởi nghĩa Bà Triệu",
+    "people" : [ {
+      "href" : "/nhan-vat/ba-trieu",
+      "name" : "Bà Triệu",
+      "birth" : "Năm 225 Yên Định, Thanh Hóa",
+      "death" : "Năm 248 Hậu Lộc, Thanh Hóa"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "280",
+    "name" : "Chiến tranh Tấn – Ngô",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "420",
+    "name" : "Lưu Dụ ép Tấn Cung Đế nhường ngôi, lập ra nhà Lưu Tống",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "436",
+    "name" : "Thứ sử Giao Châu Đàn Hòa Chi đánh Lâm Ấp, cướp châu báu rút về",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "468 - 485",
+    "name" : "khởi nghĩa Lý Trường Nhân",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-truong-nhan",
+      "name" : "Lý Trường Nhân",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "479",
+    "name" : "Tiêu Đạo Thành phế Lưu Chuẩn tự làm vua, thành lập nhà Nam Tề",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-nam-te",
+      "name" : "nhà Nam Tề",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "502",
+    "name" : "Tiêu Diễn phế truất Tiêu Bảo Dung, thành lập nhà Lương",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-hau-luong",
+      "name" : "nhà Hậu Lương",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "541",
+    "name" : "khởi nghĩa Lý Bí",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "544",
+    "name" : "Lý Bí thành lập quốc gia Vạn Xuân",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-bi",
+      "name" : "Lý Bí",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/nuoc-van-xuan",
+      "name" : "nước Vạn Xuân",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "602",
+    "name" : "Chiến tranh Tùy–Vạn Xuân",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "618 tháng 3",
+    "name" : "Lý Uyên tuyên bố thành lập nhà Đường",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-uyen",
+      "name" : "Lý Uyên",
+      "birth" : "8 tháng 4, 566",
+      "death" : "25 tháng 6, 635 (69 tuổi) Trường An, Đại Đường",
+      "reignTime" : "Vũ Đức (武德)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đường Thái Tông",
+      "aliases" : "18 tháng 6 năm 6181 - 4 tháng 9 năm 6262 (8 năm, 19 ngày)",
+      "realName" : "Lý Uyên (李淵)"
+    }, {
+      "href" : "/nhan-vat/nha-duong",
+      "name" : "nhà Đường",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "618 tháng 5",
+    "name" : "Lý Uyên ép Dương Hựu nhường ngôi",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-uyen",
+      "name" : "Lý Uyên",
+      "birth" : "8 tháng 4, 566",
+      "death" : "25 tháng 6, 635 (69 tuổi) Trường An, Đại Đường",
+      "reignTime" : "Vũ Đức (武德)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đường Thái Tông",
+      "aliases" : "18 tháng 6 năm 6181 - 4 tháng 9 năm 6262 (8 năm, 19 ngày)",
+      "realName" : "Lý Uyên (李淵)"
+    }, {
+      "href" : "/nhan-vat/duong-huy",
+      "name" : "Dương Huy",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "687",
+    "name" : "khởi nghĩa Lý Tự Tiên",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-tu-tien",
+      "name" : "Lý Tự Tiên",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "713 - 723",
+    "name" : "khởi nghĩa Mai Hắc Đế",
+    "people" : [ {
+      "href" : "/nhan-vat/mai-hac-de",
+      "name" : "Mai Hắc Đế",
+      "birth" : "null",
+      "death" : "722 Hà Tĩnh",
+      "reignTime" : "null",
+      "predecessor" : "null",
+      "successor" : "Mai Thiếu Đế",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "776-791",
+    "name" : "khởi nghĩa Phùng Hưng",
+    "people" : [ {
+      "href" : "/nhan-vat/phung-hung",
+      "name" : "Phùng Hưng",
+      "birth" : "?",
+      "death" : "791 Việt Nam",
+      "reignTime" : "null",
+      "predecessor" : "Không có",
+      "successor" : "Phùng An",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "905",
+    "name" : "Khúc Thừa Dụ xây dựng chính quyền tự chủ",
+    "people" : [ {
+      "href" : "/nhan-vat/khuc-thua-du",
+      "name" : "Khúc Thừa Dụ",
+      "birth" : "null",
+      "death" : "23 tháng 7 năm 907 Thành Đại La, Hà Nội",
+      "reignTime" : "null",
+      "predecessor" : "Bắc thuộc lần 3",
+      "successor" : "Khúc Trung Chủ",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "938",
+    "name" : "Trận Bạch Đằng, Ngô Quyền đánh bại quân Nam Hán trên sông Bạch Đằng",
+    "people" : [ {
+      "href" : "/nhan-vat/ngo-quyen",
+      "name" : "Ngô Quyền",
+      "birth" : "12 tháng 3, 898 Đường Lâm",
+      "death" : "18 tháng 1, 944 (45 tuổi) Tĩnh Hải quân",
+      "reignTime" : "null",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Dương Bình Vương",
+      "aliases" : "939 – 944",
+      "realName" : "null"
+    }, {
+      "href" : "/nhan-vat/nha-nam-han",
+      "name" : "nhà Nam Hán",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/song-bach-dang",
+      "name" : "sông Bạch Đằng",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "939",
+    "name" : "Ngô Quyền xưng vương, kinh đô Cổ Loa",
+    "people" : [ {
+      "href" : "/nhan-vat/ngo-quyen",
+      "name" : "Ngô Quyền",
+      "birth" : "12 tháng 3, 898 Đường Lâm",
+      "death" : "18 tháng 1, 944 (45 tuổi) Tĩnh Hải quân",
+      "reignTime" : "null",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Dương Bình Vương",
+      "aliases" : "939 – 944",
+      "realName" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-co-loa",
+      "name" : "thành Cổ Loa",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "944 - 968",
+    "name" : "Loạn 12 sứ quân",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "968",
+    "name" : "Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt, kinh đô Hoa Lư",
+    "people" : [ {
+      "href" : "/nhan-vat/dinh-bo-linh",
+      "name" : "Đinh Bộ Lĩnh",
+      "birth" : "22 tháng 3 năm 924 Gia Viễn, Ninh Bình",
+      "death" : "Tháng 10 năm 979 Hoa Lư, Ninh Bình",
+      "reignTime" : "Thái Bình 太平",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đinh Phế Đế",
+      "aliases" : "968 - 979",
+      "realName" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/co-do-hoa-lu",
+      "name" : "Cố đô Hoa Lư",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "970",
+    "name" : "Đinh Bộ Lĩnh cho đúc Thái Bình hưng bảo, đồng tiền đầu tiên của Việt Nam",
+    "people" : [ {
+      "href" : "/nhan-vat/dinh-bo-linh",
+      "name" : "Đinh Bộ Lĩnh",
+      "birth" : "22 tháng 3 năm 924 Gia Viễn, Ninh Bình",
+      "death" : "Tháng 10 năm 979 Hoa Lư, Ninh Bình",
+      "reignTime" : "Thái Bình 太平",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đinh Phế Đế",
+      "aliases" : "968 - 979",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "979",
+    "name" : "Đinh Bộ Lĩnh cùng con trai bị sát hại",
+    "people" : [ {
+      "href" : "/nhan-vat/dinh-bo-linh",
+      "name" : "Đinh Bộ Lĩnh",
+      "birth" : "22 tháng 3 năm 924 Gia Viễn, Ninh Bình",
+      "death" : "Tháng 10 năm 979 Hoa Lư, Ninh Bình",
+      "reignTime" : "Thái Bình 太平",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Đinh Phế Đế",
+      "aliases" : "968 - 979",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "980",
+    "name" : "Lê Hoàn lên ngôi vua, thành lập nhà Tiền Lê",
+    "people" : [ {
+      "href" : "/nhan-vat/le-hoan",
+      "name" : "Lê Hoàn",
+      "birth" : "10 tháng 8, 941",
+      "death" : "1005 (63–64 tuổi) Hoa Lư, Đại Cồ Việt",
+      "reignTime" : "",
+      "predecessor" : "Nhà Đinh",
+      "successor" : "Lê Trung Tông",
+      "aliases" : "980 – 1005",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "981 tháng 1 - tháng 4",
+    "name" : "Chiến tranh Tống - Việt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1009 21 tháng 11",
+    "name" : "Lý Công Uẩn lên ngôi vua, thành lập nhà Lý",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-cong-uan",
+      "name" : "Lý Công Uẩn",
+      "birth" : "8 tháng 3, 974 Từ Sơn, Bắc Ninh",
+      "death" : "31 tháng 3, 1028 (54 tuổi) Long An điện, Thăng Long",
+      "reignTime" : "Thuận Thiên (順天)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Lý Thái Tông",
+      "aliases" : "21 tháng 11 năm 1009 – 31 tháng 3 năm 1028 (18 năm, 131 ngày)",
+      "realName" : "Lý Công Uẩn (李公蘊)"
+    }, {
+      "href" : "/nhan-vat/nha-ly",
+      "name" : "nhà Lý",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1010",
+    "name" : "Lý Công Uẩn dời đô về Thăng Long",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-cong-uan",
+      "name" : "Lý Công Uẩn",
+      "birth" : "8 tháng 3, 974 Từ Sơn, Bắc Ninh",
+      "death" : "31 tháng 3, 1028 (54 tuổi) Long An điện, Thăng Long",
+      "reignTime" : "Thuận Thiên (順天)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Lý Thái Tông",
+      "aliases" : "21 tháng 11 năm 1009 – 31 tháng 3 năm 1028 (18 năm, 131 ngày)",
+      "realName" : "Lý Công Uẩn (李公蘊)"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-thang-long",
+      "name" : "thành Thăng Long",
+      "national" : "Việt Nam",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1054",
+    "name" : "Lý Thánh Tông lên ngôi, đổi tên nước từ Đại Cồ Việt thành Đại Việt",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-thanh-tong",
+      "name" : "Lý Thánh Tông",
+      "birth" : "30 tháng 3 năm 1023",
+      "death" : "1 tháng 2, 1072 (48 tuổi)",
+      "reignTime" : "",
+      "predecessor" : "Lý Thái Tông",
+      "successor" : "Lý Nhân Tông",
+      "aliases" : "1054 – 1072",
+      "realName" : "Lý Nhật Tôn (李日尊)"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1069",
+    "name" : "Chiến tranh Việt-Chiêm, Đại Việt chiếm được 3 châu của Chiêm Thành",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1075–1077",
+    "name" : "Chiến tranh Tống-Việt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1077 18 tháng 1 – 28 tháng 2",
+    "name" : "Trận Như Nguyệt, đẩy lùi quân xâm lược Tống",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1226 10 tháng 1",
+    "name" : "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, thành lập nhà Trần",
+    "people" : [ {
+      "href" : "/nhan-vat/ly-chieu-hoang",
+      "name" : "Lý Chiêu Hoàng",
+      "birth" : "Tháng 9, 1218 Thăng Long",
+      "death" : "Tháng 3, 1278 Cổ Pháp",
+      "reignTime" : "Thiên Chương Hữu Đạo (天彰有道)",
+      "predecessor" : "Không có Hoàng hậu đầu tiên của nhà Trần",
+      "successor" : "Hiến Từ Thuận Thiên Hoàng Hậu",
+      "aliases" : "null",
+      "realName" : "null"
+    }, {
+      "href" : "/nhan-vat/tran-canh",
+      "name" : "Trần Cảnh",
+      "birth" : "9 tháng 7, 1218 Hương Tức Mặc (nay thuộc Nam Định)",
+      "death" : "5/51277.Hưởng thọ 60 tuổi Điện Vạn Thọ, Thăng Long",
+      "reignTime" : "Kiến Trung (建中; 1225 -1232) Thiên Ứng Chính Bình (天應政平; 1232 - 1251) Nguyên Phong (元豐; 1251 - 1258)",
+      "predecessor" : "Sáng lập triều đại Lý Chiêu Hoàng (trên thực tế)",
+      "successor" : "Trần Thánh Tông",
+      "aliases" : "1225 – 1258",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1258",
+    "name" : "Chiến tranh Nguyên Mông–Đại Việt lần 1",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1282",
+    "name" : "Hội nghị Bình Than, triệu họp vương hầu, trăm quan",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1284",
+    "name" : "Hội nghị Diên Hồng, triệu họp bô lão cả nước",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1285",
+    "name" : "Chiến tranh Nguyên Mông-Đại Việt lần 2",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1287–1288",
+    "name" : "Chiến tranh Nguyên Mông–Đại Việt lần 3",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1396",
+    "name" : "phát hành Thông Bảo hội sao theo chủ trương của Hồ Quý Ly, đây là tiền giấy đầu tiên của Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1397",
+    "name" : "Hồ Quý Ly ép Trần Thuận Tông dời đô về Tây Đô",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-tay-do",
+      "name" : "thành Tây Đô",
+      "national" : "Việt Nam",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1400 22 tháng 3",
+    "name" : "Hồ Quý Ly lên ngôi, thành lập nhà Hồ, đổi tên nước thành Đại Ngu",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1400–1407",
+    "name" : "Chiến tranh Việt-Chiêm",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1406–1407",
+    "name" : "Chiến tranh Đại Ngu–Đại Minh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1407",
+    "name" : "nhà Minh thôn tính Đại Ngu, đặt làm quận Giao Chỉ, trung tâm hành chính là Đông Quan",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-minh",
+      "name" : "nhà Minh",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/bo-giao-chi",
+      "name" : "bộ Giao Chỉ",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1400 2 tháng 10",
+    "name" : "Trần Ngỗi xưng Giản Định đế, lập nên nhà Hậu Trần",
+    "people" : [ {
+      "href" : "/nhan-vat/tran-ngoi",
+      "name" : "Trần Ngỗi",
+      "birth" : "null",
+      "death" : "1410",
+      "reignTime" : "Hưng Khánh",
+      "predecessor" : "null",
+      "successor" : "Trùng Quang Đế",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1413",
+    "name" : "nhà Hậu Trần bị nhà Minh đánh bại",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-minh",
+      "name" : "nhà Minh",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1418–1427",
+    "name" : "khởi nghĩa Lam Sơn",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1428 29 tháng 4",
+    "name" : "Lê Lợi thành lập quốc gia Đại Việt, đặt kinh đô tại Đông Kinh",
+    "people" : [ {
+      "href" : "/nhan-vat/le-loi",
+      "name" : "Lê Lợi",
+      "birth" : "10 tháng 9, 1383/851 Lam Sơn, Thanh Hóa",
+      "death" : "5 tháng 10, 1433 (50 tuổi) Đông Kinh, Đại Việt",
+      "reignTime" : "Thuận Thiên (順天)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Lê Thái Tông",
+      "aliases" : "29 tháng 4 năm 1428 – 5 tháng 10 năm 1433 (5 năm, 159 ngày)",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1442",
+    "name" : "Vụ án Lệ Chi viên",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1459–1460",
+    "name" : "Chính biến Thiên Hưng, Lê Thánh Tông lên ngôi",
+    "people" : [ {
+      "href" : "/nhan-vat/le-thanh-tong",
+      "name" : "Lê Thánh Tông",
+      "birth" : "25 tháng 8, 1442 Chùa Huy Văn (nay thuộc quận Đống Đa, Hà Nội)",
+      "death" : "3 tháng 3, 1497 (54 tuổi) Điện Bảo Quang, Đông Kinh",
+      "reignTime" : "Quang Thuận (光順: 1460 - 1469) Hồng Đức (洪德: 1470 - 1497)",
+      "predecessor" : "Lê Nghi Dân",
+      "successor" : "Lê Hiến Tông",
+      "aliases" : "1460 – 1497",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1471",
+    "name" : "Chiến tranh Việt–Chiêm, miền bắc Chiêm Thành sáp nhập vào Đại Việt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1478–1480",
+    "name" : "Chiến tranh Đại Việt–Lan Xang",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1483",
+    "name" : "biên soạn Luật Hồng Đức",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1511–1512",
+    "name" : "khởi nghĩa Trần Tuân",
+    "people" : [ {
+      "href" : "/nhan-vat/tran-tuan",
+      "name" : "Trần Tuấn",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1516–1521",
+    "name" : "khởi nghĩa Trần Cảo",
+    "people" : [ {
+      "href" : "/nhan-vat/tran-cao",
+      "name" : "Trần Cảo",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1516-1526",
+    "name" : "Khủng hoảng cuối nhà Lê sơ và nội chiến",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1527",
+    "name" : "Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi, lập lên nhà Mạc",
+    "people" : [ {
+      "href" : "/nhan-vat/mac-dang-dung",
+      "name" : "Mạc Đăng Dung",
+      "birth" : "23 tháng 11, 1483 (niên hiệu Hồng Đức thời Lê sơ) làng Cổ Trai, huyện Nghi Dương, phủ Kinh Môn, trấn Hải Dương, Đại Việt (nay thuộc thôn Cổ Trai, xã Ngũ Đoan, huyện Kiến Thuỵ, thành phố Hải Phòng)",
+      "death" : "22 tháng 8, 1541 (57 tuổi) (niên hiệu Quảng Hòa thời Mạc) Dương Kinh, Đại Việt (nay thuộc xã Ngũ Đoan, huyện Kiến Thuỵ, thành phố Hải Phòng)",
+      "reignTime" : "Minh Đức (端慶)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Mạc Kính Điển",
+      "aliases" : "1527 - 1529",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1533",
+    "name" : "Nguyễn Kim lập Lê Ninh làm vua, tái lập nhà Lê, đóng đô tại Vạn Lại",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-kim",
+      "name" : "Nguyễn Kim",
+      "birth" : "1468",
+      "death" : "1545 (76–77 tuổi)"
+    }, {
+      "href" : "/nhan-vat/le-ninh",
+      "name" : "Lê Ninh",
+      "birth" : "null",
+      "death" : "null"
+    }, {
+      "href" : "/nhan-vat/nha-le",
+      "name" : "nhà Lê",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1533–1677",
+    "name" : "Chiến tranh Lê–Mạc",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1592",
+    "name" : "nhà Lê trung hưng đánh bại nhà Mạc, lên nắm quyền điều hành đất nước",
+    "people" : [ {
+      "href" : "/nhan-vat/le-trung-hung",
+      "name" : "Lê Trung Hưng",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1597",
+    "name" : "Lê Thế Tông dời đô về Đông Kinh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1558",
+    "name" : "Nguyễn Hoàng vào trấn thủ Thuận Hóa",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-hoang",
+      "name" : "Nguyễn Hoàng",
+      "birth" : "28 tháng 8, 1525 Thanh Hóa, Đại Việt",
+      "death" : "20 tháng 7, 1613 (87 tuổi) Đàng Trong, Đại Việt",
+      "reignTime" : "null",
+      "predecessor" : "Sáng lập",
+      "successor" : "Nguyễn Phúc Nguyên",
+      "aliases" : "1558 - 1613",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1627–1672",
+    "name" : "Trịnh – Nguyễn phân tranh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1683",
+    "name" : "nhà Lê trung hưng đánh bại hoàn toàn nhà Mạc",
+    "people" : [ {
+      "href" : "/nhan-vat/le-trung-hung",
+      "name" : "Lê Trung Hưng",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1771",
+    "name" : "khởi nghĩa Tây Sơn",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1774–1775",
+    "name" : "chiến tranh Bình Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1777",
+    "name" : "Nguyễn Ánh xưng vương",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-anh",
+      "name" : "Nguyễn Ánh",
+      "birth" : "8 tháng 2, 1762 Huế, Đại Việt",
+      "death" : "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+      "reignTime" : "Gia Long (嘉隆)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Minh Mạng",
+      "aliases" : "1 tháng 6 năm 1802 – 3 tháng 2 năm 1820 (17 năm, 247 ngày)",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1778",
+    "name" : "Nguyễn Nhạc xưng Hoàng đế, đặt niên hiệu Thái Đức, lập lên nhà Tây Sơn, đặt kinh đô tại Quy Nhơn",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-nhac",
+      "name" : "Nguyễn Nhạc",
+      "birth" : "1743 Bình Định, Đàng Trong, Đại Việt",
+      "death" : "1793 Quy Nhơn, Đại Việt",
+      "reignTime" : "Thái Đức (泰德): 1778-1793",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Hiến Công",
+      "aliases" : "1778 – 1788",
+      "realName" : "Hồ Nhạc Nguyễn Văn Nhạc"
+    }, {
+      "href" : "/nhan-vat/nha-tay-son",
+      "name" : "nhà Tây Sơn",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-pho-quy-nhon",
+      "name" : "thành phố Quy Nhơn",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1428 ",
+    "name" : "NguyễnNhạcphongNguyễnHuệlàmBắcBìnhVương",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-hue",
+      "name" : "Nguyễn Huệ",
+      "birth" : "1753 Bình Định, Đàng Trong, Đại Việt",
+      "death" : "16 tháng 9, 1792 (38–39 tuổi) Phú Xuân, Đại Việt",
+      "reignTime" : "Quang Trung (光中: 1788 - 1792)",
+      "predecessor" : "Thái Đức Hoàng đế",
+      "successor" : "Cảnh Thịnh Hoàng đế",
+      "aliases" : "22 tháng 12 năm 1788 – 16 tháng 9 năm 1792 (4 năm, 268 ngày)",
+      "realName" : "Hồ Thơm Nguyễn Huệ"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1785 19 tháng 1 – 20 tháng 1",
+    "name" : "Nguyễn Huệ phá tan quân Xiêm tại Rạch Gầm – Xoài Mút",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1788",
+    "name" : "Nguyễn Nhạc từ bỏ đế hiệu, chỉ xưng Tây Sơn vương",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-nhac",
+      "name" : "Nguyễn Nhạc",
+      "birth" : "1743 Bình Định, Đàng Trong, Đại Việt",
+      "death" : "1793 Quy Nhơn, Đại Việt",
+      "reignTime" : "Thái Đức (泰德): 1778-1793",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Hiến Công",
+      "aliases" : "1778 – 1788",
+      "realName" : "Hồ Nhạc Nguyễn Văn Nhạc"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1785 22 tháng 12",
+    "name" : "Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung, đặt kinh đô tại Phú Xuân",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-hue",
+      "name" : "Nguyễn Huệ",
+      "birth" : "1753 Bình Định, Đàng Trong, Đại Việt",
+      "death" : "16 tháng 9, 1792 (38–39 tuổi) Phú Xuân, Đại Việt",
+      "reignTime" : "Quang Trung (光中: 1788 - 1792)",
+      "predecessor" : "Thái Đức Hoàng đế",
+      "successor" : "Cảnh Thịnh Hoàng đế",
+      "aliases" : "22 tháng 12 năm 1788 – 16 tháng 9 năm 1792 (4 năm, 268 ngày)",
+      "realName" : "Hồ Thơm Nguyễn Huệ"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1789",
+    "name" : "Trận Ngọc Hồi – Đống Đa, đẩy lui quân xâm lược nhà Thanh, nhà Hậu Lê sụp đổ",
+    "people" : [ {
+      "href" : "/nhan-vat/nha-thanh",
+      "name" : "nhà Thanh",
+      "birth" : "null",
+      "death" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1792 16 tháng 9",
+    "name" : "Nguyễn Huệ qua đời, con trai Nguyễn Quang Toản lên ngôi",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-hue",
+      "name" : "Nguyễn Huệ",
+      "birth" : "1753 Bình Định, Đàng Trong, Đại Việt",
+      "death" : "16 tháng 9, 1792 (38–39 tuổi) Phú Xuân, Đại Việt",
+      "reignTime" : "Quang Trung (光中: 1788 - 1792)",
+      "predecessor" : "Thái Đức Hoàng đế",
+      "successor" : "Cảnh Thịnh Hoàng đế",
+      "aliases" : "22 tháng 12 năm 1788 – 16 tháng 9 năm 1792 (4 năm, 268 ngày)",
+      "realName" : "Hồ Thơm Nguyễn Huệ"
+    }, {
+      "href" : "/nhan-vat/nguyen-quang-toan",
+      "name" : "Nguyễn Quang Toản",
+      "birth" : "1783",
+      "death" : "1802 (18–19 tuổi)",
+      "reignTime" : "Cảnh Thịnh (景盛: 1793 - 1801) Bảo Hưng (寶興: 1801 - 1802)",
+      "predecessor" : "Quang Trung",
+      "successor" : "Nhà Tây Sơn sụp đổ",
+      "aliases" : "1792 – 1802",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1802",
+    "name" : "Nguyễn Ánh đánh bại nhà Tây Sơn, lên ngôi vua, đặt niên hiệu là Gia Long, lập lên nhà Nguyễn, đặt kinh đô tại Phú Xuân",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-anh",
+      "name" : "Nguyễn Ánh",
+      "birth" : "8 tháng 2, 1762 Huế, Đại Việt",
+      "death" : "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+      "reignTime" : "Gia Long (嘉隆)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Minh Mạng",
+      "aliases" : "1 tháng 6 năm 1802 – 3 tháng 2 năm 1820 (17 năm, 247 ngày)",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1803–1855",
+    "name" : "Nổi dậy Đá Vách",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1804",
+    "name" : "Nguyễn Ánh đổi tên nước thành Việt Nam",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-anh",
+      "name" : "Nguyễn Ánh",
+      "birth" : "8 tháng 2, 1762 Huế, Đại Việt",
+      "death" : "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+      "reignTime" : "Gia Long (嘉隆)",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Minh Mạng",
+      "aliases" : "1 tháng 6 năm 1802 – 3 tháng 2 năm 1820 (17 năm, 247 ngày)",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1821–1827",
+    "name" : "Khởi nghĩa Phan Bá Vành",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1833–1834",
+    "name" : "Chiến tranh Việt–Xiêm",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1836",
+    "name" : "Việt Nam thôn tính Chân Lạp, đặt làm Trấn Tây Thành",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/tran-tay-thanh",
+      "name" : "Trấn Tây Thành",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1839 15 tháng 2",
+    "name" : "Minh Mạng đổi tên nước thành Đại Nam",
+    "people" : [ {
+      "href" : "/nhan-vat/minh-mang",
+      "name" : "Minh Mạng",
+      "birth" : "25 tháng 5 năm 1791 Gia Định, Đại Việt",
+      "death" : "20 tháng 1, 1841 (49 tuổi) Huế, Đại Nam",
+      "reignTime" : "Minh Mạng (明命): 1820 - 1841",
+      "predecessor" : "Gia Long",
+      "successor" : "Thiệu Trị",
+      "aliases" : "1820 – 1841",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1841",
+    "name" : "rút quân khỏi Trấn Tây Thành, Xiêm đặt Ang Duong lên ngôi, tái lập Chân Lạp",
+    "people" : [ {
+      "href" : "/nhan-vat/an-duong-vuong",
+      "name" : "An Dương Vương",
+      "birth" : "không rõ",
+      "death" : "208 TCN / 179 TCN1",
+      "reignTime" : "null",
+      "predecessor" : "Sáng lập triều đại",
+      "successor" : "Triều đại sụp đổ",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/tran-tay-thanh",
+      "name" : "Trấn Tây Thành",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    }, {
+      "href" : "/dia-danh/nuoc-xiem",
+      "name" : "nước Xiêm",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1858–1884",
+    "name" : "Chiến tranh Pháp-Đại Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1861–1865",
+    "name" : "Bạo loạn ven biển",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1866",
+    "name" : "Chính biến chày vôi",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1867",
+    "name" : "nhà Nguyễn cắt Nam Kỳ lục tỉnh nhượng cho Pháp",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1884 6 tháng 6",
+    "name" : "Hòa ước Giáp Thân, kết thúc Chiến tranh Pháp–Đại Nam, triều đình nhà Nguyễn chấp nhận sự bảo hộ của Pháp",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1885–1895",
+    "name" : "phong trào Cần Vương",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1887 17 tháng 10",
+    "name" : "thực dân Pháp thành lập Liên bang Đông Dương, gồm Bắc Kỳ, Trung Kỳ, Nam Kỳ và Campuchia, đặt thủ đô tại Sài Gòn",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-sai-gon",
+      "name" : "thành Sài Gòn",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "10.785207,106.702825",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1893 3 tháng 10",
+    "name" : "sáp nhập Lào vào Liên bang Đông Dương",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1898 12 tháng 4",
+    "name" : "sáp nhập Quảng Châu Loan vào Liên bang Đông Dương",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1902",
+    "name" : "Liên bang Đông Dương dời thủ đô về Hà Nội",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1906–1908",
+    "name" : "phong trào Duy Tân",
+    "people" : [ {
+      "href" : "/nhan-vat/duy-tan",
+      "name" : "Duy Tân",
+      "birth" : "19 tháng 9 năm 1900 Huế, Đại Nam, Liên bang Đông Dương",
+      "death" : "26 tháng 12, 1945 (45 tuổi) Cộng hoà Trung Phi",
+      "reignTime" : "Duy Tân (維新: 1907 - 1916)",
+      "predecessor" : "Thành Thái",
+      "successor" : "Khải Định",
+      "aliases" : "5 tháng 9 năm 1907 - 6 tháng 5 năm 1916 (8 năm, 244 ngày)",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1908",
+    "name" : "phong trào chống sưu thuế Trung Kỳ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1914–1918",
+    "name" : "khoảng 100.000 người Việt bị ép sang châu Âu chiến đấu cho Pháp trong Chiến tranh thế giới thứ nhất",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/chau-au",
+      "name" : "châu Âu",
+      "national" : "50",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "10.180.000 km2 (3.930.000 dặm vuông)o[›]"
+    } ]
+  }, {
+    "date" : "1917",
+    "name" : "khởi nghĩa Thái Nguyên",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1919 18 tháng 6",
+    "name" : "Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
+    "people" : [ {
+      "href" : "/nhan-vat/nguyen-ai-quoc",
+      "name" : "Nguyễn Ái Quốc",
+      "birth" : "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
+      "death" : "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Nguyễn Tường Tam",
+      "successor" : "Đỗ Mười",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1930 3 tháng 2",
+    "name" : "hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1930–1931",
+    "name" : "phong trào Xô Viết Nghệ Tĩnh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1939",
+    "name" : "khoảng 20.000 thanh niên Việt Nam bị cưỡng bức phục vụ Pháp trong chiến tranh thế giới thứ hai",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1940 30 tháng 8",
+    "name" : "quân đội Nhật Bản tiến vào Đông Dương",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1940 25 tháng 9",
+    "name" : "chính phủ Pháp chấp nhận mọi yêu sách, chấp nhận việc chiếm đóng cùng giao quyền điều hành những căn cứ quân sự cho quân đội Nhật",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1944 22 tháng 12",
+    "name" : "Việt Nam Tuyên truyền Giải phóng quân được thành lập",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 tháng 3",
+    "name" : "Nhật đảo chính thực dân Pháp",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 11 tháng 3",
+    "name" : "thành lập Đế quốc Việt Nam, phụ thuộc Đế quốc Nhật Bản",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 14 tháng 8 - 30 tháng 8",
+    "name" : "cách mạng tháng Tám",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 23 tháng 8",
+    "name" : "Đế quốc Việt Nam sụp đổ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 30 tháng 8",
+    "name" : "Bảo Đại thoái vị",
+    "people" : [ {
+      "href" : "/nhan-vat/bao-dai",
+      "name" : "Bảo Đại",
+      "birth" : "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
+      "death" : "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp",
+      "reignTime" : "Bảo Đại (保大)",
+      "predecessor" : "Nguyễn Văn Xuân (Thủ tướng Chính phủ Lâm thời)",
+      "successor" : "Ngô Đình Diệm (Tổng thống Việt Nam Cộng hoà)",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 2 tháng 9",
+    "name" : "Hồ Chí Minh tuyên bố độc lập, thành lập nước Việt Nam Dân chủ Cộng hòa",
+    "people" : [ {
+      "href" : "/nhan-vat/ho-chi-minh",
+      "name" : "Hồ Chí Minh",
+      "birth" : "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
+      "death" : "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Nguyễn Tường Tam",
+      "successor" : "Đỗ Mười",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 8 tháng 9",
+    "name" : "phát động phong trào Bình dân học vụ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1945 23 tháng 9",
+    "name" : "quân Pháp nổ súng tại Sài Gòn, bắt đầu cuộc chiến tranh xâm lược Việt Nam lần 2",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-sai-gon",
+      "name" : "thành Sài Gòn",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "10.785207,106.702825",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1945 23 tháng 9",
+    "name" : "Trần Văn Giàu kêu gọi Nam Bộ kháng chiến",
+    "people" : [ {
+      "href" : "/nhan-vat/tran-van-giau",
+      "name" : "Trần Văn Giàu",
+      "birth" : "Trần Văn Giàu 6 tháng 9 năm 1911 Châu Thành, Long An",
+      "death" : "17 tháng 12, 2010 (99 tuổi) Thành phố Hồ Chí Minh"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1946 6 tháng 1",
+    "name" : "Tổng tuyển cử bầu Quốc hội đầu tiên",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1946 26 tháng 3",
+    "name" : "Pháp lập nên Cộng hòa Tự trị Nam Kỳ thuộc Liên hiệp Pháp, thủ đô Sài Gòn",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-sai-gon",
+      "name" : "thành Sài Gòn",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "10.785207,106.702825",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1946 14 tháng 9",
+    "name" : "Tạm ước Việt - Pháp",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1946 19 tháng 12",
+    "name" : "Hồ Chí Minh kêu gọi Toàn quốc kháng chiến",
+    "people" : [ {
+      "href" : "/nhan-vat/ho-chi-minh",
+      "name" : "Hồ Chí Minh",
+      "birth" : "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
+      "death" : "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Nguyễn Tường Tam",
+      "successor" : "Đỗ Mười",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1947 7 tháng 10 - 22 tháng 12",
+    "name" : "Chiến dịch Việt Bắc Thu - Đông 1947",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1949 14 tháng 6",
+    "name" : "Pháp lập nên Quốc gia Việt Nam, quốc trưởng Bảo Đại, thủ đô Sài Gòn",
+    "people" : [ {
+      "href" : "/nhan-vat/bao-dai",
+      "name" : "Bảo Đại",
+      "birth" : "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
+      "death" : "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp",
+      "reignTime" : "Bảo Đại (保大)",
+      "predecessor" : "Nguyễn Văn Xuân (Thủ tướng Chính phủ Lâm thời)",
+      "successor" : "Ngô Đình Diệm (Tổng thống Việt Nam Cộng hoà)",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ {
+      "href" : "/dia-danh/thanh-sai-gon",
+      "name" : "thành Sài Gòn",
+      "national" : "null",
+      "location" : "null",
+      "coordinates" : "10.785207,106.702825",
+      "area" : "null"
+    } ]
+  }, {
+    "date" : "1950 8 tháng 5",
+    "name" : "Mỹ bắt đầu can thiệp quân sự vào Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1950 16 tháng 9–17 tháng 10",
+    "name" : "Chiến dịch Biên giới",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1954 13 tháng 3 - 7 tháng 5",
+    "name" : "Chiến dịch Điện Biên Phủ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1954 20 tháng 7",
+    "name" : "Hiệp định Genève, Pháp rút quân khỏi Việt Nam và đất nước bị chia cắt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1954 10 tháng 10",
+    "name" : "Giải phóng Thủ đô",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1955",
+    "name" : "Ngô Đình Diệm phế truất Bảo Đại, lên làm Tổng thống, lập nên Việt Nam Cộng hòa",
+    "people" : [ {
+      "href" : "/nhan-vat/ngo-dinh-diem",
+      "name" : "Ngô Đình Diệm",
+      "birth" : "3 tháng 1, 1901 Quảng Bình, Trung Kỳ, Liên bang Đông Dương",
+      "death" : "2 tháng 11, 1963 (62 tuổi) Sài Gòn, Việt Nam Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Không có",
+      "successor" : "Nguyễn Văn Thiệu",
+      "aliases" : "null",
+      "realName" : "null"
+    }, {
+      "href" : "/nhan-vat/bao-dai",
+      "name" : "Bảo Đại",
+      "birth" : "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
+      "death" : "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp",
+      "reignTime" : "Bảo Đại (保大)",
+      "predecessor" : "Nguyễn Văn Xuân (Thủ tướng Chính phủ Lâm thời)",
+      "successor" : "Ngô Đình Diệm (Tổng thống Việt Nam Cộng hoà)",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1959–1960",
+    "name" : "Phong trào Đồng khởi",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1960 20 tháng 12",
+    "name" : "thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1961 15 tháng 12",
+    "name" : "thành lập Quân Giải phóng miền Nam Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1961–1965",
+    "name" : "chiến dịch Chiến tranh đặc biệt",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1963",
+    "name" : "đảo chính lật đổ chính quyền Ngô Đình Diệm",
+    "people" : [ {
+      "href" : "/nhan-vat/ngo-dinh-diem",
+      "name" : "Ngô Đình Diệm",
+      "birth" : "3 tháng 1, 1901 Quảng Bình, Trung Kỳ, Liên bang Đông Dương",
+      "death" : "2 tháng 11, 1963 (62 tuổi) Sài Gòn, Việt Nam Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Không có",
+      "successor" : "Nguyễn Văn Thiệu",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1965 8 tháng 3",
+    "name" : "Mỹ bắt đầu đưa quân vào tham chiến tại miền Nam Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1965–1968",
+    "name" : "chiến dịch Chiến tranh cục bộ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1968–1973",
+    "name" : "chiến dịch Việt Nam hóa chiến tranh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1969 8 tháng 6",
+    "name" : "thành lập Cộng hòa Miền Nam Việt Nam, thủ đô Tây Ninh",
+    "people" : [ ],
+    "places" : [ {
+      "href" : "/dia-danh/tinh-tay-ninh",
+      "name" : "tỉnh Tây Ninh",
+      "national" : "Việt Nam",
+      "location" : "null",
+      "coordinates" : "null",
+      "area" : "4.041,4 km²"
+    } ]
+  }, {
+    "date" : "1969 2 tháng 9",
+    "name" : "Chủ tịch Hồ Chí Minh từ trần",
+    "people" : [ {
+      "href" : "/nhan-vat/ho-chi-minh",
+      "name" : "Hồ Chí Minh",
+      "birth" : "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
+      "death" : "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+      "reignTime" : "null",
+      "predecessor" : "Nguyễn Tường Tam",
+      "successor" : "Đỗ Mười",
+      "aliases" : "null",
+      "realName" : "null"
+    } ],
+    "places" : [ ]
+  }, {
+    "date" : "1972 18 tháng 12 - 30 tháng 12",
+    "name" : "Chiến dịch Điện Biên Phủ trên không",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1973 27 tháng 1",
+    "name" : "Hiệp định Paris, Mỹ rút quân khỏi Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1975 26 tháng 4 - 2 tháng 5",
+    "name" : "Chiến dịch Hồ Chí Minh",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1975 30 tháng 4",
+    "name" : "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1976 2 tháng 7",
+    "name" : "thống nhất đất nước, đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1977 20 tháng 9",
+    "name" : "gia nhập Liên Hợp Quốc",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1975–1979",
+    "name" : "chiến tranh biên giới Tây Nam",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1979",
+    "name" : "chiến tranh biên giới phía Bắc",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1986",
+    "name" : "Đổi Mới",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1991 7 tháng 11",
+    "name" : "bình thường hóa quan hệ với Trung Quốc",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1995 11 tháng 7",
+    "name" : "bình thường hóa quan hệ với Mỹ",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1995 28 tháng 7",
+    "name" : "gia nhập ASEAN",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "1998 14 tháng 11",
+    "name" : "gia nhập APEC",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "2007 11 tháng 1",
+    "name" : "gia nhập WTO",
+    "people" : [ ],
+    "places" : [ ]
+  }, {
+    "date" : "2020–2022",
+    "name" : "Đại dịch COVID-19",
+    "people" : [ ],
+    "places" : [ ]
+  } ]
+}

@@ -3,7 +3,7 @@ package hust.vietnamesehistory.model;
 import java.util.List;
 
 public class Period extends Model {
-    private List<King> kings;
+    private List<King> kings ;
 
     public Period(String href, String name, List<King> kings) {
         super(href, name);

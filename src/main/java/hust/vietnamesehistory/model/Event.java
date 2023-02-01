@@ -1,12 +1,13 @@
 package hust.vietnamesehistory.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Event{
     String date;
     String name;
-    List<Person> people;
-    List<Place> places;
+    List<Person> people = new ArrayList<>();
+    List<Place> places = new ArrayList<>();
 
     public Event(String date, String name, List<Person> people, List<Place> places) {
         this.date = date;
