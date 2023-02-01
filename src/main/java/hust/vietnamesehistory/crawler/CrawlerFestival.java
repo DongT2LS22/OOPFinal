@@ -8,18 +8,15 @@ import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import hust.vietnamesehistory.controller.App;
-import hust.vietnamesehistory.crawler.model.Festival;
-import hust.vietnamesehistory.crawler.model.Person;
-import hust.vietnamesehistory.crawler.model.Place;
+import hust.vietnamesehistory.model.Festival;
+import hust.vietnamesehistory.model.Person;
+import hust.vietnamesehistory.model.Place;
 import hust.vietnamesehistory.repository.FestivalRepository;
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -100,16 +97,17 @@ public class CrawlerFestival {
                 if(i==4){
                     String people = festival.get(i).text();
                     List<Person> arrPeople = new ArrayList<Person>();
+                    String search = null;
                     if(people.contains(",")){
                         String[] person = people.split(",");
                         for (String p:person){
-                            String search = null;
                             try {
                                 search = searchGoogle(p);
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
                             if(search!=""){
+                                System.out.println(search);
                                 for (Person per:personList) {
                                     if(per.getHref().equals(search)){
                                         arrPeople.add(per);
@@ -120,8 +118,8 @@ public class CrawlerFestival {
                         }
                     }else{
                         try {
-                            if(searchGoogle(people)!=""){
-                                String search = null;
+                            search = searchGoogle(people);
+                            if(search!=""){
                                 for (Person per:personList) {
                                     if(per.getHref().equals(search)){
                                         arrPeople.add(per);
@@ -146,7 +144,8 @@ public class CrawlerFestival {
     }
     public static void main(String[] args) throws IOException {
         List<Festival> festivals = crawlFestival();
-        System.out.println(festivals.get(0).getName());
+        FestivalRepository repo = new FestivalRepository();
+        repo.writeJson(festivals,"src/main/resources/json/festival.json");
     }
     public static String searchGoogle(String keyword) throws IOException{
         String url = "https://www.google.com/search?q=";
