@@ -15,6 +15,10 @@ public class Event{
         this.places = places;
     }
 
+    public Event() {
+
+    }
+
     public String getDate() {
         return date;
     }
