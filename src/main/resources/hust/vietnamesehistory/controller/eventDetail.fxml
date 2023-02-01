@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="352.0" prefWidth="1108.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.EventDetail">
+<AnchorPane prefHeight="352.0" prefWidth="1108.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventDetailController">
    <children>
       <Label layoutX="60.0" layoutY="39.0" prefHeight="50.0" prefWidth="300.0" text="Tên sự kiện              :">
          <font>
