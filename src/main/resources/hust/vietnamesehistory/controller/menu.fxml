@@ -8,7 +8,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="menu" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.MenuController">
    <children>
-      <Button layoutX="200.0" layoutY="220.0" mnemonicParsing="false" onAction="#PeopleScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Nhân vật ">
+      <Button layoutX="200.0" layoutY="220.0" mnemonicParsing="false" onAction="#peopleScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Nhân vật ">
          <font>
             <Font size="24.0" />
          </font>
@@ -20,7 +20,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="200.0" layoutY="280.0" mnemonicParsing="false" onAction="#PeroidScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thời kì     ">
+      <Button layoutX="200.0" layoutY="280.0" mnemonicParsing="false" onAction="#peroidScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thời kì     ">
          <font>
             <Font size="24.0" />
          </font>
@@ -32,7 +32,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="200.0" layoutY="340.0" mnemonicParsing="false" onAction="#FestivalScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Lễ hội      ">
+      <Button layoutX="200.0" layoutY="340.0" mnemonicParsing="false" onAction="#festivalScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Lễ hội      ">
          <font>
             <Font size="24.0" />
          </font>
@@ -72,7 +72,7 @@
             <Image url="@images/menuimages/iconmenu1.png" />
          </image>
       </ImageView>
-      <Button layoutX="200.0" layoutY="400.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Sự kiện   ">
+      <Button layoutX="200.0" layoutY="400.0" mnemonicParsing="false" onAction="#eventScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Sự kiện   ">
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
