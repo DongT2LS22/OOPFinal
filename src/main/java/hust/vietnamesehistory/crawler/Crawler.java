@@ -236,8 +236,13 @@ public class Crawler {
         }
         return periods;
     }
-    static String searchGoogle(String keyword) throws IOException{
-        Document doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
+    static String searchGoogle(String keyword) {
+        Document doc = null;
+        try {
+            doc = Jsoup.connect(GOOGLE_URI + keyword + " nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
+        } catch (IOException e) {
+            return "";
+        }
         String link = doc.select(".yuRUbf a").first().attr("href");
         if(link.contains(URI + "/dia-danh")||link.contains(URI + "/nhan-vat")){
             link = link.replace(URI,"");

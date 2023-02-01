@@ -13,11 +13,7 @@ import java.util.List;
 public class CrawlerGoogle {
     public static void mapGoogle(String keyword) {
 
-        try {
-            Crawler.searchGoogle(keyword);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        Crawler.searchGoogle(keyword);
 
     }
     public static void writePerson(List<Person> people){

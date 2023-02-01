@@ -141,14 +141,9 @@ public class CrawlerEvent {
     }
 
     public static void main(String[] args) {
-//        EventRepository repo = new EventRepository();
-//        try {
-//            repo.writeJson(crawlEvent(),"src/main/resources/json/events.json");
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        EventRepository repo = new EventRepository();
         try {
-            System.out.println(Crawler.searchGoogle("Nguyen Du"));
+            repo.writeJson(crawlEvent(),"src/main/resources/json/events.json");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
