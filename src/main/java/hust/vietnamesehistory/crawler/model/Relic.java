@@ -8,8 +8,10 @@ public class Relic extends Place{
     private String type;
     private String recognizedYear;
 
-    public Relic(String name, String href, String national, String location, String coordinates, String area) {
+    public Relic(String name, String href, String national, String location, String coordinates, String area, String type, String recognizedYear) {
         super(name, href, national, location, coordinates, area);
+        this.type = type;
+        this.recognizedYear = recognizedYear;
     }
 
     public String getType() {
