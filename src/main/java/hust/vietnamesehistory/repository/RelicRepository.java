@@ -20,9 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RelicRepository implements Repository<Relic>{
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectReader reader = mapper.reader();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<Relic> readJson(String filePath) throws IOException {
         List<Relic> relics = new ArrayList<>();

@@ -16,9 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class KingRepository implements Repository<King>{
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectReader reader = mapper.reader();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<King> readJson(String filePath) throws IOException {
         List<King> kings = new ArrayList<>();

@@ -18,9 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersonRepository implements Repository<Person> {
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectReader reader = mapper.reader();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<Person> readJson(String filePath) throws IOException {
         List<Person> people = new ArrayList<>();

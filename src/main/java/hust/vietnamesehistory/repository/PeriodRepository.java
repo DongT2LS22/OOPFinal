@@ -17,9 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PeriodRepository implements Repository<Period>{
-    public static final ObjectMapper mapper = new ObjectMapper();
-    public static final ObjectReader reader = mapper.reader();
-    public static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
     @Override
     public List<Period> readJson(String filePath) throws IOException {
         List<Period> periods = new ArrayList<>();
