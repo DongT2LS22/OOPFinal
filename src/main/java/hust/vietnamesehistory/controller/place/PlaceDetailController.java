@@ -36,7 +36,7 @@ public class PlaceDetailController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("place.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Địa điểm");
         stage.setScene(scene);
         stage.show();
     }

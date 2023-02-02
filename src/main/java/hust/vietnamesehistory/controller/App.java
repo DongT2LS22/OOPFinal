@@ -5,6 +5,7 @@ import hust.vietnamesehistory.repository.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -16,13 +17,13 @@ public class App extends Application {
     private static List<Place> placeList = new ArrayList<>();
     private static List<Festival> festivalList = new ArrayList<>();
     private static List<Period> periodList = new ArrayList<>();
-
     private static List<Event> eventList = new ArrayList<>();
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.getIcons().add(new Image(App.class.getResourceAsStream("HistoryIconTitle.png")));
+        stage.setTitle("Menu");
         stage.setScene(scene);
         stage.show();
     }

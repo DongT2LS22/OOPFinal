@@ -38,7 +38,7 @@ public class FestivalDetailController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("festival.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Lễ hội");
         stage.setScene(scene);
         stage.show();
     }

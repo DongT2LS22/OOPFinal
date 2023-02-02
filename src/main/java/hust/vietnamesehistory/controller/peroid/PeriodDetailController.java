@@ -17,7 +17,7 @@ public class PeriodDetailController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroid.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Thời đại");
         stage.setScene(scene);
         stage.show();
     }
