@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
@@ -12,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.people.PeopleController">
     <children>
-        <Button layoutX="40.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchPeople" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
+        <Button layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchPeople" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
          <font>
             <Font size="24.0" />
          </font>
@@ -23,12 +22,11 @@
                </image>
             </ImageView>
          </graphic></Button>
-        <TextField fx:id="searchText" layoutX="250.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
+        <TextField fx:id="searchText" layoutX="300.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
          <font>
             <Font size="24.0" />
          </font></TextField>
-        <ChoiceBox layoutX="660.0" layoutY="30.0" prefHeight="56.0" prefWidth="200.0" styleClass="button" stylesheets="@CssStyle/backgroundstyle.css" />
-        <TableView fx:id="table" layoutX="40.0" layoutY="100.0" prefHeight="500.0" prefWidth="820.0">
+        <TableView fx:id="table" layoutX="50.0" layoutY="100.0" prefHeight="500.0" prefWidth="800.0">
             <columns>
                 <TableColumn fx:id="nameColumn" prefWidth="200.0" text="Danh xưng">
                <graphic>
@@ -75,7 +73,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="660.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
+      <Button layoutX="650.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
             <Font size="24.0" />
          </font>
