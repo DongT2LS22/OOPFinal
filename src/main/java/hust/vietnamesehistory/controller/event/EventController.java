@@ -40,7 +40,7 @@ public class EventController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Menu");
         stage.setScene(scene);
         stage.show();
     }
@@ -50,7 +50,7 @@ public class EventController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("eventDetail.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Chi tiết sự kiện lịch sử");
         stage.setScene(scene);
         EventDetailController controller = fxmlLoader.getController();
         Event selected = table.getSelectionModel().getSelectedItem();
