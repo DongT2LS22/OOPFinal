@@ -75,7 +75,7 @@ public class App extends Application {
         return periodList;
     }
 
-    public static void setPeriodList(List<Period> periodList) {
+    public static void setPeriodList() {
         if(periodList.isEmpty()){
             PeriodRepository periodRepo = new PeriodRepository();
             try {
