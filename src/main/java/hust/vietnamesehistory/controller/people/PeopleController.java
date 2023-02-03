@@ -49,7 +49,7 @@ public class PeopleController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peopleDetail.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Chi tiết nhân vật");
         stage.setScene(scene);
         PeopleDetailController controller = fxmlLoader.getController();
         Person selected = table.getSelectionModel().getSelectedItem();
@@ -66,7 +66,7 @@ public class PeopleController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Menu");
         stage.setScene(scene);
         stage.show();
     }

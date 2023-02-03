@@ -68,27 +68,27 @@
             </ImageView>
          </graphic>
       </Label>
-      <Label fx:id="nameInfo" layoutX="250.0" layoutY="60.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="nameInfo" layoutX="250.0" layoutY="60.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Label fx:id="birthInfo" layoutX="250.0" layoutY="130.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="birthInfo" layoutX="250.0" layoutY="130.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Label fx:id="deathInfo" layoutX="250.0" layoutY="200.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="deathInfo" layoutX="250.0" layoutY="200.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Label fx:id="hrefInfo" layoutX="250.0" layoutY="270.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="hrefInfo" layoutX="250.0" layoutY="270.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Label fx:id="predecessorInfo" layoutX="250.0" layoutY="340.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="predecessorInfo" layoutX="250.0" layoutY="340.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -117,7 +117,7 @@
             </ImageView>
          </graphic>
       </Label>
-      <Label fx:id="successorInfo" layoutX="250.0" layoutY="410.0" prefHeight="50.0" prefWidth="900.0" text="Info">
+      <Label fx:id="successorInfo" layoutX="250.0" layoutY="410.0" prefHeight="50.0" prefWidth="900.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

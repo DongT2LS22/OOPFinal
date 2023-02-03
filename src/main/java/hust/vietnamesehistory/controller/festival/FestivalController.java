@@ -48,7 +48,7 @@ public class FestivalController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Menu");
         stage.setScene(scene);
         stage.show();
     }
@@ -58,7 +58,7 @@ public class FestivalController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("festivalDetail.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Chi tiết lễ hội");
         stage.setScene(scene);
         FestivalDetailController controller = fxmlLoader.getController();
         Festival selected = table.getSelectionModel().getSelectedItem();

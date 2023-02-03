@@ -75,27 +75,27 @@
                </image>
             </ImageView>
          </graphic></Label>
-      <Label fx:id="nameLabel" layoutX="350.0" layoutY="60.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="nameLabel" layoutX="350.0" layoutY="60.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="dateLabel" layoutX="350.0" layoutY="130.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="dateLabel" layoutX="350.0" layoutY="130.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="rootLabel" layoutX="350.0" layoutY="200.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="rootLabel" layoutX="350.0" layoutY="200.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="placeLabel" layoutX="350.0" layoutY="270.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="placeLabel" layoutX="350.0" layoutY="270.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="personLabel" layoutX="350.0" layoutY="340.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="personLabel" layoutX="350.0" layoutY="340.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Label fx:id="noteLabel" layoutX="350.0" layoutY="410.0" prefHeight="50.0" prefWidth="800.0" text="Label">
+      <Label fx:id="noteLabel" layoutX="350.0" layoutY="410.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></Label>

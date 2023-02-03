@@ -63,7 +63,7 @@ public class PeopleDetailController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("people.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Thông tin nhân vật");
         stage.setScene(scene);
         stage.show();
     }

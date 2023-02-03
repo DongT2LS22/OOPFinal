@@ -33,7 +33,7 @@ public class EventDetailController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("event.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Sự kiện lịch sử");
         stage.setScene(scene);
         stage.show();
     }

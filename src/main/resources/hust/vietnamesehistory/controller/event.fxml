@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="610.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventController">
+<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventController">
    <children>
-      <Button layoutX="531.0" layoutY="516.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
+      <Button layoutX="652.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
             <Font size="24.0" />
          </font>
@@ -23,7 +23,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="309.0" layoutY="516.0" mnemonicParsing="false" onAction="#detailScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Chi tiết">
+      <Button layoutX="400.0" layoutY="620.0" mnemonicParsing="false" onAction="#detailScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Chi tiết">
          <font>
             <Font size="24.0" />
          </font>
@@ -35,12 +35,12 @@
             </ImageView>
          </graphic>
       </Button>
-      <TextField fx:id="searchText" layoutX="263.0" layoutY="40.0" prefHeight="56.0" prefWidth="400.0">
+      <TextField fx:id="searchText" layoutX="300.0" layoutY="30.0" prefHeight="56.0" prefWidth="400.0">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <Button layoutX="41.0" layoutY="40.0" mnemonicParsing="false" onAction="#searchEvent" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
+      <Button layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#searchEvent" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Tìm kiếm">
          <font>
             <Font size="24.0" />
          </font>
@@ -52,10 +52,24 @@
             </ImageView>
          </graphic>
       </Button>
-      <TableView fx:id="table" layoutX="80.0" layoutY="121.0" prefHeight="368.0" prefWidth="458.0">
+      <TableView fx:id="table" layoutX="50.0" layoutY="100.0" prefHeight="500.0" prefWidth="800.0">
         <columns>
-          <TableColumn fx:id="nameColumn" prefWidth="230.0" text="Tên sự kiện" />
-          <TableColumn fx:id="dateColumn" prefWidth="227.0" text="Ngày sự kiện" />
+          <TableColumn fx:id="nameColumn" prefWidth="400.0" text="Tên sự kiện">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/eventimages/eventname.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
+          <TableColumn fx:id="dateColumn" prefWidth="400.0" text="Ngày sự kiện">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/eventimages/eventday.png" />
+                     </image>
+                  </ImageView>
+               </graphic></TableColumn>
         </columns>
       </TableView>
    </children>

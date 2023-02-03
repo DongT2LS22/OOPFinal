@@ -16,7 +16,7 @@ public class MenuController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("festival.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Lễ hội");
         stage.setScene(scene);
         stage.show();
     }
@@ -26,7 +26,7 @@ public class MenuController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("people.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Thông tin nhân vật");
         stage.setScene(scene);
         stage.show();
     }
@@ -36,7 +36,7 @@ public class MenuController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroid.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Thời đại");
         stage.setScene(scene);
         stage.show();
     }
@@ -46,7 +46,7 @@ public class MenuController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("place.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Địa điểm");
         stage.setScene(scene);
         stage.show();
     }
@@ -56,7 +56,7 @@ public class MenuController {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("event.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Sự kiện lịch sử");
         stage.setScene(scene);
         stage.show();
     }
