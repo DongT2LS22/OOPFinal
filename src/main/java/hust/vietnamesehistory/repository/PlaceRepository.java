@@ -18,12 +18,12 @@ public class PlaceRepository implements Repository<Place> {
         ObjectNode placesObj = reader.forType(new TypeReference<ObjectNode>(){}).readValue(new File(filePath));
         ArrayNode arrayNode = placesObj.withArray("places");
         for (JsonNode node : arrayNode) {
-            String href = node.get("href").asText();
-            String name = node.get("name").asText();
-            String national = node.get("national").asText();
-            String location = node.get("location").asText();
-            String coordinates = node.get("coordinates").asText();
-            String area = node.get("area").asText();
+            String href = (node.get("href").isNull())?"":node.get("href").asText();
+            String name = (node.get("name").isNull())?"":node.get("name").asText();
+            String national = (node.get("national").isNull())?"":node.get("national").asText();
+            String location = (node.get("location").isNull())?"":node.get("location").asText();
+            String coordinates = (node.get("coordinates").isNull())?"":node.get("coordinates").asText();
+            String area = (node.get("area").isNull())?"":node.get("area").asText();
             Place place = new Place(name,href, national, location, coordinates, area);
             places.add(place);
         }

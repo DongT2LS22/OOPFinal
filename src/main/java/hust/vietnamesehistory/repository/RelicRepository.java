@@ -19,14 +19,14 @@ public class RelicRepository implements Repository<Relic>{
         ArrayNode arrayNode = relicsObj.withArray("places");
         for (JsonNode node : arrayNode) {
             if (node.has("type")) {
-                String href = node.get("href").asText();
-                String name = node.get("name").asText();
-                String national = node.get("national").asText();
-                String location = node.get("location").asText();
-                String coordinates = node.get("coordinates").asText();
-                String area = node.get("area").asText();
-                String type = node.get("type").asText();
-                String recognizedYear = node.get("recognizedYear").asText();
+                String href = (node.get("href").isNull())?"":node.get("href").asText();
+                String name = (node.get("name").isNull())?"":node.get("name").asText();
+                String national = (node.get("national").isNull())?"":node.get("national").asText();
+                String location = (node.get("location").isNull())?"":node.get("location").asText();
+                String coordinates = (node.get("coordinates").isNull())?"":node.get("coordinates").asText();
+                String area = (node.get("area").isNull())?"":node.get("area").asText();
+                String type = (node.get("type").isNull())?"":node.get("type").asText();
+                String recognizedYear = (node.get("recognizedYear").isNull())?"":node.get("recognizedYear").asText();
                 Relic relic = new Relic(name,href, national, location, coordinates, area, type, recognizedYear);
                 relics.add(relic);
             }

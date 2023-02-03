@@ -19,15 +19,15 @@ public class KingRepository implements Repository<King>{
         ArrayNode arrayNode = kingsObj.withArray("people");
         for (JsonNode node : arrayNode) {
             if (node.has("reignTime")) {
-                String href = node.get("href").asText();
-                String name = node.get("name").asText();
-                String birth = node.get("birth").asText();
-                String death = node.get("death").asText();
-                String reignTime = node.get("reignTime").asText();
-                String predecessor = node.get("predecessor").asText();
-                String successor = node.get("successor").asText();
-                String aliases = node.get("aliases").asText();
-                String realName = node.get("realName").asText();
+                String href = (node.get("href").isNull())?"":node.get("href").asText();
+                String name = (node.get("name").isNull())?"":node.get("name").asText();
+                String birth = (node.get("birth").isNull())?"":node.get("birth").asText();
+                String death = (node.get("death").isNull())?"":node.get("death").asText();
+                String reignTime = (node.get("reignTime").isNull())?"":node.get("reignTime").asText();
+                String predecessor = (node.get("predecessor").isNull())?"":node.get("predecessor").asText();
+                String successor = (node.get("successor").isNull())?"":node.get("successor").asText();
+                String aliases = (node.get("aliases").isNull())?"":node.get("aliases").asText();
+                String realName = (node.get("realName").isNull())?"":node.get("realName").asText();
                 King king = new King(name, href, birth, death, reignTime
                         , predecessor, successor, aliases, realName);
                 kings.add(king);

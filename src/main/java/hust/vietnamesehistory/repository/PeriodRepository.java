@@ -19,20 +19,20 @@ public class PeriodRepository implements Repository<Period>{
         ObjectNode PeriodsObj = reader.forType(new TypeReference<ObjectNode>(){}).readValue(new File(filePath));
         ArrayNode arrayNode = PeriodsObj.withArray("periods");
         for (JsonNode node : arrayNode) {
-            String href = node.get("href").asText();
-            String name = node.get("name").asText();
+            String href = (node.get("href").isNull())?"":node.get("href").asText();
+            String name = (node.get("name").isNull())?"":node.get("name").asText();
             ArrayNode kingNodes = node.withArray("kings");
             List<King> kings = new ArrayList<>();
             for (JsonNode kingNode : kingNodes) {
-                String kingHref = kingNode.get("href").asText();
-                String kingName = kingNode.get("name").asText();
-                String birth = kingNode.get("birth").asText();
-                String death = kingNode.get("death").asText();
-                String reignTime = kingNode.get("reignTime").asText();
-                String predecessor = kingNode.get("predecessor").asText();
-                String successor = kingNode.get("successor").asText();
-                String aliases = kingNode.get("aliases").asText();
-                String realName = kingNode.get("realName").asText();
+                String kingHref = (kingNode.get("href").isNull())?"":kingNode.get("href").asText();
+                String kingName = (kingNode.get("name").isNull())?"":kingNode.get("name").asText();
+                String birth = (kingNode.get("birth").isNull())?"":kingNode.get("birth").asText();
+                String death = (kingNode.get("death").isNull())?"":kingNode.get("death").asText();
+                String reignTime = (kingNode.get("reignTime").isNull())?"":kingNode.get("reignTime").asText();
+                String predecessor = (kingNode.get("predecessor").isNull())?"":kingNode.get("predecessor").asText();
+                String successor = (kingNode.get("successor").isNull())?"":kingNode.get("successor").asText();
+                String aliases = (kingNode.get("aliases").isNull())?"":kingNode.get("aliases").asText();
+                String realName = (kingNode.get("realName").isNull())?"":kingNode.get("realName").asText();
                 King king = new King(kingName, kingHref, birth, death, reignTime
                         , predecessor, successor, aliases, realName);
                 kings.add(king);

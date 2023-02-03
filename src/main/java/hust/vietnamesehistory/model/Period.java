@@ -1,9 +1,10 @@
 package hust.vietnamesehistory.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Period extends Model {
-    private List<King> kings ;
+    private List<King> kings = new ArrayList<>();
 
     public Period(String href, String name, List<King> kings) {
         super(href, name);
@@ -15,6 +16,4 @@ public class Period extends Model {
     }
 
     public  void setKings(List<King> kings) {this.kings = kings; }
-
-
 }

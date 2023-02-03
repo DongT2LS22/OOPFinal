@@ -1,14 +1,15 @@
 package hust.vietnamesehistory.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Festival{
-    String name;
-    String date;
-    List<Place> places;
-    String note;
-    List<Person> people;
-    String root;
+    private String name;
+    private String date;
+    private List<Place> places = new ArrayList<>();
+    private String note;
+    private List<Person> people = new ArrayList<>();
+    private String root;
 
     public Festival(String name,String date, List<Place> places, String note, List<Person> people,String root) {
         this.name = name;

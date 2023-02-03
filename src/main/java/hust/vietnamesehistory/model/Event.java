@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Event{
-    String date;
-    String name;
-    List<Person> people = new ArrayList<>();
-    List<Place> places = new ArrayList<>();
+    private String date;
+    private String name;
+    private List<Person> people = new ArrayList<>();
+    private List<Place> places = new ArrayList<>();
 
     public Event(String date, String name, List<Person> people, List<Place> places) {
         this.date = date;

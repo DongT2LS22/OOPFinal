@@ -18,21 +18,21 @@ public class EventRepository implements Repository<Event> {
         ObjectNode eventsObj = reader.forType(new TypeReference<ObjectNode>() {}).readValue(new File(filePath));
         ArrayNode arrayNode = eventsObj.withArray("events");
         for (JsonNode node : arrayNode) {
-            String date = node.get("date").asText();
-            String name = node.get("name").asText();
+            String date = (node.get("date").isNull())?"":node.get("date").asText();
+            String name = (node.get("name").isNull())?"":node.get("name").asText();
             List<Person> people = new ArrayList<>();
             ArrayNode personNodes = node.withArray("people");
             for (JsonNode personNode : personNodes) {
-                String personHref = personNode.get("href").asText();
-                String personName = personNode.get("name").asText();
-                String birth = personNode.get("birth").asText();
-                String death = personNode.get("death").asText();
+                String personHref = (personNode.get("href").isNull())?"":personNode.get("href").asText();
+                String personName = (personNode.get("name").isNull())?"":personNode.get("name").asText();
+                String birth = (personNode.get("birth").isNull())?"":personNode.get("birth").asText();
+                String death = (personNode.get("death").isNull())?"":personNode.get("death").asText();
                 if (personNode.has("reignTime")) {
-                    String reignTime = personNode.get("reignTime").asText();
-                    String predecessor = personNode.get("predecessor").asText();
-                    String successor = personNode.get("successor").asText();
-                    String aliases = personNode.get("aliases").asText();
-                    String realName = personNode.get("realName").asText();
+                    String reignTime = (personNode.get("reignTime").isNull())?"":personNode.get("reignTime").asText();
+                    String predecessor = (personNode.get("predecessor").isNull())?"":personNode.get("predecessor").asText();
+                    String successor = (personNode.get("successor").isNull())?"":personNode.get("successor").asText();
+                    String aliases = (personNode.get("aliases").isNull())?"":personNode.get("aliases").asText();
+                    String realName = (personNode.get("realName").isNull())?"":personNode.get("realName").asText();
                     King king = new King(personName, personHref, birth, death, reignTime
                             , predecessor, successor, aliases, realName);
                     people.add(king);
