@@ -2,15 +2,51 @@
     -fx-background-image: url('../images/menuimages/backgroundmenu.png'); 
     -fx-background-size: cover;
 }
-.people{
-    -fx-background-image: url('../images/peopleimages/backgroundpeople.jpg'); 
+.people1{
+    -fx-background-image: url('../images/peopleimages/people1.jpg'); 
     -fx-background-size: 900 700;
+}
+.people2{
+    -fx-background-image: url('../images/peopleimages/people2.jpg'); 
+    -fx-background-size: cover;
+}
+.event1{
+    -fx-background-image: url('../images/eventimages/event1.jpg'); 
+    -fx-background-size: 900 700;
+}
+.event2{
+    -fx-background-image: url('../images/eventimages/event2.jpg'); 
+    -fx-background-size: cover;
+}
+.festival1{
+    -fx-background-image: url('../images/festivalimages/festival1.jpg'); 
+    -fx-background-size: 900 700;
+}
+.place1{
+    -fx-background-image: url('../images/placeimages/place1.jpg'); 
+    -fx-background-size: 900 700;
+}
+.place2{
+    -fx-background-image: url('../images/placeimages/place2.jpg'); 
+    -fx-background-size: cover;
 }
 .colum{
     -fx-background-image: url('../images/peopleimages/backgroundcolum.jpg');
     -fx-background-size: cover;
 }
+.festival2{
+    -fx-background-image: url('../images/festivalimages/festival2.jpg');
+    -fx-background-size: cover;
+}
 .button{
     -fx-background-image: url('../images/menuimages/iconbutton.jpg'); 
     -fx-background-size: 200 50;
+}
+.period1{
+    -fx-background-image: url('../images/periodimages/period1.jpg'); 
+    -fx-background-size: 750 500;
+}
+.period2{
+    -fx-background-image: url('../images/periodimages/period2.jpg'); 
+    -fx-background-size: cover;
 }

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="people" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventController">
+<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="event1" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.event.EventController">
    <children>
       <Button layoutX="652.0" layoutY="620.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
