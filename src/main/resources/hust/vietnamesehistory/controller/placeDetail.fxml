@@ -7,8 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" styleClass="colum" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.place.PlaceDetailController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" styleClass="place2" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.place.PlaceDetailController">
    <children>
+      <AnchorPane layoutX="30.0" layoutY="40.0" prefHeight="440.0" prefWidth="1140.0" styleClass="colum" stylesheets="@CssStyle/backgroundstyle.css" />
       <Label layoutX="50.0" layoutY="60.0" prefHeight="50.0" prefWidth="200.0" text="Địa danh    :">
          <font>
             <Font name="System Bold" size="24.0" />

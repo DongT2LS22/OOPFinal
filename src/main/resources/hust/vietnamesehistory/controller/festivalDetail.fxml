@@ -7,8 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" styleClass="colum" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalDetailController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" styleClass="festival2" stylesheets="@CssStyle/backgroundstyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.festival.FestivalDetailController">
    <children>
+      <AnchorPane layoutX="30.0" layoutY="40.0" prefHeight="440.0" prefWidth="1140.0" styleClass="colum" stylesheets="@CssStyle/backgroundstyle.css" />
       <Label layoutX="50.0" layoutY="60.0" prefHeight="50.0" prefWidth="300.0" text="Tên lễ hội                 :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -19,7 +20,8 @@
                   <Image url="@images/festivalimages/nameevent.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label layoutX="50.0" layoutY="130.0" prefHeight="50.0" prefWidth="300.0" text="Ngày diễn ra            :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -30,7 +32,8 @@
                   <Image url="@images/festivalimages/eventday.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label layoutX="50.0" layoutY="200.0" prefHeight="50.0" prefWidth="300.0" text="Nguồn gốc               :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -41,7 +44,8 @@
                   <Image url="@images/festivalimages/storyevent.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label layoutX="50.0" layoutY="270.0" prefHeight="50.0" prefWidth="300.0" text="Địa điểm liên quan  :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -52,7 +56,8 @@
                   <Image url="@images/menuimages/placeicon.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label layoutX="50.0" layoutY="340.0" prefHeight="50.0" prefWidth="300.0" text="Nhân vật liên quan  :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -63,7 +68,8 @@
                   <Image url="@images/festivalimages/character.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label layoutX="50.0" layoutY="410.0" prefHeight="50.0" prefWidth="300.0" text="Thông tin thêm        :">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -74,31 +80,38 @@
                   <Image url="@images/festivalimages/addition.png" />
                </image>
             </ImageView>
-         </graphic></Label>
+         </graphic>
+      </Label>
       <Label fx:id="nameLabel" layoutX="350.0" layoutY="60.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Label fx:id="dateLabel" layoutX="350.0" layoutY="130.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Label fx:id="rootLabel" layoutX="350.0" layoutY="200.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Label fx:id="placeLabel" layoutX="350.0" layoutY="270.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Label fx:id="personLabel" layoutX="350.0" layoutY="340.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Label fx:id="noteLabel" layoutX="350.0" layoutY="410.0" prefHeight="50.0" prefWidth="800.0">
          <font>
             <Font name="System Bold" size="24.0" />
-         </font></Label>
+         </font>
+      </Label>
       <Button layoutX="950.0" layoutY="500.0" mnemonicParsing="false" onAction="#backScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text="Thoát">
          <font>
             <Font size="24.0" />

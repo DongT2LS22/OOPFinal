@@ -20,7 +20,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="200.0" layoutY="280.0" mnemonicParsing="false" onAction="#periodScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thời kì     ">
+      <Button layoutX="200.0" layoutY="280.0" mnemonicParsing="false" onAction="#periodScene" prefHeight="50.0" prefWidth="200.0" stylesheets="@CssStyle/backgroundstyle.css" text=" Thời kỳ     ">
          <font>
             <Font size="24.0" />
          </font>

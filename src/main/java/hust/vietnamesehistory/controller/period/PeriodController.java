@@ -47,7 +47,7 @@ public class PeriodController implements Initializable {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroidDetail.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         PeriodDetailController controller = fxmlLoader.getController();
-        stage.setTitle("Chi tiết thời đại");
+        stage.setTitle("Chi tiết thời kỳ");
         stage.setScene(scene);
         stage.show();
     }

@@ -59,7 +59,7 @@ public class PeriodDetailController implements Initializable {
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("peroid.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Thời đại");
+        stage.setTitle("Thời kỳ lịch sử");
         stage.setScene(scene);
         stage.show();
     }
