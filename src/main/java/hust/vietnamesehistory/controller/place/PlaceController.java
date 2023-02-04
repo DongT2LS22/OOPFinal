@@ -68,8 +68,8 @@ public class PlaceController implements Initializable {
     }
 
     @FXML
-    void searchPlace(ActionEvent event){
-        List<Place> listPlaceSearch = new ArrayList<Place>();
+    void searchPlace(){
+        List<Place> listPlaceSearch = new ArrayList<>();
         String search = searchText.getText();
         for (Place p: placeList
         ) {
@@ -87,11 +87,11 @@ public class PlaceController implements Initializable {
         placeList = FXCollections.observableArrayList(
                 App.getPlaceList()
         );
-        coordinatesColumn.setCellValueFactory(new PropertyValueFactory<Place,String>("coordinates"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<Place,String>("name"));
-        locationColumn.setCellValueFactory(new PropertyValueFactory<Place,String>("location"));
-        nationalColumn.setCellValueFactory(new PropertyValueFactory<Place,String>("national"));
-        areaColumn.setCellValueFactory(new PropertyValueFactory<Place,String>("area"));
+        coordinatesColumn.setCellValueFactory(new PropertyValueFactory<>("coordinates"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        locationColumn.setCellValueFactory(new PropertyValueFactory<>("location"));
+        nationalColumn.setCellValueFactory(new PropertyValueFactory<>("national"));
+        areaColumn.setCellValueFactory(new PropertyValueFactory<>("area"));
         table.setItems(placeList);
     }
 }

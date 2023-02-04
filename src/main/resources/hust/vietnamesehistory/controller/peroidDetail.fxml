@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.peroid.PeriodDetailController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.period.PeriodDetailController">
    <children>
       <Label layoutX="233.0" layoutY="32.0" prefHeight="58.0" prefWidth="316.0" text="Name" textAlignment="CENTER">
          <font>
@@ -15,9 +15,16 @@
          </font>
       </Label>
       <Button layoutX="365.0" layoutY="480.0" mnemonicParsing="false" onAction="#backScene" text="Back" />
-      <TableView fx:id="table" layoutX="133.0" layoutY="141.0" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="table" layoutX="64.0" layoutY="148.0" prefHeight="229.0" prefWidth="632.0">
         <columns>
-          <TableColumn fx:id="nameColumn" prefWidth="198.66668701171875" text="Name" />
+          <TableColumn fx:id="nameColumn" prefWidth="81.0" text="Name" />
+            <TableColumn fx:id="hrefColumn" prefWidth="86.0" text="lien ket" />
+            <TableColumn fx:id="birthColumn" prefWidth="74.0" text="nam sinh" />
+            <TableColumn fx:id="deathColumn" prefWidth="74.0" text="nam mat" />
+            <TableColumn fx:id="predecessorColumn" prefWidth="88.0" text="tien nhiem" />
+            <TableColumn fx:id="successorColumn" prefWidth="75.0" text="ke nhiem" />
+            <TableColumn fx:id="aliasesColumn" prefWidth="75.0" text="ten huy" />
+            <TableColumn fx:id="realNameColumn" prefWidth="75.0" text="ten that" />
         </columns>
       </TableView>
    </children>

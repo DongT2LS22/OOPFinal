@@ -41,8 +41,6 @@ public class PeopleController implements Initializable {
     @FXML
     private TextField searchText;
     private ObservableList<Person> personList;
-    private List<Person> personArrayList = new ArrayList<Person>();
-
 
     @FXML
     public void detailScene(ActionEvent event) throws IOException {
@@ -78,15 +76,15 @@ public class PeopleController implements Initializable {
         personList = FXCollections.observableArrayList(
                 App.getPersonList()
         );
-        hrefColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("href"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("name"));
-        birthColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("birth"));
-        deathColumn.setCellValueFactory(new PropertyValueFactory<Person,String>("death"));
+        hrefColumn.setCellValueFactory(new PropertyValueFactory<>("href"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        birthColumn.setCellValueFactory(new PropertyValueFactory<>("birth"));
+        deathColumn.setCellValueFactory(new PropertyValueFactory<>("death"));
         table.setItems(personList);
     }
     @FXML
-    public void searchPeople(ActionEvent event) {
-        List<Person> listPersonSearch = new ArrayList<Person>();
+    public void searchPeople() {
+        List<Person> listPersonSearch = new ArrayList<>();
         String search = searchText.getText();
         for (Person p: personList
              ) {
