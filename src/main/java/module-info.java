@@ -4,6 +4,7 @@ module hust.vietnamesehistory.controller {
     requires com.fasterxml.jackson.databind;
     requires jsoup;
     requires org.json;
+    requires javafx.graphics;
 
 
     opens hust.vietnamesehistory.controller to javafx.fxml;
@@ -18,5 +19,6 @@ module hust.vietnamesehistory.controller {
     opens hust.vietnamesehistory.model to javafx.base;
     opens hust.vietnamesehistory.controller.festival to javafx.fxml;
     opens hust.vietnamesehistory.controller.event to javafx.fxml;
+    opens hust.vietnamesehistory.controller.peroid to javafx.fxml;
     exports hust.vietnamesehistory.model to com.fasterxml.jackson.databind;
 }

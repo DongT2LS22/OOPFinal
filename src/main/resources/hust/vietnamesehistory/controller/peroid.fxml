@@ -9,9 +9,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.vietnamesehistory.controller.peroid.PeriodController">
    <children>
-      <TableView layoutX="109.0" layoutY="117.0" prefHeight="371.0" prefWidth="403.0">
+      <TableView fx:id="table" layoutX="109.0" layoutY="117.0" prefHeight="371.0" prefWidth="403.0">
         <columns>
-          <TableColumn prefWidth="402.00002034505206" text="Name" />
+          <TableColumn fx:id="nameColumn" prefWidth="402.00002034505206" text="Name" />
         </columns>
       </TableView>
       <Label layoutX="399.0" layoutY="34.0" text="Peroid">

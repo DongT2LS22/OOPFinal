@@ -107,6 +107,7 @@ public class App extends Application {
         setPlaceList();
         setFestivalList();
         setEventList();
+        setPeriodList();
         launch();
     }
 }
