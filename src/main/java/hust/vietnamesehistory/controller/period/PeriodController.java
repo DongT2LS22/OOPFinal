@@ -1,9 +1,8 @@
-package hust.vietnamesehistory.controller.peroid;
+package hust.vietnamesehistory.controller.period;
 
 import hust.vietnamesehistory.controller.App;
 import hust.vietnamesehistory.model.King;
 import hust.vietnamesehistory.model.Period;
-import hust.vietnamesehistory.model.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

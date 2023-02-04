@@ -10,7 +10,7 @@ module hust.vietnamesehistory.controller {
     opens hust.vietnamesehistory.controller to javafx.fxml;
     exports hust.vietnamesehistory.controller;
     exports hust.vietnamesehistory.controller.people;
-    exports hust.vietnamesehistory.controller.peroid;
+    exports hust.vietnamesehistory.controller.period;
     exports hust.vietnamesehistory.controller.place;
     exports hust.vietnamesehistory.controller.festival;
     exports hust.vietnamesehistory.controller.event;
@@ -19,6 +19,6 @@ module hust.vietnamesehistory.controller {
     opens hust.vietnamesehistory.model to javafx.base;
     opens hust.vietnamesehistory.controller.festival to javafx.fxml;
     opens hust.vietnamesehistory.controller.event to javafx.fxml;
-    opens hust.vietnamesehistory.controller.peroid to javafx.fxml;
+    opens hust.vietnamesehistory.controller.period to javafx.fxml;
     exports hust.vietnamesehistory.model to com.fasterxml.jackson.databind;
 }

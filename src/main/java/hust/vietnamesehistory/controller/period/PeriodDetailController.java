@@ -1,4 +1,4 @@
-package hust.vietnamesehistory.controller.peroid;
+package hust.vietnamesehistory.controller.period;
 
 import hust.vietnamesehistory.controller.App;
 import hust.vietnamesehistory.model.King;
@@ -17,7 +17,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -25,6 +24,27 @@ public class PeriodDetailController implements Initializable {
 
     @FXML
     private TableColumn<King, String> nameColumn;
+
+    @FXML
+    private TableColumn<King, String> hrefColumn;
+
+    @FXML
+    private TableColumn<King, String> birthColumn;
+
+    @FXML
+    private TableColumn<King, String> deathColumn;
+
+    @FXML
+    private TableColumn<King, String> predecessorColumn;
+
+    @FXML
+    private TableColumn<King, String> successorColumn;
+
+    @FXML
+    private TableColumn<King, String> aliasesColumn;
+
+    @FXML
+    private TableColumn<King, String> realNameColumn;
 
     @FXML
     private TableView<King> table;
@@ -48,6 +68,13 @@ public class PeriodDetailController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        hrefColumn.setCellValueFactory(new PropertyValueFactory<>("href"));
+        birthColumn.setCellValueFactory(new PropertyValueFactory<>("birth"));
+        deathColumn.setCellValueFactory(new PropertyValueFactory<>("death"));
+        predecessorColumn.setCellValueFactory(new PropertyValueFactory<>("predecessor"));
+        successorColumn.setCellValueFactory(new PropertyValueFactory<>("successor"));
+        aliasesColumn.setCellValueFactory(new PropertyValueFactory<>("aliases"));
+        realNameColumn.setCellValueFactory(new PropertyValueFactory<>("realName"));
         table.setItems(kingObservableList);
     }
 }
