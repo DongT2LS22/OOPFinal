@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CrawlerFestival {
+public class CrawlerFestival extends CrawlerGoogle {
     static List<Festival> crawlFestival(){
         App.setPersonList();
         App.setPlaceList();
@@ -46,11 +46,7 @@ public class CrawlerFestival {
                     if(places.contains(",")){
                         String[] place = places.split(",");
                         for (String p:place) {
-                            try {
-                                search = searchGoogle(p);
-                            } catch (IOException e) {
-                                throw new RuntimeException(e);
-                            }
+                            search = searchGoogle(p);
                             if(!search.equals("")){
                                 for (Place pl:placeList) {
                                     if(pl.getHref().equals(search)){
@@ -62,18 +58,14 @@ public class CrawlerFestival {
                         }
 
                     }else {
-                        try {
-                            search = searchGoogle(places);
-                            if(!search.equals("")){
-                                for (Place pl:placeList) {
-                                    if(pl.getHref().equals(search)){
-                                        arrPlace.add(pl);
-                                        break;
-                                    }
+                        search = searchGoogle(places);
+                        if(!search.equals("")){
+                            for (Place pl:placeList) {
+                                if(pl.getHref().equals(search)){
+                                    arrPlace.add(pl);
+                                    break;
                                 }
                             }
-                        } catch (IOException e) {
-                            throw new RuntimeException(e);
                         }
                     }
                     fes.setPlaces(arrPlace);
@@ -92,11 +84,7 @@ public class CrawlerFestival {
                     if(people.contains(",")){
                         String[] person = people.split(",");
                         for (String p:person){
-                            try {
-                                search = searchGoogle(p);
-                            } catch (IOException e) {
-                                throw new RuntimeException(e);
-                            }
+                            search = searchGoogle(p);
                             if(!search.equals("")){
                                 System.out.println(search);
                                 for (Person per:personList) {
@@ -108,18 +96,14 @@ public class CrawlerFestival {
                             }
                         }
                     }else{
-                        try {
-                            search = searchGoogle(people);
-                            if(!search.equals("")){
-                                for (Person per:personList) {
-                                    if(per.getHref().equals(search)){
-                                        arrPeople.add(per);
-                                        break;
-                                    }
+                        search = searchGoogle(people);
+                        if(!search.equals("")){
+                            for (Person per:personList) {
+                                if(per.getHref().equals(search)){
+                                    arrPeople.add(per);
+                                    break;
                                 }
                             }
-                        } catch (IOException e) {
-                            throw new RuntimeException(e);
                         }
                     }
                     fes.setPeople(arrPeople);
@@ -138,16 +122,4 @@ public class CrawlerFestival {
         FestivalRepository repo = new FestivalRepository();
         repo.writeJson(festivals,"src/main/resources/json/festival.json");
     }
-    public static String searchGoogle(String keyword) throws IOException{
-        String url = "https://www.google.com/search?q=";
-        Document doc = Jsoup.connect(url+keyword+" nguoikesu").userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36").get();
-        String link = doc.select(".yuRUbf a").first().attr("href");
-        if(link.contains("https://nguoikesu.com/dia-danh")||link.contains("https://nguoikesu.com/nhan-vat")){
-            link = link.replace("https://nguoikesu.com","");
-        }else{
-            link = "";
-        }
-        return link;
-    }
-
 }

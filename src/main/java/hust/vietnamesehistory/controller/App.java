@@ -65,7 +65,7 @@ public class App extends Application {
         if(festivalList.isEmpty()){
             FestivalRepository fesRepo = new FestivalRepository();
             try {
-                festivalList = fesRepo.readJson("src/main/resources/json/festival.json");
+                festivalList = fesRepo.readJson("src/main/resources/json/festivals.json");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
